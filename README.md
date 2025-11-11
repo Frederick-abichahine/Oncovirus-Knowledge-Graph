@@ -1,4 +1,4 @@
-# Drug-Gene-Disease-Knowledge-Graph
+# Oncovirus Knowledge Graph
 ### _Knowledge Graphs Project_
 
 ---
@@ -11,4 +11,4 @@
 
 ## Goal
 
-Constructing a knowledge graph to identify drugs that target genes involved in multiple diseases, suggesting potential for repurposing.
+Constructing a knowledge graph that maps the molecular interactions between oncoviruses and human host proteins, linking them to key cellular pathways and associated cancer types to uncover shared mechanisms of viral oncogenesis.

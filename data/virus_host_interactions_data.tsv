@@ -1,0 +1,1056 @@
+VirusCode	ViralProteinID	HostProteinID	VirusGeneName	HostGeneName	VirusProteinName	HostProteinName
+EBVB9	P12978	Q06330	EBNA2	RBPJ	Epstein-Barr nuclear antigen 2	Recombining binding protein suppressor of hairless
+EBVB9	P03203	Q06330	EBNA4	RBPJ	Epstein-Barr nuclear antigen 4	Recombining binding protein suppressor of hairless
+EBVB9	P12977	Q06330	EBNA3	RBPJ	Epstein-Barr nuclear antigen 3	Recombining binding protein suppressor of hairless
+EBVB9	P03204	Q06330	EBNA6	RBPJ	Epstein-Barr nuclear antigen 6	Recombining binding protein suppressor of hairless
+EBVB9	P03230	Q92985-1	LMP1	Irf7	Latent membrane protein 1	Interferon regulatory factor 7
+EBVB9	Q8AZK7	O75323	EBNA-LP	NIPSNAP2	Epstein-Barr nuclear antigen leader protein	Protein NipSnap homolog 2
+EBVB9	Q8AZK7	Q15773	EBNA-LP	MLF2	Epstein-Barr nuclear antigen leader protein	Myeloid leukemia factor 2
+EBVB9	Q8AZK7	Q9HAV7	EBNA-LP	GRPEL1	Epstein-Barr nuclear antigen leader protein	GrpE protein homolog 1, mitochondrial
+EBVB9	Q8AZK7	O60812	EBNA-LP	HNRNPCL1	Epstein-Barr nuclear antigen leader protein	Heterogeneous nuclear ribonucleoprotein C-like 1
+EBVB9	Q8AZK7	O95816	EBNA-LP	BAG2	Epstein-Barr nuclear antigen leader protein	BAG family molecular chaperone regulator 2
+EBVB9	P03177	O60831	TK	PRAF2	Thymidine kinase	PRA1 family protein 2
+EBVB9	P03230	Q9UI14	LMP1	RABAC1	Latent membrane protein 1	Prenylated Rab acceptor protein 1
+EBVB9	Q8AZK7	O75953	EBNA-LP	DNAJB5	Epstein-Barr nuclear antigen leader protein	DnaJ homolog subfamily B member 5
+EBVB9	Q8AZK7	Q14257	EBNA-LP	RCN2	Epstein-Barr nuclear antigen leader protein	Reticulocalbin-2
+EBVB9	Q8AZK7	Q9BPW8	EBNA-LP	NIPSNAP1	Epstein-Barr nuclear antigen leader protein	Protein NipSnap homolog 1
+EBVB9	Q8AZK7	P05165	EBNA-LP	PCCA	Epstein-Barr nuclear antigen leader protein	Propionyl-CoA carboxylase alpha chain, mitochondrial
+EBVB9	Q8AZK7	Q7Z4N8	EBNA-LP	P4HA3	Epstein-Barr nuclear antigen leader protein	Prolyl 4-hydroxylase subunit alpha-3
+EBVB9	Q8AZK7	Q86UA1	EBNA-LP	PRPF39	Epstein-Barr nuclear antigen leader protein	Pre-mRNA-processing factor 39
+EBVB9	Q8AZK7	O00165	EBNA-LP	HAX1	Epstein-Barr nuclear antigen leader protein	HCLS1-associated protein X-1
+EBVB9	Q8AZK7	P05166	EBNA-LP	PCCB	Epstein-Barr nuclear antigen leader protein	Propionyl-CoA carboxylase beta chain, mitochondrial
+EBVB9	Q8AZK7	Q5W0B1	EBNA-LP	OBI1	Epstein-Barr nuclear antigen leader protein	ORC ubiquitin ligase 1
+EBVB9	P03177	Q9Y305	TK	ACOT9	Thymidine kinase	Acyl-coenzyme A thioesterase 9, mitochondrial
+EBVB9	P03177	Q16527	TK	CSRP2	Thymidine kinase	Cysteine and glycine-rich protein 2
+EBVB9	Q8AZK7	Q92522	EBNA-LP	H1-10	Epstein-Barr nuclear antigen leader protein	Histone H1.10
+EBVB9	Q8AZK7	Q13151	EBNA-LP	HNRNPA0	Epstein-Barr nuclear antigen leader protein	Heterogeneous nuclear ribonucleoprotein A0
+EBVB9	Q8AZK7	Q3ZCQ8	EBNA-LP	TIMM50	Epstein-Barr nuclear antigen leader protein	Mitochondrial import inner membrane translocase subunit TIM50
+EBVB9	Q8AZK7	O76031	EBNA-LP	clpX	Epstein-Barr nuclear antigen leader protein	ATP-dependent clpX-like chaperone, mitochondrial
+EBVB9	Q8AZK7	Q9ULX6	EBNA-LP	AKAP8L	Epstein-Barr nuclear antigen leader protein	A-kinase anchor protein 8-like
+EBVB9	P13285	Q8TED1	LMP2	GPX8	Latent membrane protein 2	Probable glutathione peroxidase 8
+EBVB9	P13285	O60831	LMP2	PRAF2	Latent membrane protein 2	PRA1 family protein 2
+EBVB9	P13285	Q9P0P0	LMP2	RNF181	Latent membrane protein 2	E3 ubiquitin-protein ligase RNF181
+EBVB9	Q8AZK7	Q8N726	EBNA-LP	CDKN2A	Epstein-Barr nuclear antigen leader protein	Tumor suppressor ARF
+EBVB9	Q8AZK7	Q9UDY4	EBNA-LP	DNAJB4	Epstein-Barr nuclear antigen leader protein	DnaJ homolog subfamily B member 4
+EBVB9	Q8AZK7	Q9Y2G8	EBNA-LP	DNAJC16	Epstein-Barr nuclear antigen leader protein	DnaJ homolog subfamily C member 16
+EBVB9	P03177	Q9NXH8	TK	TOR4A	Thymidine kinase	Torsin-4A
+EBVB9	P03177	Q9UJ70	TK	NAGK	Thymidine kinase	N-acetyl-D-glucosamine kinase
+EBVB9	P03177	P35080	TK	PFN2	Thymidine kinase	Profilin-2
+EBVB9	P03177	O75688	TK	PPM1B	Thymidine kinase	Protein phosphatase 1B
+EBVB9	Q8AZK7	Q92616	EBNA-LP	GCN1	Epstein-Barr nuclear antigen leader protein	Stalled ribosome sensor GCN1
+EBVB9	Q8AZK7	P12236	EBNA-LP	SLC25A6	Epstein-Barr nuclear antigen leader protein	ADP/ATP translocase 3
+EBVB9	Q8AZK7	Q99729	EBNA-LP	HNRNPAB	Epstein-Barr nuclear antigen leader protein	Heterogeneous nuclear ribonucleoprotein A/B
+EBVB9	Q8AZK7	Q15293	EBNA-LP	RCN1	Epstein-Barr nuclear antigen leader protein	Reticulocalbin-1
+EBVB9	P13285	Q8NC54	LMP2	KCT2	Latent membrane protein 2	Keratinocyte-associated transmembrane protein 2
+EBVB9	Q8AZK7	Q9UL15	EBNA-LP	BAG5	Epstein-Barr nuclear antigen leader protein	BAG family molecular chaperone regulator 5
+EBVB9	Q8AZK7	Q9UJY1	EBNA-LP	HSPB8	Epstein-Barr nuclear antigen leader protein	Heat shock protein beta-8
+EBVB9	Q8AZK7	P28300	EBNA-LP	LOX	Epstein-Barr nuclear antigen leader protein	Protein-lysine 6-oxidase
+EBVB9	P03177	P62699	TK	Ypel5	Thymidine kinase	Protein yippee-like 5
+EBVB9	P03177	P47756	TK	CAPZB	Thymidine kinase	F-actin-capping protein subunit beta
+EBVB9	P03177	O00483	TK	NDUFA4	Thymidine kinase	Cytochrome c oxidase subunit NDUFA4
+EBVB9	P03177	Q9Y5M8	TK	SRPRB	Thymidine kinase	Signal recognition particle receptor subunit beta
+EBVB9	P03230	Q15628	LMP1	TRADD	Latent membrane protein 1	Tumor necrosis factor receptor type 1-associated DEATH domain protein
+EBVB9	Q8AZK7	P40938	EBNA-LP	RFC3	Epstein-Barr nuclear antigen leader protein	Replication factor C subunit 3
+EBVB9	Q8AZK7	P47897	EBNA-LP	QARS1	Epstein-Barr nuclear antigen leader protein	Glutamine--tRNA ligase
+EBVB9	Q8AZK7	P26599	EBNA-LP	PTBP1	Epstein-Barr nuclear antigen leader protein	Polypyrimidine tract-binding protein 1
+EBVB9	Q8AZK7	Q04837	EBNA-LP	SSBP1	Epstein-Barr nuclear antigen leader protein	Single-stranded DNA-binding protein, mitochondrial
+EBVB9	Q8AZK7	O75190	EBNA-LP	DNAJB6	Epstein-Barr nuclear antigen leader protein	DnaJ homolog subfamily B member 6
+EBVB9	Q8AZK7	O15460	EBNA-LP	P4HA2	Epstein-Barr nuclear antigen leader protein	Prolyl 4-hydroxylase subunit alpha-2
+EBVB9	Q8AZK7	O43592	EBNA-LP	XPOT	Epstein-Barr nuclear antigen leader protein	Exportin-T
+EBVB9	P13285	Q8IZ07	LMP2	ANKRD13A	Latent membrane protein 2	Ankyrin repeat domain-containing protein 13A
+EBVB9	P13285	Q8NBM4	LMP2	UBAC2	Latent membrane protein 2	Ubiquitin-associated domain-containing protein 2
+EBVB9	P13285	Q9BQB6	LMP2	VKORC1	Latent membrane protein 2	Vitamin K epoxide reductase complex subunit 1
+EBVB9	Q8AZK7	Q9Y6N5	EBNA-LP	SQOR	Epstein-Barr nuclear antigen leader protein	"""Sulfide:quinone oxidoreductase, mitochondrial"""
+EBVB9	P03177	Q9NR12	TK	PDLIM7	Thymidine kinase	PDZ and LIM domain protein 7
+EBVB9	P03177	Q9Y6N5	TK	SQOR	Thymidine kinase	"""Sulfide:quinone oxidoreductase, mitochondrial"""
+EBVB9	P03177	Q15629	TK	TRAM1	Thymidine kinase	Translocating chain-associated membrane protein 1
+EBVB9	Q8AZK7	P56524	EBNA-LP	HDAC4	Epstein-Barr nuclear antigen leader protein	Histone deacetylase 4
+EBVB9	P12978	Q15326	EBNA2	ZMYND11	Epstein-Barr nuclear antigen 2	Zinc finger MYND domain-containing protein 11
+EBVB9	Q8AZK7	P00367	EBNA-LP	GLUD1	Epstein-Barr nuclear antigen leader protein	Glutamate dehydrogenase 1, mitochondrial
+EBVB9	Q8AZK7	Q07955	EBNA-LP	SRSF1	Epstein-Barr nuclear antigen leader protein	Serine/arginine-rich splicing factor 1
+EBVB9	Q8AZK7	P08107	EBNA-LP	HSPA1A	Epstein-Barr nuclear antigen leader protein	Heat shock 70 kDa protein 1A/1B
+EBVB9	Q8AZK7	P08579	EBNA-LP	SNRPB2	Epstein-Barr nuclear antigen leader protein	U2 small nuclear ribonucleoprotein B''
+EBVB9	Q8AZK7	Q01105	EBNA-LP	SET	Epstein-Barr nuclear antigen leader protein	Protein SET
+EBVB9	Q8AZK7	P52907	EBNA-LP	CAPZA1	Epstein-Barr nuclear antigen leader protein	F-actin-capping protein subunit alpha-1
+EBVB9	Q8AZK7	O43390	EBNA-LP	HNRNPR	Epstein-Barr nuclear antigen leader protein	Heterogeneous nuclear ribonucleoprotein R
+EBVB9	P13285	Q9H5V8	LMP2	CDCP1	Latent membrane protein 2	CUB domain-containing protein 1
+EBVB9	P13285	Q15012	LMP2	LAPTM4A	Latent membrane protein 2	Lysosomal-associated transmembrane protein 4A
+EBVB9	P13285	O15260	LMP2	SURF4	Latent membrane protein 2	Surfeit locus protein 4
+EBVB9	P13285	Q8TF42	LMP2	UBASH3B	Latent membrane protein 2	Ubiquitin-associated and SH3 domain-containing protein B
+EBVB9	P03211	P27352	EBNA1	CBLIF	Epstein-Barr nuclear antigen 1	Cobalamin binding intrinsic factor
+EBVB9	Q8AZK7	P50402	EBNA-LP	EMD	Epstein-Barr nuclear antigen leader protein	Emerin
+EBVB9	P03230	Q9UKE5	LMP1	TNIK	Latent membrane protein 1	TRAF2 and NCK-interacting protein kinase
+EBVB9	P03230	Q9NYJ8	LMP1	TAB2	Latent membrane protein 1	TGF-beta-activated kinase 1 and MAP3K7-binding protein 2
+EBVB9	P03177	P50402	TK	EMD	Thymidine kinase	Emerin
+EBVB9	P03177	P82650	TK	MRPS22	Thymidine kinase	Small ribosomal subunit protein mS22
+EBVB9	P03177	Q9Y6C9	TK	MTCH2	Thymidine kinase	Mitochondrial carrier homolog 2
+EBVB9	P03177	Q6UB35	TK	MTHFD1L	Thymidine kinase	Monofunctional C1-tetrahydrofolate synthase, mitochondrial
+EBVB9	P03204	Q9Y676	EBNA6	MRPS18B	Epstein-Barr nuclear antigen 6	Small ribosomal subunit protein mS40
+EBVB9	P12978	P56524	EBNA2	HDAC4	Epstein-Barr nuclear antigen 2	Histone deacetylase 4
+EBVB9	P03230	Q15326	LMP1	ZMYND11	Latent membrane protein 1	Zinc finger MYND domain-containing protein 11
+EBVB9	P03230	P08962	LMP1	CD63	Latent membrane protein 1	CD63 antigen
+EBVB9	P03230	P08107	LMP1	HSPA1A	Latent membrane protein 1	Heat shock 70 kDa protein 1A/1B
+EBVB9	Q8AZK7	P30050	EBNA-LP	RPL12	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein uL11
+EBVB9	Q8AZK7	P25685	EBNA-LP	DNAJB1	Epstein-Barr nuclear antigen leader protein	DnaJ homolog subfamily B member 1
+EBVB9	Q8AZK7	P14868	EBNA-LP	DARS1	Epstein-Barr nuclear antigen leader protein	Aspartate--tRNA ligase, cytoplasmic
+EBVB9	Q8AZK7	P27635	EBNA-LP	RPL10	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein uL16
+EBVB9	Q8AZK7	Q8NC51	EBNA-LP	SERBP1	Epstein-Barr nuclear antigen leader protein	SERPINE1 mRNA-binding protein 1
+EBVB9	Q8AZK7	Q92841	EBNA-LP	DDX17	Epstein-Barr nuclear antigen leader protein	Probable ATP-dependent RNA helicase DDX17
+EBVB9	Q8AZK7	Q14103	EBNA-LP	HNRNPD	Epstein-Barr nuclear antigen leader protein	Heterogeneous nuclear ribonucleoprotein D0
+EBVB9	Q8AZK7	O76021	EBNA-LP	RSL1D1	Epstein-Barr nuclear antigen leader protein	Ribosomal L1 domain-containing protein 1
+EBVB9	Q8AZK7	Q9Y5V3	EBNA-LP	MAGED1	Epstein-Barr nuclear antigen leader protein	Melanoma-associated antigen D1
+EBVB9	P13285	O60494	LMP2	CUBN	Latent membrane protein 2	Cubilin
+EBVB9	P13285	P50402	LMP2	EMD	Latent membrane protein 2	Emerin
+EBVB9	P13285	Q96CS3	LMP2	FAF2	Latent membrane protein 2	FAS-associated factor 2
+EBVB9	P13285	P61289	LMP2	PSME3	Latent membrane protein 2	Proteasome activator complex subunit 3
+EBVB9	P13285	O95456	LMP2	PSMG1	Latent membrane protein 2	Proteasome assembly chaperone 1
+EBVB9	P13285	Q9H0E2	LMP2	TOLLIP	Latent membrane protein 2	Toll-interacting protein
+EBVB9	P13285	Q5JTV8	LMP2	TOR1AIP1	Latent membrane protein 2	Torsin-1A-interacting protein 1
+EBVB9	Q8AZK7	O95817	EBNA-LP	BAG3	Epstein-Barr nuclear antigen leader protein	BAG family molecular chaperone regulator 3
+EBVB9	Q8AZK7	P13674	EBNA-LP	P4HA1	Epstein-Barr nuclear antigen leader protein	Prolyl 4-hydroxylase subunit alpha-1
+EBVB9	P03177	P51911	TK	CNN1	Thymidine kinase	Calponin-1
+EBVB9	P03177	Q00341	TK	HDLBP	Thymidine kinase	Vigilin
+EBVB9	P03177	Q8IY17	TK	PNPLA6	Thymidine kinase	Patatin-like phospholipase domain-containing protein 6
+EBVB9	P03177	Q96B97	TK	SH3KBP1	Thymidine kinase	SH3 domain-containing kinase-binding protein 1
+EBVB9	P03177	Q9H270	TK	VPS11	Thymidine kinase	Vacuolar protein sorting-associated protein 11 homolog
+EBVB9	Q8AZK7	P61981	EBNA-LP	YWHAG	Epstein-Barr nuclear antigen leader protein	14-3-3 protein gamma
+EBVB9	P13285	P08107	LMP2	HSPA1A	Latent membrane protein 2	Heat shock 70 kDa protein 1A/1B
+EBVB9	P03211	P52294	EBNA1	KPNA1	Epstein-Barr nuclear antigen 1	Importin subunit alpha-5
+EBVB9	P03211	Q13416	EBNA1	ORC2	Epstein-Barr nuclear antigen 1	Origin recognition complex subunit 2
+EBVB9	P12977	P35869	EBNA3	Ahr	Epstein-Barr nuclear antigen 3	Aryl hydrocarbon receptor
+EBVB9	Q8AZK7	Q15366	EBNA-LP	PCBP2	Epstein-Barr nuclear antigen leader protein	"""Poly(rC)-binding protein 2"""
+EBVB9	Q8AZK7	Q07666	EBNA-LP	KHDRBS1	Epstein-Barr nuclear antigen leader protein	KH domain-containing, RNA-binding, signal transduction-associated protein 1
+EBVB9	Q8AZK7	P55735	EBNA-LP	SEC13	Epstein-Barr nuclear antigen leader protein	Protein SEC13 homolog
+EBVB9	Q8AZK7	Q13576	EBNA-LP	IQGAP2	Epstein-Barr nuclear antigen leader protein	Ras GTPase-activating-like protein IQGAP2
+EBVB9	P13285	P30530	LMP2	AXL	Latent membrane protein 2	Tyrosine-protein kinase receptor UFO
+EBVB9	P13285	Q06323	LMP2	PSME1	Latent membrane protein 2	Proteasome activator complex subunit 1
+EBVB9	P13285	O60493	LMP2	SNX3	Latent membrane protein 2	Sorting nexin-3
+EBVB9	P13285	Q9H0M0	LMP2	WWP1	Latent membrane protein 2	NEDD4-like E3 ubiquitin-protein ligase WWP1
+EBVB9	P03211	Q9Y4F1	EBNA1	FARP1	Epstein-Barr nuclear antigen 1	FERM, ARHGEF and pleckstrin domain-containing protein 1
+EBVB9	P03211	Q9Y6M1	EBNA1	IGF2BP2	Epstein-Barr nuclear antigen 1	Insulin-like growth factor 2 mRNA-binding protein 2
+EBVB9	P03211	O60684	EBNA1	KPNA6	Epstein-Barr nuclear antigen 1	Importin subunit alpha-7
+EBVB9	P03211	Q3KQU3	EBNA1	MAP7D1	Epstein-Barr nuclear antigen 1	MAP7 domain-containing protein 1
+EBVB9	P03211	Q8IYB3	EBNA1	SRRM1	Epstein-Barr nuclear antigen 1	Serine/arginine repetitive matrix protein 1
+EBVB9	Q8AZK7	O75165	EBNA-LP	Dnajc13	Epstein-Barr nuclear antigen leader protein	DnaJ homolog subfamily C member 13
+EBVB9	Q8AZK7	P34932	EBNA-LP	HSPA4	Epstein-Barr nuclear antigen leader protein	Heat shock 70 kDa protein 4
+EBVB9	Q8AZK7	Q63ZY3	EBNA-LP	KANK2	Epstein-Barr nuclear antigen leader protein	KN motif and ankyrin repeat domain-containing protein 2
+EBVB9	Q8AZK7	Q8N163	EBNA-LP	CCAR2	Epstein-Barr nuclear antigen leader protein	Cell cycle and apoptosis regulator protein 2
+EBVB9	Q8AZK7	Q32P28	EBNA-LP	P3H1	Epstein-Barr nuclear antigen leader protein	Prolyl 3-hydroxylase 1
+EBVB9	P03177	Q63ZY3	TK	KANK2	Thymidine kinase	KN motif and ankyrin repeat domain-containing protein 2
+EBVB9	P03230	O14920	LMP1	IKBKB	Latent membrane protein 1	Inhibitor of nuclear factor kappa-B kinase subunit beta
+EBVB9	P03211	P19784	EBNA1	CSNK2A2	Epstein-Barr nuclear antigen 1	Casein kinase II subunit alpha'
+EBVB9	P03211	Q15554	EBNA1	TERF2	Epstein-Barr nuclear antigen 1	Telomeric repeat-binding factor 2
+EBVB9	Q8AZK7	Q9BQA1	EBNA-LP	WDR77	Epstein-Barr nuclear antigen leader protein	Methylosome protein WDR77
+EBVB9	Q8AZK7	Q13435	EBNA-LP	SF3B2	Epstein-Barr nuclear antigen leader protein	Splicing factor 3B subunit 2
+EBVB9	Q8AZK7	P52272	EBNA-LP	HNRNPM	Epstein-Barr nuclear antigen leader protein	Heterogeneous nuclear ribonucleoprotein M
+EBVB9	Q8AZK7	P04792	EBNA-LP	HSPB1	Epstein-Barr nuclear antigen leader protein	Heat shock protein beta-1
+EBVB9	Q8AZK7	O15027	EBNA-LP	SEC16A	Epstein-Barr nuclear antigen leader protein	Protein transport protein Sec16A
+EBVB9	Q8AZK7	P23246	EBNA-LP	SFPQ	Epstein-Barr nuclear antigen leader protein	Splicing factor, proline- and glutamine-rich
+EBVB9	Q8AZK7	Q8N1F7	EBNA-LP	NUP93	Epstein-Barr nuclear antigen leader protein	Nuclear pore complex protein Nup93
+EBVB9	Q8AZK7	P55884	EBNA-LP	EIF3B	Epstein-Barr nuclear antigen leader protein	Eukaryotic translation initiation factor 3 subunit B
+EBVB9	Q8AZK7	P55060	EBNA-LP	CSE1L	Epstein-Barr nuclear antigen leader protein	Exportin-2
+EBVB9	Q8AZK7	O60506	EBNA-LP	SYNCRIP	Epstein-Barr nuclear antigen leader protein	Heterogeneous nuclear ribonucleoprotein Q
+EBVB9	Q8AZK7	P62316	EBNA-LP	SNRPD2	Epstein-Barr nuclear antigen leader protein	Small nuclear ribonucleoprotein Sm D2
+EBVB9	P13285	Q9GZU8	LMP2	PSME3IP1	Latent membrane protein 2	PSME3-interacting protein
+EBVB9	P13285	Q7Z4F1	LMP2	LRP10	Latent membrane protein 2	Low-density lipoprotein receptor-related protein 10
+EBVB9	P13285	Q96N66	LMP2	MBOAT7	Latent membrane protein 2	Membrane-bound acylglycerophosphatidylinositol O-acyltransferase MBOAT7
+EBVB9	P13285	P28065	LMP2	PSMB9	Latent membrane protein 2	Proteasome subunit beta type-9
+EBVB9	P13285	Q9UL46	LMP2	PSME2	Latent membrane protein 2	Proteasome activator complex subunit 2
+EBVB9	P13285	O15269	LMP2	SPTLC1	Latent membrane protein 2	Serine palmitoyltransferase 1
+EBVB9	P03211	O60565	EBNA1	GREM1	Epstein-Barr nuclear antigen 1	Gremlin-1
+EBVB9	P03211	P52926	EBNA1	Hmga2	Epstein-Barr nuclear antigen 1	High mobility group protein HMGI-C
+EBVB9	P03211	Q5SSJ5	EBNA1	HP1BP3	Epstein-Barr nuclear antigen 1	Heterochromatin protein 1-binding protein 3
+EBVB9	P03211	Q9NZI8	EBNA1	IGF2BP1	Epstein-Barr nuclear antigen 1	Insulin-like growth factor 2 mRNA-binding protein 1
+EBVB9	P03211	O00425	EBNA1	IGF2BP3	Epstein-Barr nuclear antigen 1	Insulin-like growth factor 2 mRNA-binding protein 3
+EBVB9	P03211	Q9NUQ6	EBNA1	SPATS2L	Epstein-Barr nuclear antigen 1	SPATS2-like protein
+EBVB9	P03211	Q96SB4	EBNA1	SRPK1	Epstein-Barr nuclear antigen 1	SRSF protein kinase 1
+EBVB9	P03211	P78362	EBNA1	SRPK2	Epstein-Barr nuclear antigen 1	SRSF protein kinase 2
+EBVB9	P03230	Q13114	LMP1	TRAF3	Latent membrane protein 1	TNF receptor-associated factor 3
+EBVB9	P03230	O43318	LMP1	MAP3K7	Latent membrane protein 1	Mitogen-activated protein kinase kinase kinase 7
+EBVB9	P03177	O00203	TK	AP3B1	Thymidine kinase	AP-3 complex subunit beta-1
+EBVB9	P03204	P01106	EBNA6	MYC	Epstein-Barr nuclear antigen 6	Myc proto-oncogene protein
+EBVB9	Q8AZK7	Q92878	EBNA-LP	RAD50	Epstein-Barr nuclear antigen leader protein	DNA repair protein RAD50
+EBVB9	Q8AZK7	Q9Y265	EBNA-LP	RUVBL1	Epstein-Barr nuclear antigen leader protein	RuvB-like 1
+EBVB9	Q8AZK7	P61978	EBNA-LP	HNRNPK	Epstein-Barr nuclear antigen leader protein	Heterogeneous nuclear ribonucleoprotein K
+EBVB9	Q8AZK7	P07195	EBNA-LP	LDHB	Epstein-Barr nuclear antigen leader protein	L-lactate dehydrogenase B chain
+EBVB9	Q8AZK7	P35268	EBNA-LP	RPL22	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein eL22
+EBVB9	Q8AZK7	Q12906	EBNA-LP	ILF3	Epstein-Barr nuclear antigen leader protein	Interleukin enhancer-binding factor 3
+EBVB9	Q8AZK7	Q15233	EBNA-LP	NONO	Epstein-Barr nuclear antigen leader protein	Non-POU domain-containing octamer-binding protein
+EBVB9	Q8AZK7	P41252	EBNA-LP	IARS1	Epstein-Barr nuclear antigen leader protein	Isoleucine--tRNA ligase, cytoplasmic
+EBVB9	P13285	P09619	LMP2	PDGFRB	Latent membrane protein 2	Platelet-derived growth factor receptor beta
+EBVB9	P13285	P28062	LMP2	PSMB8	Latent membrane protein 2	Proteasome subunit beta type-8
+EBVB9	P13285	Q14997	LMP2	PSME4	Latent membrane protein 2	Proteasome activator complex subunit 4
+EBVB9	P13285	Q16739	LMP2	UGCG	Latent membrane protein 2	Ceramide glucosyltransferase
+EBVB9	P03211	O76021	EBNA1	RSL1D1	Epstein-Barr nuclear antigen 1	Ribosomal L1 domain-containing protein 1
+EBVB9	P03211	Q8N474	EBNA1	SFRP1	Epstein-Barr nuclear antigen 1	Secreted frizzled-related protein 1
+EBVB9	Q8AZK7	P38936	EBNA-LP	CDKN1A	Epstein-Barr nuclear antigen leader protein	Cyclin-dependent kinase inhibitor 1
+EBVB9	Q8AZK7	Q9UNE7	EBNA-LP	STUB1	Epstein-Barr nuclear antigen leader protein	E3 ubiquitin-protein ligase CHIP
+EBVB9	P03177	Q12797	TK	ASPH	Thymidine kinase	Aspartyl/asparaginyl beta-hydroxylase
+EBVB9	P03177	P16615	TK	ATP2A2	Thymidine kinase	Sarcoplasmic/endoplasmic reticulum calcium ATPase 2
+EBVB9	P03177	O60716	TK	CTNND1	Thymidine kinase	Catenin delta-1
+EBVB9	P03177	Q9UQ35	TK	SRRM2	Thymidine kinase	Serine/arginine repetitive matrix protein 2
+EBVB9	Q8AZK7	Q9Y230	EBNA-LP	RUVBL2	Epstein-Barr nuclear antigen leader protein	RuvB-like 2
+EBVB9	Q8AZK7	P42704	EBNA-LP	LRPPRC	Epstein-Barr nuclear antigen leader protein	Leucine-rich PPR motif-containing protein, mitochondrial
+EBVB9	Q8AZK7	P68363	EBNA-LP	TUBA1B	Epstein-Barr nuclear antigen leader protein	Tubulin alpha-1B chain
+EBVB9	Q8AZK7	P09012	EBNA-LP	SNRPA	Epstein-Barr nuclear antigen leader protein	U1 small nuclear ribonucleoprotein A
+EBVB9	Q8AZK7	Q07020	EBNA-LP	RPL18	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein eL18
+EBVB9	P13285	P46934	LMP2	NEDD4	Latent membrane protein 2	E3 ubiquitin-protein ligase NEDD4
+EBVB9	P13285	Q99623	LMP2	PHB2	Latent membrane protein 2	Prohibitin-2
+EBVB9	P13285	P55036	LMP2	PSMD4	Latent membrane protein 2	26S proteasome non-ATPase regulatory subunit 4
+EBVB9	P13285	P37173	LMP2	TGFBR2	Latent membrane protein 2	TGF-beta receptor type-2
+EBVB9	P03211	O95793	EBNA1	STAU1	Epstein-Barr nuclear antigen 1	Double-stranded RNA-binding protein Staufen homolog 1
+EBVB9	Q8AZK7	Q9UQ35	EBNA-LP	SRRM2	Epstein-Barr nuclear antigen leader protein	Serine/arginine repetitive matrix protein 2
+EBVB9	P03177	P27816	TK	Map4	Thymidine kinase	Microtubule-associated protein 4
+EBVB9	P03177	Q9NQC3	TK	RTN4	Thymidine kinase	Reticulon-4
+EBVB9	P03211	Q07021	EBNA1	C1QBP	Epstein-Barr nuclear antigen 1	Complement component 1 Q subcomponent-binding protein, mitochondrial
+EBVB9	P03230	P63279	LMP1	UBE2I	Latent membrane protein 1	SUMO-conjugating enzyme UBC9
+EBVB9	Q8AZK7	P19338	EBNA-LP	NCL	Epstein-Barr nuclear antigen leader protein	Nucleolin
+EBVB9	Q8AZK7	Q14315	EBNA-LP	FLNC	Epstein-Barr nuclear antigen leader protein	Filamin-C
+EBVB9	Q8AZK7	P62899	EBNA-LP	RPL31	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein eL31
+EBVB9	Q8AZK7	P06493	EBNA-LP	CDK1	Epstein-Barr nuclear antigen leader protein	Cyclin-dependent kinase 1
+EBVB9	Q8AZK7	O95071	EBNA-LP	UBR5	Epstein-Barr nuclear antigen leader protein	E3 ubiquitin-protein ligase UBR5
+EBVB9	Q8AZK7	P32969	EBNA-LP	RPL9	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein uL6
+EBVB9	Q8AZK7	P16402	EBNA-LP	H1-3	Epstein-Barr nuclear antigen leader protein	Histone H1.3
+EBVB9	P13285	P16615	LMP2	ATP2A2	Latent membrane protein 2	Sarcoplasmic/endoplasmic reticulum calcium ATPase 2
+EBVB9	P13285	P11279	LMP2	LAMP1	Latent membrane protein 2	Lysosome-associated membrane glycoprotein 1
+EBVB9	P13285	Q9UQ35	LMP2	SRRM2	Latent membrane protein 2	Serine/arginine repetitive matrix protein 2
+EBVB9	P03211	P67870	EBNA1	CSNK2B	Epstein-Barr nuclear antigen 1	Casein kinase II subunit beta
+EBVB9	P03211	Q99873	EBNA1	PRMT1	Epstein-Barr nuclear antigen 1	Protein arginine N-methyltransferase 1
+EBVB9	P03211	Q6NZI2	EBNA1	CAVIN1	Epstein-Barr nuclear antigen 1	Caveolae-associated protein 1
+EBVB9	P03211	P62891	EBNA1	RPL39	Epstein-Barr nuclear antigen 1	Large ribosomal subunit protein eL39
+EBVB9	Q8AZK7	P10909	EBNA-LP	CLU	Epstein-Barr nuclear antigen leader protein	Clusterin
+EBVB9	Q8AZK7	Q9NZM1	EBNA-LP	Myof	Epstein-Barr nuclear antigen leader protein	Myoferlin
+EBVB9	P03231	P06756	gH	ITGAV	Envelope glycoprotein H	Integrin alpha-V
+EBVB9	P03177	P42704	TK	LRPPRC	Thymidine kinase	Leucine-rich PPR motif-containing protein, mitochondrial
+EBVB9	P03177	Q9NZM1	TK	Myof	Thymidine kinase	Myoferlin
+EBVB9	P03177	Q7KZF4	TK	SND1	Thymidine kinase	Staphylococcal nuclease domain-containing protein 1
+EBVB9	P03177	Q93008	TK	USP9X	Thymidine kinase	Ubiquitin carboxyl-terminal hydrolase 9X
+EBVB9	Q8AZK7	P62266	EBNA-LP	RPS23	Epstein-Barr nuclear antigen leader protein	Small ribosomal subunit protein uS12
+EBVB9	Q8AZK7	P28072	EBNA-LP	PSMB6	Epstein-Barr nuclear antigen leader protein	Proteasome subunit beta type-6
+EBVB9	Q8AZK7	P07437	EBNA-LP	TUBB	Epstein-Barr nuclear antigen leader protein	Tubulin beta chain
+EBVB9	Q8AZK7	P09651	EBNA-LP	Hnrnpa1	Epstein-Barr nuclear antigen leader protein	Heterogeneous nuclear ribonucleoprotein A1
+EBVB9	Q8AZK7	P62249	EBNA-LP	RPS16	Epstein-Barr nuclear antigen leader protein	Small ribosomal subunit protein uS9
+EBVB9	Q8AZK7	P07814	EBNA-LP	EPRS1	Epstein-Barr nuclear antigen leader protein	Bifunctional glutamate/proline--tRNA ligase
+EBVB9	Q8AZK7	P62829	EBNA-LP	RPL23	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein uL14
+EBVB9	Q8AZK7	P17844	EBNA-LP	DDX5	Epstein-Barr nuclear antigen leader protein	Probable ATP-dependent RNA helicase DDX5
+EBVB9	Q8AZK7	P18621	EBNA-LP	RPL17	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein uL22
+EBVB9	Q8AZK7	P62241	EBNA-LP	RPS8	Epstein-Barr nuclear antigen leader protein	Small ribosomal subunit protein eS8
+EBVB9	P13285	Q9NZM1	LMP2	Myof	Latent membrane protein 2	Myoferlin
+EBVB9	P13285	Q96PU5	LMP2	NEDD4L	Latent membrane protein 2	E3 ubiquitin-protein ligase NEDD4-like
+EBVB9	P03211	P61513	EBNA1	RPL37A	Epstein-Barr nuclear antigen 1	Large ribosomal subunit protein eL43
+EBVB9	Q8AZK7	P23497	EBNA-LP	SP100	Epstein-Barr nuclear antigen leader protein	Nuclear autoantigen Sp-100
+EBVB9	P03177	O95071	TK	UBR5	Thymidine kinase	E3 ubiquitin-protein ligase UBR5
+EBVB9	P03211	Q93009	EBNA1	USP7	Epstein-Barr nuclear antigen 1	Ubiquitin carboxyl-terminal hydrolase 7
+EBVB9	Q8AZK7	P62269	EBNA-LP	RPS18	Epstein-Barr nuclear antigen leader protein	Small ribosomal subunit protein uS13
+EBVB9	Q8AZK7	P18124	EBNA-LP	RPL7	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein uL30
+EBVB9	Q8AZK7	P15880	EBNA-LP	RPS2	Epstein-Barr nuclear antigen leader protein	Small ribosomal subunit protein uS5
+EBVB9	Q8AZK7	P08708	EBNA-LP	RPS17	Epstein-Barr nuclear antigen leader protein	Small ribosomal subunit protein eS17
+EBVB9	Q8AZK7	P35998	EBNA-LP	PSMC2	Epstein-Barr nuclear antigen leader protein	26S proteasome regulatory subunit 7
+EBVB9	Q8AZK7	P62277	EBNA-LP	RPS13	Epstein-Barr nuclear antigen leader protein	Small ribosomal subunit protein uS15
+EBVB9	Q8AZK7	Q08211	EBNA-LP	DHX9	Epstein-Barr nuclear antigen leader protein	ATP-dependent RNA helicase A
+EBVB9	P13285	Q96J02	LMP2	ITCH	Latent membrane protein 2	E3 ubiquitin-protein ligase Itchy homolog
+EBVB9	P13285	P16070	LMP2	CD44	Latent membrane protein 2	CD44 antigen
+EBVB9	P13285	O15031	LMP2	PLXNB2	Latent membrane protein 2	Plexin-B2
+EBVB9	P13285	P28072	LMP2	PSMB6	Latent membrane protein 2	Proteasome subunit beta type-6
+EBVB9	P13285	P35998	LMP2	PSMC2	Latent membrane protein 2	26S proteasome regulatory subunit 7
+EBVB9	P13285	P62333	LMP2	PSMC6	Latent membrane protein 2	26S proteasome regulatory subunit 10B
+EBVB9	P13285	O00487	LMP2	PSMD14	Latent membrane protein 2	26S proteasome non-ATPase regulatory subunit 14
+EBVB9	P13285	Q15008	LMP2	PSMD6	Latent membrane protein 2	26S proteasome non-ATPase regulatory subunit 6
+EBVB9	P13285	P51665	LMP2	PSMD7	Latent membrane protein 2	26S proteasome non-ATPase regulatory subunit 7
+EBVB9	P13285	P48556	LMP2	PSMD8	Latent membrane protein 2	26S proteasome non-ATPase regulatory subunit 8
+EBVB9	P13285	O00308	LMP2	WWP2	Latent membrane protein 2	NEDD4-like E3 ubiquitin-protein ligase WWP2
+EBVB9	P03211	Q02809	EBNA1	PLOD1	Epstein-Barr nuclear antigen 1	Procollagen-lysine,2-oxoglutarate 5-dioxygenase 1
+EBVB9	P03211	P46778	EBNA1	RPL21	Epstein-Barr nuclear antigen 1	Large ribosomal subunit protein eL21
+EBVB9	P03211	P62899	EBNA1	RPL31	Epstein-Barr nuclear antigen 1	Large ribosomal subunit protein eL31
+EBVB9	P03211	P49207	EBNA1	RPL34	Epstein-Barr nuclear antigen 1	Large ribosomal subunit protein eL34
+EBVB9	P03211	P42766	EBNA1	RPL35	Epstein-Barr nuclear antigen 1	Large ribosomal subunit protein uL29
+EBVB9	P03211	Q92900	EBNA1	UPF1	Epstein-Barr nuclear antigen 1	Regulator of nonsense transcripts 1
+EBVB9	Q8AZK7	P07237	EBNA-LP	P4HB	Epstein-Barr nuclear antigen leader protein	Protein disulfide-isomerase
+EBVB9	Q8AZK7	P12004	EBNA-LP	PCNA	Epstein-Barr nuclear antigen leader protein	Proliferating cell nuclear antigen
+EBVB9	Q8AZK7	P40429	EBNA-LP	Rpl13a	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein uL13
+EBVB9	P03177	P40429	TK	Rpl13a	Thymidine kinase	Large ribosomal subunit protein uL13
+EBVB9	Q8AZK7	P27708	EBNA-LP	CAD	Epstein-Barr nuclear antigen leader protein	Multifunctional protein CAD
+EBVB9	Q8AZK7	P26373	EBNA-LP	RPL13	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein eL13
+EBVB9	Q8AZK7	O75533	EBNA-LP	SF3B1	Epstein-Barr nuclear antigen leader protein	Splicing factor 3B subunit 1
+EBVB9	Q8AZK7	P62424	EBNA-LP	RPL7A	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein eL8
+EBVB9	Q8AZK7	P61247	EBNA-LP	RPS3A	Epstein-Barr nuclear antigen leader protein	Small ribosomal subunit protein eS1
+EBVB9	Q8AZK7	P62917	EBNA-LP	RPL8	Epstein-Barr nuclear antigen leader protein	Large ribosomal subunit protein uL2
+EBVB9	Q8AZK7	P62753	EBNA-LP	RPS6	Epstein-Barr nuclear antigen leader protein	Small ribosomal subunit protein eS6
+EBVB9	Q8AZK7	Q00839	EBNA-LP	HNRNPU	Epstein-Barr nuclear antigen leader protein	Heterogeneous nuclear ribonucleoprotein U
+EBVB9	Q8AZK7	P22626	EBNA-LP	HNRNPA2B1	Epstein-Barr nuclear antigen leader protein	Heterogeneous nuclear ribonucleoproteins A2/B1
+EBVB9	Q8AZK7	P46781	EBNA-LP	RPS9	Epstein-Barr nuclear antigen leader protein	Small ribosomal subunit protein uS4
+EBVB9	Q8AZK7	P13010	EBNA-LP	XRCC5	Epstein-Barr nuclear antigen leader protein	X-ray repair cross-complementing protein 5
+EBVB9	P13285	P98194	LMP2	ATP2C1	Latent membrane protein 2	Calcium-transporting ATPase type 2C member 1
+EBVB9	P13285	P25788	LMP2	PSMA3	Latent membrane protein 2	Proteasome subunit alpha type-3
+EBVB9	P13285	P60900	LMP2	PSMA6	Latent membrane protein 2	Proteasome subunit alpha type-6
+EBVB9	P13285	O14818	LMP2	PSMA7	Latent membrane protein 2	Proteasome subunit alpha type-7
+EBVB9	P13285	P49721	LMP2	PSMB2	Latent membrane protein 2	Proteasome subunit beta type-2
+EBVB9	P13285	P49720	LMP2	PSMB3	Latent membrane protein 2	Proteasome subunit beta type-3
+EBVB9	P13285	P28070	LMP2	PSMB4	Latent membrane protein 2	Proteasome subunit beta type-4
+EBVB9	P13285	P28074	LMP2	PSMB5	Latent membrane protein 2	Proteasome subunit beta type-5
+EBVB9	P13285	Q99436	LMP2	PSMB7	Latent membrane protein 2	Proteasome subunit beta type-7
+EBVB9	P13285	P62191	LMP2	PSMC1	Latent membrane protein 2	26S proteasome regulatory subunit 4
+EBVB9	P13285	P17980	LMP2	PSMC3	Latent membrane protein 2	26S proteasome regulatory subunit 6A
+EBVB9	P13285	P43686	LMP2	PSMC4	Latent membrane protein 2	26S proteasome regulatory subunit 6B
+EBVB9	P13285	P62195	LMP2	PSMC5	Latent membrane protein 2	26S proteasome regulatory subunit 8
+EBVB9	P13285	O43242	LMP2	PSMD3	Latent membrane protein 2	26S proteasome non-ATPase regulatory subunit 3
+EBVB9	P03211	P40429	EBNA1	Rpl13a	Epstein-Barr nuclear antigen 1	Large ribosomal subunit protein uL13
+EBVB9	P03211	P46779	EBNA1	RPL28	Epstein-Barr nuclear antigen 1	Large ribosomal subunit protein eL28
+EBVB9	P03211	P39023	EBNA1	RPL3	Epstein-Barr nuclear antigen 1	Large ribosomal subunit protein uL3
+EBVB9	P03211	P62847	EBNA1	RPS24	Epstein-Barr nuclear antigen 1	Small ribosomal subunit protein eS24
+EBVB9	Q8AZK7	Q13200	EBNA-LP	PSMD2	Epstein-Barr nuclear antigen leader protein	26S proteasome non-ATPase regulatory subunit 2
+EBVB9	Q8AZK7	P62807	EBNA-LP	H2BC10	Epstein-Barr nuclear antigen leader protein	Histone H2B type 1-C/E/F/G/I
+EBVB9	P13285	Q14517	LMP2	FAT1	Latent membrane protein 2	Protocadherin Fat 1
+EBVB9	P13285	P25786	LMP2	PSMA1	Latent membrane protein 2	Proteasome subunit alpha type-1
+EBVB9	P13285	P25787	LMP2	PSMA2	Latent membrane protein 2	Proteasome subunit alpha type-2
+EBVB9	P13285	P25789	LMP2	PSMA4	Latent membrane protein 2	Proteasome subunit alpha type-4
+EBVB9	P13285	P28066	LMP2	PSMA5	Latent membrane protein 2	Proteasome subunit alpha type-5
+EBVB9	P13285	P20618	LMP2	PSMB1	Latent membrane protein 2	Proteasome subunit beta type-1
+EBVB9	P13285	Q99460	LMP2	PSMD1	Latent membrane protein 2	26S proteasome non-ATPase regulatory subunit 1
+EBVB9	P03211	P62277	EBNA1	RPS13	Epstein-Barr nuclear antigen 1	Small ribosomal subunit protein uS15
+EBVB9	P03211	P62081	EBNA1	RPS7	Epstein-Barr nuclear antigen 1	Small ribosomal subunit protein eS7
+EBVB9	P03177	P07858	TK	CTSB	Thymidine kinase	Cathepsin B
+EBVB9	Q8AZK7	O75643	EBNA-LP	SNRNP200	Epstein-Barr nuclear antigen leader protein	U5 small nuclear ribonucleoprotein 200 kDa helicase
+EBVB9	P03211	P68400	EBNA1	CSNK2A1	Epstein-Barr nuclear antigen 1	Casein kinase II subunit alpha
+EBVB9	Q8AZK7	P11021	EBNA-LP	HSPA5	Epstein-Barr nuclear antigen leader protein	Endoplasmic reticulum chaperone BiP
+EBVB9	Q8AZK7	Q00610	EBNA-LP	CLTC	Epstein-Barr nuclear antigen leader protein	Clathrin heavy chain 1
+EBVB9	Q8AZK7	P10809	EBNA-LP	HSPD1	Epstein-Barr nuclear antigen leader protein	60 kDa heat shock protein, mitochondrial
+EBVB9	Q8AZK7	Q6P2Q9	EBNA-LP	PRPF8	Epstein-Barr nuclear antigen leader protein	Pre-mRNA-processing-splicing factor 8
+EBVB9	Q8AZK7	P11142	EBNA-LP	HSPA8	Epstein-Barr nuclear antigen leader protein	Heat shock cognate 71 kDa protein
+HBV	Q784Z8	Q9GZX7	C	AICDA	Capsid protein	Single-stranded DNA cytosine deaminase
+HBV	Q784Z8	P31941	C	APOBEC3A	Capsid protein	DNA dC->dU-editing enzyme APOBEC-3A
+HBV	Q778I9	Q9H668	C	stn1	Capsid protein	CST complex subunit STN1
+HBV	Q778I9	P13987	C	CD59	Capsid protein	CD59 glycoprotein
+HBV	Q784Z8	Q9HC16	C	APOBEC3G	Capsid protein	DNA dC->dU-editing enzyme APOBEC-3G
+HBV	Q778I9	P09493	C	TPM1	Capsid protein	Tropomyosin alpha-1 chain
+HBV	Q9QMH9	Q16531	X	DDB1	Protein X	DNA damage-binding protein 1
+HBV	Q4AE16	Q13309	X	SKP2	Protein X	S-phase kinase-associated protein 2
+HBV	Q9QMH9	Q13619	X	CUL4A	Protein X	Cullin-4A
+HPV18	P06463	Q05086	E6	UBE3A	Protein E6	Ubiquitin-protein ligase E3A
+HPV16	P03126	Q05086	E6	UBE3A	Protein E6	Ubiquitin-protein ligase E3A
+HPV18	P06792	Q53FP2	E5	TMEM35A	Probable protein E5	Novel acetylcholine receptor chaperone
+HPV18	P06792	Q5RI15	E5	COX20	Probable protein E5	Cytochrome c oxidase assembly protein COX20, mitochondrial
+HPV16	P03120	O60885-1	E2	Brd4	Regulatory protein E2	Bromodomain-containing protein 4
+HPV18	P06789	Q12824-1	E1	SMARCB1	Replication protein E1	SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1
+HPV18	P06792	O60831	E5	PRAF2	Probable protein E5	PRA1 family protein 2
+HPV18	P06792	Q9BVG9	E5	PTDSS2	Probable protein E5	Phosphatidylserine synthase 2
+HPV18	P06792	Q5HYI8	E5	RABL3	Probable protein E5	Rab-like protein 3
+HPV18	P06792	Q9H061	E5	TMEM126A	Probable protein E5	Transmembrane protein 126A
+HPV18	P06792	Q8WZ71	E5	TMEM158	Probable protein E5	Transmembrane protein 158
+HPV18	P06792	Q7Z7N9	E5	TMEM179B	Probable protein E5	Transmembrane protein 179B
+HPV18	P06792	Q6ZT21	E5	TMPPE	Probable protein E5	Transmembrane protein with metallophosphoesterase domain
+HPV18	P06792	Q8WUY1	E5	Them6	Probable protein E5	Protein THEM6
+HPV18	P06792	Q9UBU6	E5	FAM8A1	Probable protein E5	Protein FAM8A1
+HPV18	P06792	Q14439	E5	GPR176	Probable protein E5	G-protein coupled receptor 176
+HPV18	P06792	Q567V2	E5	MPV17L2	Probable protein E5	Mpv17-like protein 2
+HPV18	P06792	P84157	E5	MXRA7	Probable protein E5	Matrix-remodeling-associated protein 7
+HPV18	P06792	Q9BWM7	E5	SFXN3	Probable protein E5	Sideroflexin-3
+HPV18	P06792	Q96K37	E5	SLC35E1	Probable protein E5	Solute carrier family 35 member E1
+HPV18	P06792	Q9BVC6	E5	TMEM109	Probable protein E5	Voltage-gated monoatomic cation channel TMEM109
+HPV18	P06792	Q9NVA4	E5	TMEM184C	Probable protein E5	Transmembrane protein 184C
+HPV18	P06792	Q8N4L2	E5	Pip4p2	Probable protein E5	Type 2 phosphatidylinositol 4,5-bisphosphate 4-phosphatase
+HPV18	P06792	Q96SL1	E5	SLC49A4	Probable protein E5	Solute carrier family 49 member 4
+HPV18	P06792	Q8TED1	E5	GPX8	Probable protein E5	Probable glutathione peroxidase 8
+HPV18	P06792	Q96AM1	E5	MRGPRF	Probable protein E5	Mas-related G-protein coupled receptor member F
+HPV18	P06792	Q9NRP0	E5	OSTC	Probable protein E5	Oligosaccharyltransferase complex subunit OSTC
+HPV16	P06927	Q9UBU6	E5	FAM8A1	Probable protein E5	Protein FAM8A1
+HPV16	P06927	O60831	E5	PRAF2	Probable protein E5	PRA1 family protein 2
+HPV18	P06792	Q9HCU5	E5	PREB	Probable protein E5	Guanine nucleotide-exchange factor SEC12
+HPV18	P06792	P53801	E5	PTTG1IP	Probable protein E5	Pituitary tumor-transforming gene 1 protein-interacting protein
+HPV18	P06792	Q96AA3	E5	RFT1	Probable protein E5	"""Man(5)GlcNAc(2)-PP-dolichol translocation protein RFT1"""
+HPV18	P06792	Q969E2	E5	SCAMP4	Probable protein E5	Secretory carrier-associated membrane protein 4
+HPV18	P06792	O15374	E5	SLC16A4	Probable protein E5	Monocarboxylate transporter 5
+HPV18	P06792	Q6PML9	E5	Slc30a9	Probable protein E5	Proton-coupled zinc antiporter SLC30A9, mitochondrial
+HPV18	P06792	Q8NHG7	E5	SVIP	Probable protein E5	Small VCP/p97-interacting protein
+HPV18	P06792	O43759	E5	SYNGR1	Probable protein E5	Synaptogyrin-1
+HPV18	P06792	Q9Y4P3	E5	TBL2	Probable protein E5	Transducin beta-like protein 2
+HPV18	P06792	P21731	E5	TBXA2R	Probable protein E5	Thromboxane A2 receptor
+HPV18	P06792	O15321	E5	TM9SF1	Probable protein E5	Transmembrane 9 superfamily member 1
+HPV18	P06792	Q9BXJ8	E5	TMEM120A	Probable protein E5	Transmembrane protein 120A
+HPV18	P06792	Q6UW68	E5	TMEM205	Probable protein E5	Transmembrane protein 205
+HPV18	P06792	Q8NBM4	E5	UBAC2	Probable protein E5	Ubiquitin-associated domain-containing protein 2
+HPV18	P06792	Q9HBM0	E5	VEZT	Probable protein E5	Vezatin
+HPV18	P06792	Q9H2C2	E5	ARV1	Probable protein E5	Protein ARV1
+HPV18	P06792	P30411	E5	BDKRB2	Probable protein E5	B2 bradykinin receptor
+HPV18	P06792	Q8NC54	E5	KCT2	Probable protein E5	Keratinocyte-associated transmembrane protein 2
+HPV18	P06792	O14735	E5	CDIPT	Probable protein E5	CDP-diacylglycerol--inositol 3-phosphatidyltransferase
+HPV18	P06792	Q9NXW2	E5	DNAJB12	Probable protein E5	DnaJ homolog subfamily B member 12
+HPV18	P06792	Q9Y2G8	E5	DNAJC16	Probable protein E5	DnaJ homolog subfamily C member 16
+HPV18	P06792	O94919	E5	ENDOD1	Probable protein E5	Endonuclease domain-containing 1 protein
+HPV18	P06792	Q8N6M3	E5	FITM2	Probable protein E5	Acyl-coenzyme A diphosphatase FITM2
+HPV18	P06792	Q9UJ14	E5	GGT7	Probable protein E5	Glutathione hydrolase 7
+HPV18	P06792	Q9Y3E0	E5	GOLT1B	Probable protein E5	Vesicle transport protein GOT1B
+HPV18	P06792	O60725	E5	ICMT	Probable protein E5	Protein-S-isoprenylcysteine O-methyltransferase
+HPV18	P06792	Q70UQ0	E5	IKBIP	Probable protein E5	Inhibitor of nuclear factor kappa-B kinase-interacting protein
+HPV18	P06792	Q96CX2	E5	KCTD12	Probable protein E5	BTB/POZ domain-containing protein KCTD12
+HPV18	P06792	Q14165	E5	MLEC	Probable protein E5	Malectin
+HPV18	P06792	P30559	E5	OXTR	Probable protein E5	Oxytocin receptor
+HPV16	P06927	Q96AM1	E5	MRGPRF	Probable protein E5	Mas-related G-protein coupled receptor member F
+HPV16	P06927	Q5HYI8	E5	RABL3	Probable protein E5	Rab-like protein 3
+HPV18	P06463	Q9BY21	E6	GPR87	Protein E6	G-protein coupled receptor 87
+HPV18	P06463	P59190	E6	Rab15	Protein E6	Ras-related protein Rab-15
+HPV18	P06792	O15173	E5	PGRMC2	Probable protein E5	Membrane-associated progesterone receptor component 2
+HPV18	P06792	Q8IY26	E5	PLPP6	Probable protein E5	Polyisoprenoid diphosphate/phosphate phosphohydrolase PLPP6
+HPV18	P06792	O15258	E5	RER1	Probable protein E5	Protein RER1
+HPV18	P06792	Q96K19	E5	RNF170	Probable protein E5	E3 ubiquitin-protein ligase RNF170
+HPV18	P06792	Q99500	E5	S1PR3	Probable protein E5	Sphingosine 1-phosphate receptor 3
+HPV18	P06792	O75396	E5	Sec22b	Probable protein E5	Vesicle-trafficking protein SEC22b
+HPV18	P06792	Q9UNL2	E5	SSR3	Probable protein E5	Translocon-associated protein subunit gamma
+HPV18	P06792	Q6UWJ1	E5	TMCO3	Probable protein E5	Transmembrane and coiled-coil domain-containing protein 3
+HPV18	P06792	Q9NVV0	E5	TMEM38B	Probable protein E5	Trimeric intracellular cation channel type B
+HPV18	P06792	Q9BTV4	E5	TMEM43	Probable protein E5	Transmembrane protein 43
+HPV18	P06792	Q15006	E5	EMC2	Probable protein E5	ER membrane protein complex subunit 2
+HPV18	P06792	Q9BQB6	E5	VKORC1	Probable protein E5	Vitamin K epoxide reductase complex subunit 1
+HPV18	P06792	Q9BSR8	E5	YIPF4	Probable protein E5	Protein YIPF4
+HPV18	P06792	O95674	E5	CDS2	Probable protein E5	Phosphatidate cytidylyltransferase 2
+HPV18	P06792	P61803	E5	DAD1	Probable protein E5	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit DAD1
+HPV18	P06792	Q9GZP9	E5	DERL2	Probable protein E5	Derlin-2
+HPV18	P06792	Q9Y394	E5	DHRS7	Probable protein E5	Dehydrogenase/reductase SDR family member 7
+HPV18	P06792	P48060	E5	GLIPR1	Probable protein E5	Glioma pathogenesis-related protein 1
+HPV18	P06792	Q9NZH0	E5	GPRC5B	Probable protein E5	G-protein coupled receptor family C group 5 member B
+HPV18	P06792	Q06136	E5	KDSR	Probable protein E5	3-ketodihydrosphingosine reductase
+HPV18	P06792	Q9C0E8	E5	LNPK	Probable protein E5	Endoplasmic reticulum junction formation protein lunapark
+HPV18	P06792	Q8IYS2	E5	KIAA2013	Probable protein E5	Uncharacterized protein KIAA2013
+HPV18	P06792	Q15012	E5	LAPTM4A	Probable protein E5	Lysosomal-associated transmembrane protein 4A
+HPV18	P06792	O75438	E5	NDUFB1	Probable protein E5	NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 1
+HPV16	P06927	Q9Y3E0	E5	GOLT1B	Probable protein E5	Vesicle transport protein GOT1B
+HPV16	P06927	Q70UQ0	E5	IKBIP	Probable protein E5	Inhibitor of nuclear factor kappa-B kinase-interacting protein
+HPV16	P06927	Q14165	E5	MLEC	Probable protein E5	Malectin
+HPV16	P06927	Q9NRP0	E5	OSTC	Probable protein E5	Oligosaccharyltransferase complex subunit OSTC
+HPV16	P06927	Q9NXS2	E5	QPCTL	Probable protein E5	Glutaminyl-peptide cyclotransferase-like protein
+HPV16	P06927	Q9UI14	E5	RABAC1	Probable protein E5	Prenylated Rab acceptor protein 1
+HPV16	P06927	Q00765	E5	REEP5	Probable protein E5	Receptor expression-enhancing protein 5
+HPV16	P06927	O15321	E5	TM9SF1	Probable protein E5	Transmembrane 9 superfamily member 1
+HPV16	P06927	Q9BVC6	E5	TMEM109	Probable protein E5	Voltage-gated monoatomic cation channel TMEM109
+HPV16	P06927	Q9NVA4	E5	TMEM184C	Probable protein E5	Transmembrane protein 184C
+HPV16	P03129	Q96EY1-1	E7	Dnaja3	Protein E7	DnaJ homolog subfamily A member 3, mitochondrial
+HPV18	P06792	O00264	E5	PGRMC1	Probable protein E5	Membrane-associated progesterone receptor component 1
+HPV18	P06792	Q96S52	E5	PIGS	Probable protein E5	GPI-anchor transamidase component PIGS
+HPV18	P06792	P23219	E5	PTGS1	Probable protein E5	Prostaglandin G/H synthase 1
+HPV18	P06792	Q71UM5	E5	RPS27L	Probable protein E5	Ribosomal protein eS27-like
+HPV18	P06792	Q96FQ6	E5	S100A16	Probable protein E5	Protein S100-A16
+HPV18	P06792	Q9NTJ5	E5	Sacm1l	Probable protein E5	Phosphatidylinositol-3-phosphatase SAC1
+HPV18	P06792	P60468	E5	SEC61B	Probable protein E5	Protein transport protein Sec61 subunit beta
+HPV18	P06792	Q99442	E5	SEC62	Probable protein E5	Translocation protein SEC62
+HPV18	P06792	Q8NEW0	E5	SLC30A7	Probable protein E5	Zinc transporter 7
+HPV18	P06792	Q9H2V7	E5	SPNS1	Probable protein E5	Protein spinster homolog 1
+HPV18	P06792	Q9Y5M8	E5	SRPRB	Probable protein E5	Signal recognition particle receptor subunit beta
+HPV18	P06792	O15260	E5	SURF4	Probable protein E5	Surfeit locus protein 4
+HPV18	P06792	Q9HD45	E5	TM9SF3	Probable protein E5	Transmembrane 9 superfamily member 3
+HPV18	P06792	Q9UM00	E5	TMCO1	Probable protein E5	Calcium load-activated calcium channel
+HPV18	P06792	Q9NX61	E5	TMEM161A	Probable protein E5	Transmembrane protein 161A
+HPV18	P06792	Q9BSA9	E5	TMEM175	Probable protein E5	Endosomal/lysosomal proton channel TMEM175
+HPV18	P06792	P57088	E5	TMEM33	Probable protein E5	Transmembrane protein 33
+HPV18	P06792	Q8N2K0	E5	ABHD12	Probable protein E5	Lysophosphatidylserine lipase ABHD12
+HPV18	P06792	O95870	E5	ABHD16A	Probable protein E5	Phosphatidylserine lipase ABHD16A
+HPV18	P06792	Q9BT22	E5	ALG1	Probable protein E5	Chitobiosyldiphosphodolichol beta-mannosyltransferase
+HPV18	P06792	Q9NW15	E5	Ano10	Probable protein E5	Anoctamin-10
+HPV18	P06792	Q6DD88	E5	ATL3	Probable protein E5	Atlastin-3
+HPV18	P06792	O75964	E5	ATP5MG	Probable protein E5	"""ATP synthase F(0) complex subunit g, mitochondrial"""
+HPV18	P06792	Q9HDC9	E5	APMAP	Probable protein E5	Adipocyte plasma membrane-associated protein
+HPV18	P06792	Q5VV42	E5	CDKAL1	Probable protein E5	Threonylcarbamoyladenosine tRNA methylthiotransferase
+HPV18	P06792	Q9Y6K0	E5	CEPT1	Probable protein E5	Choline/ethanolaminephosphotransferase 1
+HPV18	P06792	Q7KZN9	E5	COX15	Probable protein E5	Heme A synthase COX15
+HPV18	P06792	Q9NVH1	E5	DNAJC11	Probable protein E5	DnaJ homolog subfamily C member 11
+HPV18	P06792	Q96PE1	E5	ADGRA2	Probable protein E5	Adhesion G protein-coupled receptor A2
+HPV18	P06792	O95297	E5	MPZL1	Probable protein E5	Myelin protein zero-like protein 1
+HPV18	P06792	Q6PIU2	E5	NCEH1	Probable protein E5	Neutral cholesterol ester hydrolase 1
+HPV18	P06792	O00483	E5	NDUFA4	Probable protein E5	Cytochrome c oxidase subunit NDUFA4
+HPV16	P06927	Q4ZIN3	E5	TMEM259	Probable protein E5	Membralin
+HPV16	P06927	Q9NXH8	E5	TOR4A	Probable protein E5	Torsin-4A
+HPV16	P06927	P61803	E5	DAD1	Probable protein E5	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit DAD1
+HPV16	P06927	Q9GZP9	E5	DERL2	Probable protein E5	Derlin-2
+HPV16	P06927	Q9Y2G8	E5	DNAJC16	Probable protein E5	DnaJ homolog subfamily C member 16
+HPV16	P06927	O94919	E5	ENDOD1	Probable protein E5	Endonuclease domain-containing 1 protein
+HPV16	P06927	Q9UJ14	E5	GGT7	Probable protein E5	Glutathione hydrolase 7
+HPV16	P06927	P37059	E5	HSD17B2	Probable protein E5	17-beta-hydroxysteroid dehydrogenase type 2
+HPV16	P06927	O15173	E5	PGRMC2	Probable protein E5	Membrane-associated progesterone receptor component 2
+HPV16	P06927	O15258	E5	RER1	Probable protein E5	Protein RER1
+HPV16	P06927	Q9UNL2	E5	SSR3	Probable protein E5	Translocon-associated protein subunit gamma
+HPV16	P06927	Q9Y4P3	E5	TBL2	Probable protein E5	Transducin beta-like protein 2
+HPV16	P06927	Q9BTV4	E5	TMEM43	Probable protein E5	Transmembrane protein 43
+HPV16	P06927	Q8NBM4	E5	UBAC2	Probable protein E5	Ubiquitin-associated domain-containing protein 2
+HPV16	P06927	Q9BQB6	E5	VKORC1	Probable protein E5	Vitamin K epoxide reductase complex subunit 1
+HPV16	P06927	Q9BSR8	E5	YIPF4	Probable protein E5	Protein YIPF4
+HPV18	P06788	Q9UHC7	E7	MKRN1	Protein E7	E3 ubiquitin-protein ligase makorin-1
+HPV18	P06788	Q16831	E7	UPP1	Protein E7	Uridine phosphorylase 1
+HPV18	P06463	Q14088	E6	RAB33A	Protein E6	Ras-related protein Rab-33A
+HPV18	P06463	Q96EK4	E6	THAP11	Protein E6	THAP domain-containing protein 11
+HPV18	P06788	Q9H0H3	E7	KLHL25	Protein E7	Kelch-like protein 25
+HPV18	P06788	Q9NP81	E7	SARS2	Protein E7	Serine--tRNA ligase, mitochondrial
+HPV18	P06788	P49458	E7	SRP9	Protein E7	Signal recognition particle 9 kDa protein
+HPV18	P06792	Q5H8A4	E5	PIGG	Probable protein E5	GPI ethanolamine phosphate transferase 2, catalytic subunit
+HPV18	P06792	Q8TEQ8	E5	PIGO	Probable protein E5	GPI ethanolamine phosphate transferase 3, catalytic subunit
+HPV18	P06792	Q9H490	E5	PIGU	Probable protein E5	GPI-anchor transamidase component PIGU
+HPV18	P06792	Q9P035	E5	HACD3	Probable protein E5	"""Very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase 3"""
+HPV18	P06792	Q9Y3E5	E5	PTRH2	Probable protein E5	Peptidyl-tRNA hydrolase 2, mitochondrial
+HPV18	P06792	Q9NP72	E5	RAB18	Probable protein E5	Ras-related protein Rab-18
+HPV18	P06792	Q14699	E5	RFTN1	Probable protein E5	Raftlin
+HPV18	P06792	O15127	E5	SCAMP2	Probable protein E5	Secretory carrier-associated membrane protein 2
+HPV18	P06792	O14828	E5	SCAMP3	Probable protein E5	Secretory carrier-associated membrane protein 3
+HPV18	P06792	P67812	E5	SEC11A	Probable protein E5	Signal peptidase complex catalytic subunit SEC11A
+HPV18	P06792	Q8NBJ9	E5	Sidt2	Probable protein E5	SID1 transmembrane family member 2
+HPV18	P06792	Q8TB61	E5	SLC35B2	Probable protein E5	Adenosine 3'-phospho 5'-phosphosulfate transporter 1
+HPV18	P06792	Q9Y6N5	E5	SQOR	Probable protein E5	"""Sulfide:quinone oxidoreductase, mitochondrial"""
+HPV18	P06792	P51571	E5	SSR4	Probable protein E5	Translocon-associated protein subunit delta
+HPV18	P06792	Q96BY9	E5	SARAF	Probable protein E5	Store-operated calcium entry-associated regulatory factor
+HPV18	P06792	Q9Y320	E5	TMX2	Probable protein E5	Thioredoxin-related transmembrane protein 2
+HPV18	P06792	Q15629	E5	TRAM1	Probable protein E5	Translocating chain-associated membrane protein 1
+HPV18	P06792	Q96IX5	E5	ATP5MK	Probable protein E5	"""ATP synthase F(0) complex subunit k, mitochondrial"""
+HPV18	P06792	Q5BJH7	E5	YIF1B	Probable protein E5	Protein YIF1B
+HPV18	P06792	O75947	E5	ATP5PD	Probable protein E5	ATP synthase peripheral stalk subunit d, mitochondrial
+HPV18	P06792	P00846	E5	MT-ATP6	Probable protein E5	"""ATP synthase F(0) complex subunit a"""
+HPV18	P06792	O75110	E5	ATP9A	Probable protein E5	Probable phospholipid-transporting ATPase IIA
+HPV18	P06792	Q96G23	E5	CERS2	Probable protein E5	Ceramide synthase 2
+HPV18	P06792	P08172	E5	CHRM2	Probable protein E5	Muscarinic acetylcholine receptor M2
+HPV18	P06792	Q14332	E5	FZD2	Probable protein E5	Frizzled-2
+HPV18	P06792	O75084	E5	FZD7	Probable protein E5	Frizzled-7
+HPV18	P06792	Q53GQ0	E5	HSD17B12	Probable protein E5	Very-long-chain 3-oxoacyl-CoA reductase
+HPV18	P06792	P10620	E5	MGST1	Probable protein E5	Microsomal glutathione S-transferase 1
+HPV18	P06792	Q13724	E5	MOGS	Probable protein E5	Mannosyl-oligosaccharide glucosidase
+HPV16	P06927	Q9NVI7	E5	ATAD3A	Probable protein E5	ATPase family AAA domain-containing protein 3A
+HPV16	P06927	Q6DD88	E5	ATL3	Probable protein E5	Atlastin-3
+HPV16	P06927	Q9HDC9	E5	APMAP	Probable protein E5	Adipocyte plasma membrane-associated protein
+HPV16	P06927	O95674	E5	CDS2	Probable protein E5	Phosphatidate cytidylyltransferase 2
+HPV16	P06927	Q06136	E5	KDSR	Probable protein E5	3-ketodihydrosphingosine reductase
+HPV16	P06927	Q9C0E8	E5	LNPK	Probable protein E5	Endoplasmic reticulum junction formation protein lunapark
+HPV16	P06927	Q15012	E5	LAPTM4A	Probable protein E5	Lysosomal-associated transmembrane protein 4A
+HPV16	P06927	Q6PIU2	E5	NCEH1	Probable protein E5	Neutral cholesterol ester hydrolase 1
+HPV16	P06927	O00483	E5	NDUFA4	Probable protein E5	Cytochrome c oxidase subunit NDUFA4
+HPV16	P06927	Q92643	E5	PIGK	Probable protein E5	GPI-anchor transamidase
+HPV16	P06927	Q96S52	E5	PIGS	Probable protein E5	GPI-anchor transamidase component PIGS
+HPV16	P06927	Q96K19	E5	RNF170	Probable protein E5	E3 ubiquitin-protein ligase RNF170
+HPV16	P06927	Q96FQ6	E5	S100A16	Probable protein E5	Protein S100-A16
+HPV16	P06927	P60468	E5	SEC61B	Probable protein E5	Protein transport protein Sec61 subunit beta
+HPV16	P06927	Q99442	E5	SEC62	Probable protein E5	Translocation protein SEC62
+HPV16	P06927	Q8NEW0	E5	SLC30A7	Probable protein E5	Zinc transporter 7
+HPV16	P06927	Q9H2V7	E5	SPNS1	Probable protein E5	Protein spinster homolog 1
+HPV16	P06927	Q9Y5M8	E5	SRPRB	Probable protein E5	Signal recognition particle receptor subunit beta
+HPV16	P06927	O15260	E5	SURF4	Probable protein E5	Surfeit locus protein 4
+HPV16	P06927	Q9HD45	E5	TM9SF3	Probable protein E5	Transmembrane 9 superfamily member 3
+HPV16	P06927	Q9BSA9	E5	TMEM175	Probable protein E5	Endosomal/lysosomal proton channel TMEM175
+HPV18	P06788	P50479	E7	PDLIM4	Protein E7	PDZ and LIM domain protein 4
+HPV18	P06788	Q15005	E7	SPCS2	Protein E7	Signal peptidase complex subunit 2
+HPV18	P06463	Q9Y3D0	E6	CIAO2B	Protein E6	Cytosolic iron-sulfur assembly component 2B
+HPV18	P06788	P24864	E7	CCNE1	Protein E7	G1/S-specific cyclin-E1
+HPV18	P06463	Q13227	E6	GPS2	Protein E6	G protein pathway suppressor 2
+HPV16	P03129	Q14209	E7	E2F2	Protein E7	Transcription factor E2F2
+HPV18	P06463	Q4G0F5	E6	VPS26B	Protein E6	Vacuolar protein sorting-associated protein 26B
+HPV18	P06788	Q9P0J7	E7	KCMF1	Protein E7	E3 ubiquitin-protein ligase KCMF1
+HPV18	P06792	Q9BZG1	E5	RAB34	Probable protein E5	Ras-related protein Rab-34
+HPV18	P06792	Q8IXI2	E5	RHOT1	Probable protein E5	Mitochondrial Rho GTPase 1
+HPV18	P06792	Q8WVM8	E5	SCFD1	Probable protein E5	Sec1 family domain-containing protein 1
+HPV18	P06792	Q9UGP8	E5	SEC63	Probable protein E5	Translocation protein SEC63 homolog
+HPV18	P06792	P78381	E5	SLC35A2	Probable protein E5	UDP-galactose translocator
+HPV18	P06792	P08240	E5	SRPRA	Probable protein E5	Signal recognition particle receptor subunit alpha
+HPV18	P06792	Q9NZ01	E5	TECR	Probable protein E5	Very-long-chain enoyl-CoA reductase
+HPV18	P06792	P42166	E5	TMPO	Probable protein E5	Lamina-associated polypeptide 2, isoform alpha
+HPV18	P06792	Q9P0L0	E5	VAPA	Probable protein E5	Vesicle-associated membrane protein-associated protein A
+HPV18	P06792	Q9GZM5	E5	YIPF3	Probable protein E5	Protein YIPF3
+HPV18	P06792	Q8NBU5	E5	ATAD1	Probable protein E5	Outer mitochondrial transmembrane helix translocase
+HPV18	P06792	P18859	E5	ATP5PF	Probable protein E5	ATP synthase peripheral stalk subunit F6, mitochondrial
+HPV18	P06792	P50402	E5	EMD	Probable protein E5	Emerin
+HPV18	P06792	Q969X5	E5	ERGIC1	Probable protein E5	Endoplasmic reticulum-Golgi intermediate compartment protein 1
+HPV18	P06792	A0FGR8	E5	ESYT2	Probable protein E5	Extended synaptotagmin-2
+HPV18	P06792	Q96CS3	E5	FAF2	Probable protein E5	FAS-associated factor 2
+HPV18	P06792	Q96TC7	E5	RMDN3	Probable protein E5	Regulator of microtubule dynamics protein 3
+HPV18	P06792	Q92616	E5	GCN1	Probable protein E5	Stalled ribosome sensor GCN1
+HPV18	P06792	O94851	E5	MICAL2	Probable protein E5	[F-actin]-monooxygenase MICAL2
+HPV18	P06792	Q9Y6C9	E5	MTCH2	Probable protein E5	Mitochondrial carrier homolog 2
+HPV18	P06792	Q9NX40	E5	OCIAD1	Probable protein E5	OCIA domain-containing protein 1
+HPV16	P06927	Q8N2K0	E5	ABHD12	Probable protein E5	Lysophosphatidylserine lipase ABHD12
+HPV16	P06927	P00846	E5	MT-ATP6	Probable protein E5	"""ATP synthase F(0) complex subunit a"""
+HPV16	P06927	Q5VV42	E5	CDKAL1	Probable protein E5	Threonylcarbamoyladenosine tRNA methylthiotransferase
+HPV16	P06927	P08172	E5	CHRM2	Probable protein E5	Muscarinic acetylcholine receptor M2
+HPV16	P06927	Q96DZ1	E5	ERLEC1	Probable protein E5	Endoplasmic reticulum lectin 1
+HPV16	P06927	Q01628	E5	IFITM3	Probable protein E5	Interferon-induced transmembrane protein 3
+HPV16	P06927	Q9NZJ7	E5	MTCH1	Probable protein E5	Mitochondrial carrier homolog 1
+HPV16	P06927	Q9H490	E5	PIGU	Probable protein E5	GPI-anchor transamidase component PIGU
+HPV16	P06927	Q9P035	E5	HACD3	Probable protein E5	"""Very-long-chain (3R)-3-hydroxyacyl-CoA dehydratase 3"""
+HPV16	P06927	Q9NP72	E5	RAB18	Probable protein E5	Ras-related protein Rab-18
+HPV16	P06927	P67812	E5	SEC11A	Probable protein E5	Signal peptidase complex catalytic subunit SEC11A
+HPV16	P06927	Q9NZV5	E5	SELENON	Probable protein E5	Selenoprotein N
+HPV16	P06927	Q8NBJ9	E5	Sidt2	Probable protein E5	SID1 transmembrane family member 2
+HPV16	P06927	Q9Y6N5	E5	SQOR	Probable protein E5	"""Sulfide:quinone oxidoreductase, mitochondrial"""
+HPV16	P06927	P51571	E5	SSR4	Probable protein E5	Translocon-associated protein subunit delta
+HPV16	P06927	P57088	E5	TMEM33	Probable protein E5	Transmembrane protein 33
+HPV16	P06927	Q96BY9	E5	SARAF	Probable protein E5	Store-operated calcium entry-associated regulatory factor
+HPV16	P06927	Q15629	E5	TRAM1	Probable protein E5	Translocating chain-associated membrane protein 1
+HPV16	P03129	Q9UHR5	E7	SAP30BP	Protein E7	SAP30-binding protein
+HPV16	P03129	Q96EK4	E7	THAP11	Protein E7	THAP domain-containing protein 11
+HPV18	P06788	Q9UNK0	E7	STX8	Protein E7	Syntaxin-8
+HPV18	P06463	Q9Y2S7	E6	POLDIP2	Protein E6	Polymerase delta-interacting protein 2
+HPV18	P06463	O14896	E6	Irf6	Protein E6	Interferon regulatory factor 6
+HPV18	P06463	Q9Y244	E6	POMP	Protein E6	Proteasome maturation protein
+HPV18	P06463	Q9Y3C4	E6	TPRKB	Protein E6	EKC/KEOPS complex subunit TPRKB
+HPV16	P03129	O00716	E7	E2F3	Protein E7	Transcription factor E2F3
+HPV18	P06463	Q8IZ07	E6	ANKRD13A	Protein E6	Ankyrin repeat domain-containing protein 13A
+HPV18	P06463	O15260	E6	SURF4	Protein E6	Surfeit locus protein 4
+HPV18	P06463	O95967	E6	EFEMP2	Protein E6	EGF-containing fibulin-like extracellular matrix protein 2
+HPV18	P06463	P28300	E6	LOX	Protein E6	Protein-lysine 6-oxidase
+HPV18	P06463	Q9UJ70	E6	NAGK	Protein E6	N-acetyl-D-glucosamine kinase
+HPV18	P06463	P35080	E6	PFN2	Protein E6	Profilin-2
+HPV18	P06463	Q71UM5	E6	RPS27L	Protein E6	Ribosomal protein eS27-like
+HPV18	P06788	Q16254	E7	E2F4	Protein E7	Transcription factor E2F4
+HPV18	P06788	Q08999	E7	RBL2	Protein E7	Retinoblastoma-like protein 2
+HPV18	P06788	Q71UM5	E7	RPS27L	Protein E7	Ribosomal protein eS27-like
+HPV18	P06788	Q9Y6N5	E7	SQOR	Protein E7	"""Sulfide:quinone oxidoreductase, mitochondrial"""
+HPV18	P06792	Q969N2	E5	PIGT	Probable protein E5	GPI-anchor transamidase component PIGT
+HPV18	P06792	Q8IY17	E5	PNPLA6	Probable protein E5	Patatin-like phospholipase domain-containing protein 6
+HPV18	P06792	Q15165	E5	PON2	Probable protein E5	Serum paraoxonase/arylesterase 2
+HPV18	P06792	Q8TC12	E5	RDH11	Probable protein E5	Retinol dehydrogenase 11
+HPV18	P06792	Q9NRX5	E5	SERINC1	Probable protein E5	Serine incorporator 1
+HPV18	P06792	Q9UP95	E5	SLC12A4	Probable protein E5	Solute carrier family 12 member 4
+HPV18	P06792	Q96BI1	E5	SLC67A1	Probable protein E5	Solute carrier family 67 member A1
+HPV18	P06792	Q12846	E5	STX4	Probable protein E5	Syntaxin-4
+HPV18	P06792	Q9HC07	E5	TMEM165	Probable protein E5	Putative divalent cation/proton antiporter TMEM165
+HPV18	P06792	Q96JJ7	E5	TMX3	Probable protein E5	Protein disulfide-isomerase TMX3
+HPV18	P06792	P23510	E5	TNFSF4	Probable protein E5	Tumor necrosis factor ligand superfamily member 4
+HPV18	P06792	Q5T9L3	E5	WLS	Probable protein E5	Protein wntless homolog
+HPV18	P06792	P28288	E5	ABCD3	Probable protein E5	ATP-binding cassette sub-family D member 3
+HPV18	P06792	O43306	E5	ADCY6	Probable protein E5	Adenylate cyclase type 6
+HPV18	P06792	Q4KMQ2	E5	ANO6	Probable protein E5	Anoctamin-6
+HPV18	P06792	Q9HD20	E5	ATP13A1	Probable protein E5	Endoplasmic reticulum transmembrane helix translocase
+HPV18	P06792	Q08722	E5	CD47	Probable protein E5	Leukocyte surface antigen CD47
+HPV18	P06792	O96005	E5	CLPTM1	Probable protein E5	Putative lipid scramblase CLPTM1
+HPV18	P06792	Q14318	E5	FKBP8	Probable protein E5	Peptidyl-prolyl cis-trans isomerase FKBP8
+HPV18	P06792	O60353	E5	FZD6	Probable protein E5	Frizzled-6
+HPV18	P06792	O43292	E5	GPAA1	Probable protein E5	GPI-anchor transamidase component GPAA1
+HPV18	P06792	Q8TCT9	E5	HM13	Probable protein E5	Signal peptide peptidase
+HPV18	P06792	P28331	E5	NDUFS1	Probable protein E5	NADH-ubiquinone oxidoreductase 75 kDa subunit, mitochondrial
+HPV18	P06792	Q96AQ6	E5	PBXIP1	Probable protein E5	Pre-B-cell leukemia transcription factor-interacting protein 1
+HPV16	P06927	P18859	E5	ATP5PF	Probable protein E5	ATP synthase peripheral stalk subunit F6, mitochondrial
+HPV16	P06927	P50402	E5	EMD	Probable protein E5	Emerin
+HPV16	P06927	Q969X5	E5	ERGIC1	Probable protein E5	Endoplasmic reticulum-Golgi intermediate compartment protein 1
+HPV16	P06927	A0FGR8	E5	ESYT2	Probable protein E5	Extended synaptotagmin-2
+HPV16	P06927	Q96CS3	E5	FAF2	Probable protein E5	FAS-associated factor 2
+HPV16	P06927	Q14332	E5	FZD2	Probable protein E5	Frizzled-2
+HPV16	P06927	O60353	E5	FZD6	Probable protein E5	Frizzled-6
+HPV16	P06927	O43292	E5	GPAA1	Probable protein E5	GPI-anchor transamidase component GPAA1
+HPV16	P06927	O94851	E5	MICAL2	Probable protein E5	[F-actin]-monooxygenase MICAL2
+HPV16	P06927	Q9Y6C9	E5	MTCH2	Probable protein E5	Mitochondrial carrier homolog 2
+HPV16	P06927	Q15165	E5	PON2	Probable protein E5	Serum paraoxonase/arylesterase 2
+HPV16	P06927	O95470	E5	SGPL1	Probable protein E5	Sphingosine-1-phosphate lyase 1
+HPV16	P06927	Q9UP95	E5	SLC12A4	Probable protein E5	Solute carrier family 12 member 4
+HPV16	P06927	Q9NZ01	E5	TECR	Probable protein E5	Very-long-chain enoyl-CoA reductase
+HPV16	P06927	Q6NUQ4	E5	TMEM214	Probable protein E5	Transmembrane protein 214
+HPV16	P06927	P42166	E5	TMPO	Probable protein E5	Lamina-associated polypeptide 2, isoform alpha
+HPV16	P06927	Q96JJ7	E5	TMX3	Probable protein E5	Protein disulfide-isomerase TMX3
+HPV16	P06927	O75762	E5	TRPA1	Probable protein E5	Transient receptor potential cation channel subfamily A member 1
+HPV16	P06927	Q9GZM5	E5	YIPF3	Probable protein E5	Protein YIPF3
+HPV18	P06790	P09496	E2	Clta	Regulatory protein E2	Clathrin light chain A
+HPV18	P06790	O95235	E2	KIF20A	Regulatory protein E2	Kinesin-like protein KIF20A
+HPV18	P06790	Q96JC1	E2	VPS39	Regulatory protein E2	Vam6/Vps39-like protein
+HPV18	P06790	Q8N1B4	E2	VPS52	Regulatory protein E2	Vacuolar protein sorting-associated protein 52 homolog
+HPV16	P03129	Q9UHC7	E7	MKRN1	Protein E7	E3 ubiquitin-protein ligase makorin-1
+HPV16	P03129	Q9NQ31	E7	AKIP1	Protein E7	A-kinase-interacting protein 1
+HPV16	P03129	P50479	E7	PDLIM4	Protein E7	PDZ and LIM domain protein 4
+HPV16	P03129	Q16831	E7	UPP1	Protein E7	Uridine phosphorylase 1
+HPV16	P03129	Q14168	E7	MPP2	Protein E7	MAGUK p55 subfamily member 2
+HPV16	P03129	Q15005	E7	SPCS2	Protein E7	Signal peptidase complex subunit 2
+HPV16	P03129	O94842	E7	TOX4	Protein E7	TOX high mobility group box family member 4
+HPV18	P06788	P28749	E7	RBL1	Protein E7	Retinoblastoma-like protein 1
+HPV16	P03126	P59190	E6	Rab15	Protein E6	Ras-related protein Rab-15
+HPV18	P06463	P55327	E6	TPD52	Protein E6	Tumor protein D52
+HPV18	P06463	O95551	E6	TDP2	Protein E6	Tyrosyl-DNA phosphodiesterase 2
+HPV18	P06463	Q9UBE0	E6	SAE1	Protein E6	SUMO-activating enzyme subunit 1
+HPV18	P06463	Q96F44	E6	TRIM11	Protein E6	E3 ubiquitin-protein ligase TRIM11
+HPV18	P06463	O43760	E6	SYNGR2	Protein E6	Synaptogyrin-2
+HPV18	P06463	P32942	E6	ICAM3	Protein E6	Intercellular adhesion molecule 3
+HPV16	P03126	Q9UHV2	E6	SERTAD1	Protein E6	SERTA domain-containing protein 1
+HPV18	P06789	P09914	E1	IFIT1	Replication protein E1	Antiviral innate immune response effector IFIT1
+HPV16	P03129	Q16254	E7	E2F4	Protein E7	Transcription factor E2F4
+HPV16	P03129	O96020	E7	CCNE2	Protein E7	G1/S-specific cyclin-E2
+HPV18	P06463	P09543	E6	CNP	Protein E6	2',3'-cyclic-nucleotide 3'-phosphodiesterase
+HPV18	P06463	Q13425	E6	SNTB2	Protein E6	Beta-2-syntrophin
+HPV18	P06463	Q14192	E6	FHL2	Protein E6	Four and a half LIM domains protein 2
+HPV18	P06463	Q92616	E6	GCN1	Protein E6	Stalled ribosome sensor GCN1
+HPV18	P06463	Q9Y6N5	E6	SQOR	Protein E6	"""Sulfide:quinone oxidoreductase, mitochondrial"""
+HPV18	P06463	O75436	E6	VPS26A	Protein E6	Vacuolar protein sorting-associated protein 26A
+HPV18	P06463	Q15942	E6	ZYX	Protein E6	Zyxin
+HPV18	P06788	O14579	E7	COPE	Protein E7	Coatomer subunit epsilon
+HPV18	P06788	Q15678	E7	PTPN14	Protein E7	Tyrosine-protein phosphatase non-receptor type 14
+HPV18	P06792	O60664	E5	PLIN3	Probable protein E5	Perilipin-3
+HPV18	P06792	P49810	E5	PSEN2	Probable protein E5	Presenilin-2
+HPV18	P06792	P62834	E5	RAP1A	Probable protein E5	Ras-related protein Rap-1A
+HPV18	P06792	Q99584	E5	S100A13	Probable protein E5	Protein S100-A13
+HPV18	P06792	P61619	E5	SEC61A1	Probable protein E5	Protein transport protein Sec61 subunit alpha isoform 1
+HPV18	P06792	P07093	E5	SERPINE2	Probable protein E5	Glia-derived nexin
+HPV18	P06792	Q9UJZ1	E5	STOML2	Probable protein E5	Stomatin-like protein 2, mitochondrial
+HPV18	P06792	Q8TCJ2	E5	STT3B	Probable protein E5	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B
+HPV18	P06792	Q03518	E5	TAP1	Probable protein E5	Antigen peptide transporter 1
+HPV18	P06792	O15533	E5	TAPBP	Probable protein E5	Tapasin
+HPV18	P06792	Q9Y5S1	E5	Trpv2	Probable protein E5	Transient receptor potential cation channel subfamily V member 2
+HPV18	P06792	Q9H1C4	E5	UNC93B1	Probable protein E5	Protein unc-93 homolog B1
+HPV18	P06792	P33897	E5	ABCD1	Probable protein E5	ATP-binding cassette sub-family D member 1
+HPV18	P06792	P36542	E5	ATP5F1C	Probable protein E5	"""ATP synthase F(1) complex subunit gamma, mitochondrial"""
+HPV18	P06792	P24539	E5	ATP5PB	Probable protein E5	ATP synthase peripheral stalk subunit b, mitochondrial
+HPV18	P06792	P48047	E5	ATP5PO	Probable protein E5	ATP synthase peripheral stalk subunit OSCP, mitochondrial
+HPV18	P06792	P00403	E5	MT-CO2	Probable protein E5	Cytochrome c oxidase subunit 2
+HPV18	P06792	P50416	E5	CPT1A	Probable protein E5	Carnitine O-palmitoyltransferase 1, liver isoform
+HPV18	P06792	O95864	E5	FADS2	Probable protein E5	Acyl-CoA 6-desaturase
+HPV18	P06792	P25445	E5	FAS	Probable protein E5	Tumor necrosis factor receptor superfamily member 6
+HPV18	P06792	P30519	E5	HMOX2	Probable protein E5	Heme oxygenase 2
+HPV18	P06792	Q7Z434	E5	MAVS	Probable protein E5	Mitochondrial antiviral-signaling protein
+HPV18	P06792	Q96N66	E5	MBOAT7	Probable protein E5	Membrane-bound acylglycerophosphatidylinositol O-acyltransferase MBOAT7
+HPV16	P06927	Q9UKV5	E5	AMFR	Probable protein E5	E3 ubiquitin-protein ligase AMFR
+HPV16	P06927	Q9HD20	E5	ATP13A1	Probable protein E5	Endoplasmic reticulum transmembrane helix translocase
+HPV16	P06927	P48047	E5	ATP5PO	Probable protein E5	ATP synthase peripheral stalk subunit OSCP, mitochondrial
+HPV16	P06927	O96005	E5	CLPTM1	Probable protein E5	Putative lipid scramblase CLPTM1
+HPV16	P06927	O75477	E5	ERLIN1	Probable protein E5	Erlin-1
+HPV16	P06927	Q8TCT9	E5	HM13	Probable protein E5	Signal peptide peptidase
+HPV16	P06927	Q969N2	E5	PIGT	Probable protein E5	GPI-anchor transamidase component PIGT
+HPV16	P06927	Q99584	E5	S100A13	Probable protein E5	Protein S100-A13
+HPV16	P06927	Q15858	E5	SCN9A	Probable protein E5	Sodium channel protein type 9 subunit alpha
+HPV16	P06927	Q8TCJ2	E5	STT3B	Probable protein E5	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3B
+HPV16	P06927	Q9HC07	E5	TMEM165	Probable protein E5	Putative divalent cation/proton antiporter TMEM165
+HPV16	P06927	Q9Y5S1	E5	Trpv2	Probable protein E5	Transient receptor potential cation channel subfamily V member 2
+HPV16	P03120	Q8N1B4	E2	VPS52	Regulatory protein E2	Vacuolar protein sorting-associated protein 52 homolog
+HPV16	P03129	Q9NXH8	E7	TOR4A	Protein E7	Torsin-4A
+HPV16	P03129	Q2M2I8	E7	AAK1	Protein E7	AP2-associated protein kinase 1
+HPV16	P03129	Q15329	E7	E2F5	Protein E7	Transcription factor E2F5
+HPV16	P03129	Q9P0J7	E7	KCMF1	Protein E7	E3 ubiquitin-protein ligase KCMF1
+HPV16	P03129	Q16825	E7	PTPN21	Protein E7	Tyrosine-protein phosphatase non-receptor type 21
+HPV16	P03120	P41229	E2	KDM5C	Regulatory protein E2	Lysine-specific demethylase 5C
+HPV16	P03129	Q99729	E7	HNRNPAB	Protein E7	Heterogeneous nuclear ribonucleoprotein A/B
+HPV16	P03129	P17936	E7	Igfbp3	Protein E7	Insulin-like growth factor-binding protein 3
+HPV16	P03129	Q9Y6Q5	E7	AP1M2	Protein E7	AP-1 complex subunit mu-2
+HPV16	P03129	Q9UNK0	E7	STX8	Protein E7	Syntaxin-8
+HPV18	P06788	Q9UBS4	E7	DNAJB11	Protein E7	DnaJ homolog subfamily B member 11
+HPV18	P06788	P04632	E7	CAPNS1	Protein E7	Calpain small subunit 1
+HPV16	P03126	Q8IYJ3	E6	Sytl1	Protein E6	Synaptotagmin-like protein 1
+HPV16	P03126	Q96EK4	E6	THAP11	Protein E6	THAP domain-containing protein 11
+HPV18	P06463	P35250	E6	RFC2	Protein E6	Replication factor C subunit 2
+HPV18	P06463	Q96QZ7	E6	MAGI1	Protein E6	Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1
+HPV18	P06463	P05549	E6	TFAP2A	Protein E6	Transcription factor AP-2-alpha
+HPV18	P06790	P17676	E2	CEBPB	Regulatory protein E2	CCAAT/enhancer-binding protein beta
+HPV18	P06790	P55209	E2	NAP1L1	Regulatory protein E2	Nucleosome assembly protein 1-like 1
+HPV16	P03126	O14907	E6	TAX1BP3	Protein E6	Tax1-binding protein 3
+HPV16	P03129	Q14978	E7	NOLC1	Protein E7	Nucleolar and coiled-body phosphoprotein 1
+HPV16	P03129	P28749	E7	RBL1	Protein E7	Retinoblastoma-like protein 1
+HPV16	P03129	Q14188	E7	TFDP2	Protein E7	Transcription factor Dp-2
+HPV18	P06463	Q01813	E6	PFKP	Protein E6	ATP-dependent 6-phosphofructokinase, platelet type
+HPV18	P06463	P63151	E6	PPP2R2A	Protein E6	Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B alpha isoform
+HPV18	P06463	Q96L92	E6	SNX27	Protein E6	Sorting nexin-27
+HPV18	P06463	Q9BS26	E6	ERP44	Protein E6	Endoplasmic reticulum resident protein 44
+HPV18	P06463	Q9UBQ0	E6	VPS29	Protein E6	Vacuolar protein sorting-associated protein 29
+HPV18	P06788	O15235	E7	MRPS12	Protein E7	Small ribosomal subunit protein uS12m
+HPV18	P06788	Q8N474	E7	SFRP1	Protein E7	Secreted frizzled-related protein 1
+HPV18	P06788	Q14186	E7	TFDP1	Protein E7	Transcription factor Dp-1
+HPV18	P06792	O15427	E5	SLC16A3	Probable protein E5	Monocarboxylate transporter 4
+HPV18	P06792	Q9HBR0	E5	SLC38A10	Probable protein E5	Solute carrier family 38 member 10
+HPV18	P06792	P49755	E5	TMED10	Probable protein E5	Transmembrane emp24 domain-containing protein 10
+HPV18	P06792	Q92973	E5	TNPO1	Probable protein E5	Transportin-1
+HPV18	P06792	Q13443	E5	ADAM9	Probable protein E5	Disintegrin and metalloproteinase domain-containing protein 9
+HPV18	P06792	P21964	E5	COMT	Probable protein E5	Catechol O-methyltransferase
+HPV18	P06792	Q6UVK1	E5	cspg4	Probable protein E5	Chondroitin sulfate proteoglycan 4
+HPV18	P06792	P39656	E5	DDOST	Probable protein E5	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 48 kDa subunit
+HPV18	P06792	Q15392	E5	DHCR24	Probable protein E5	"""Delta(24)-sterol reductase"""
+HPV18	P06792	P25116	E5	F2R	Probable protein E5	Proteinase-activated receptor 1
+HPV18	P06792	Q10472	E5	GALNT1	Probable protein E5	Polypeptide N-acetylgalactosaminyltransferase 1
+HPV18	P06792	P17302	E5	Gja1	Probable protein E5	Gap junction alpha-1 protein
+HPV16	P06927	Q96S66	E5	CLCC1	Probable protein E5	Chloride channel CLIC-like protein 1
+HPV16	P06927	P00403	E5	MT-CO2	Probable protein E5	Cytochrome c oxidase subunit 2
+HPV16	P06927	P50416	E5	CPT1A	Probable protein E5	Carnitine O-palmitoyltransferase 1, liver isoform
+HPV16	P06927	O94905	E5	Erlin2	Probable protein E5	Erlin-2
+HPV16	P06927	P25116	E5	F2R	Probable protein E5	Proteinase-activated receptor 1
+HPV16	P06927	Q7Z434	E5	MAVS	Probable protein E5	Mitochondrial antiviral-signaling protein
+HPV16	P06927	Q96N66	E5	MBOAT7	Probable protein E5	Membrane-bound acylglycerophosphatidylinositol O-acyltransferase MBOAT7
+HPV16	P06927	P07093	E5	SERPINE2	Probable protein E5	Glia-derived nexin
+HPV16	P06927	O15427	E5	SLC16A3	Probable protein E5	Monocarboxylate transporter 4
+HPV16	P06927	Q03518	E5	TAP1	Probable protein E5	Antigen peptide transporter 1
+HPV16	P06927	O15533	E5	TAPBP	Probable protein E5	Tapasin
+HPV16	P03129	P30281	E7	Ccnd3	Protein E7	G1/S-specific cyclin-D3
+HPV16	P03129	P24864	E7	CCNE1	Protein E7	G1/S-specific cyclin-E1
+HPV16	P03129	P09543	E7	CNP	Protein E7	2',3'-cyclic-nucleotide 3'-phosphodiesterase
+HPV16	P03129	Q15678	E7	PTPN14	Protein E7	Tyrosine-protein phosphatase non-receptor type 14
+HPV16	P03129	Q08999	E7	RBL2	Protein E7	Retinoblastoma-like protein 2
+HPV16	P03129	Q9Y6N5	E7	SQOR	Protein E7	"""Sulfide:quinone oxidoreductase, mitochondrial"""
+HPV16	P03129	Q7Z7L7	E7	ZER1	Protein E7	Protein zer-1 homolog
+HPV16	P03129	P51784	E7	USP11	Protein E7	Ubiquitin carboxyl-terminal hydrolase 11
+HPV16	P03129	Q9UBS4	E7	DNAJB11	Protein E7	DnaJ homolog subfamily B member 11
+HPV16	P03129	Q96EY1	E7	Dnaja3	Protein E7	DnaJ homolog subfamily A member 3, mitochondrial
+HPV16	P03129	P05549	E7	TFAP2A	Protein E7	Transcription factor AP-2-alpha
+HPV16	P03129	P04632	E7	CAPNS1	Protein E7	Calpain small subunit 1
+HPV16	P03129	P25106	E7	ACKR3	Protein E7	Atypical chemokine receptor 3
+HPV16	P03126	O75528	E6	TADA3	Protein E6	Transcriptional adapter 3
+HPV16	P03126	O14896	E6	Irf6	Protein E6	Interferon regulatory factor 6
+HPV16	P03126	O95905	E6	ECD	Protein E6	Protein ecdysoneless homolog
+HPV16	P03126	Q9Y2S7	E6	POLDIP2	Protein E6	Polymerase delta-interacting protein 2
+HPV16	P03126	Q9Y244	E6	POMP	Protein E6	Proteasome maturation protein
+HPV18	P06463	O00303	E6	EIF3F	Protein E6	Eukaryotic translation initiation factor 3 subunit F
+HPV18	P06463	Q9NYY3	E6	PLK2	Protein E6	Serine/threonine-protein kinase PLK2
+HPV18	P06463	Q13158	E6	FADD	Protein E6	FAS-associated death domain protein
+HPV16	P03120	Q92547	E2	Topbp1	Regulatory protein E2	DNA topoisomerase 2-binding protein 1
+HPV16	P03129	Q01094	E7	E2f1	Protein E7	Transcription factor E2F1
+HPV18	P06790	Q92831	E2	KAT2B	Regulatory protein E2	Histone acetyltransferase KAT2B
+HPV18	P06463	O95817	E6	BAG3	Protein E6	BAG family molecular chaperone regulator 3
+HPV18	P06463	P12110	E6	COL6A2	Protein E6	"""Collagen alpha-2(VI) chain"""
+HPV18	P06463	Q14393	E6	GAS6	Protein E6	Growth arrest-specific protein 6
+HPV18	P06788	Q14393	E7	GAS6	Protein E7	Growth arrest-specific protein 6
+HPV18	P06792	Q99623	E5	PHB2	Probable protein E5	Prohibitin-2
+HPV18	P06792	Q13563	E5	PKD2	Probable protein E5	Polycystin-2
+HPV18	P06792	O00391	E5	QSOX1	Probable protein E5	Sulfhydryl oxidase 1
+HPV18	P06792	P11166	E5	SLC2A1	Probable protein E5	Solute carrier family 2, facilitated glucose transporter member 1
+HPV18	P06792	P04920	E5	SLC4A2	Probable protein E5	Anion exchange protein 2
+HPV18	P06792	P46977	E5	Stt3a	Probable protein E5	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3A
+HPV18	P06792	Q03519	E5	TAP2	Probable protein E5	Antigen peptide transporter 2
+HPV18	P06792	Q9HBA0	E5	Trpv4	Probable protein E5	Transient receptor potential cation channel subfamily V member 4
+HPV18	P06792	Q12797	E5	ASPH	Probable protein E5	Aspartyl/asparaginyl beta-hydroxylase
+HPV18	P06792	P23634	E5	ATP2B4	Probable protein E5	Plasma membrane calcium-transporting ATPase 4
+HPV18	P06792	Q16891	E5	IMMT	Probable protein E5	MICOS complex subunit MIC60
+HPV18	P06792	Q6IAA8	E5	LAMTOR1	Probable protein E5	Ragulator complex protein LAMTOR1
+HPV16	P06927	P23634	E5	ATP2B4	Probable protein E5	Plasma membrane calcium-transporting ATPase 4
+HPV16	P06927	Q6UVK1	E5	cspg4	Probable protein E5	Chondroitin sulfate proteoglycan 4
+HPV16	P06927	P39656	E5	DDOST	Probable protein E5	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 48 kDa subunit
+HPV16	P06927	Q15392	E5	DHCR24	Probable protein E5	"""Delta(24)-sterol reductase"""
+HPV16	P06927	P17302	E5	Gja1	Probable protein E5	Gap junction alpha-1 protein
+HPV16	P06927	Q99623	E5	PHB2	Probable protein E5	Prohibitin-2
+HPV16	P06927	Q6NZI2	E5	CAVIN1	Probable protein E5	Caveolae-associated protein 1
+HPV16	P06927	O00767	E5	SCD	Probable protein E5	Stearoyl-CoA desaturase
+HPV16	P06927	P04920	E5	SLC4A2	Probable protein E5	Anion exchange protein 2
+HPV16	P06927	Q9HBA0	E5	Trpv4	Probable protein E5	Transient receptor potential cation channel subfamily V member 4
+HPV16	P03129	Q14186	E7	TFDP1	Protein E7	Transcription factor Dp-1
+HPV16	P03129	P26641	E7	EEF1G	Protein E7	Elongation factor 1-gamma
+HPV18	P06788	Q13362	E7	PPP2R5C	Protein E7	Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit gamma isoform
+HPV16	P03126	O95551	E6	TDP2	Protein E6	Tyrosyl-DNA phosphodiesterase 2
+HPV16	P03126	Q9UBE0	E6	SAE1	Protein E6	SUMO-activating enzyme subunit 1
+HPV18	P06463	Q14671	E6	PUM1	Protein E6	Pumilio homolog 1
+HPV18	P06463	P36507	E6	MAP2K2	Protein E6	Dual specificity mitogen-activated protein kinase kinase 2
+HPV16	P03129	P05412	E7	JUN	Protein E7	Transcription factor Jun
+HPV16	P03129	O15111	E7	CHUK	Protein E7	Inhibitor of nuclear factor kappa-B kinase subunit alpha
+HPV18	P06463	Q9UHD8	E6	SEPTIN9	Protein E6	Septin-9
+HPV18	P06463	P31689	E6	DNAJA1	Protein E6	DnaJ homolog subfamily A member 1
+HPV18	P06463	O00469	E6	PLOD2	Protein E6	Procollagen-lysine,2-oxoglutarate 5-dioxygenase 2
+HPV18	P06792	Q9NQC3	E5	RTN4	Probable protein E5	Reticulon-4
+HPV18	P06792	P16615	E5	ATP2A2	Probable protein E5	Sarcoplasmic/endoplasmic reticulum calcium ATPase 2
+HPV18	P06792	Q9Y653	E5	ADGRG1	Probable protein E5	Adhesion G-protein coupled receptor G1
+HPV18	P06792	Q92633	E5	LPAR1	Probable protein E5	Lysophosphatidic acid receptor 1
+HPV18	P06792	P50281	E5	MMP14	Probable protein E5	Matrix metalloproteinase-14
+HPV16	P06927	Q13563	E5	PKD2	Probable protein E5	Polycystin-2
+HPV16	P06927	P11166	E5	SLC2A1	Probable protein E5	Solute carrier family 2, facilitated glucose transporter member 1
+HPV16	P06927	P46977	E5	Stt3a	Probable protein E5	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3A
+HPV16	P03129	P11802	E7	Cdk4	Protein E7	Cyclin-dependent kinase 4
+HPV16	P03120	Q96L91	E2	EP400	Regulatory protein E2	E1A-binding protein p400
+HPV18	P06463	Q9NQC7	E6	CYLD	Protein E6	Ubiquitin carboxyl-terminal hydrolase CYLD
+HPV18	P06788	P16144	E7	ITGB4	Protein E7	Integrin beta-4
+HPV18	P06788	P13667	E7	PDIA4	Protein E7	Protein disulfide-isomerase A4
+HPV16	P03126	P05549	E6	TFAP2A	Protein E6	Transcription factor AP-2-alpha
+HPV16	P03126	Q14188	E6	TFDP2	Protein E6	Transcription factor Dp-2
+HPV16	P03126	Q96QZ7	E6	MAGI1	Protein E6	Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1
+HPV18	P06463	Q14160	E6	Scrib	Protein E6	Protein scribble homolog
+HPV18	P06463	P38936	E6	CDKN1A	Protein E6	Cyclin-dependent kinase inhibitor 1
+HPV16	P03129	P38936	E7	CDKN1A	Protein E7	Cyclin-dependent kinase inhibitor 1
+HPV16	P03126	Q13158	E6	FADD	Protein E6	FAS-associated death domain protein
+HPV16	P03126	P19438	E6	TNFRSF1A	Protein E6	Tumor necrosis factor receptor superfamily member 1A
+HPV18	P06463	P55036	E6	PSMD4	Protein E6	26S proteasome non-ATPase regulatory subunit 4
+HPV18	P06792	Q92508	E5	PIEZO1	Probable protein E5	Piezo-type mechanosensitive ion channel component 1
+HPV18	P06792	Q01650	E5	SLC7A5	Probable protein E5	Large neutral amino acids transporter small subunit 1
+HPV18	P06792	P27105	E5	STOM	Probable protein E5	Stomatin
+HPV18	P06792	O15439	E5	ABCC4	Probable protein E5	ATP-binding cassette sub-family C member 4
+HPV18	P06792	P04114	E5	APOB	Probable protein E5	Apolipoprotein B-100
+HPV18	P06792	P10909	E5	CLU	Probable protein E5	Clusterin
+HPV16	P06927	P16615	E5	ATP2A2	Probable protein E5	Sarcoplasmic/endoplasmic reticulum calcium ATPase 2
+HPV16	P06927	P50281	E5	MMP14	Probable protein E5	Matrix metalloproteinase-14
+HPV16	P06927	Q9NQC3	E5	RTN4	Probable protein E5	Reticulon-4
+HPV18	P06788	Q86WV6	E7	Sting1	Protein E7	Stimulator of interferon genes protein
+HPV16	P03129	Q9NRY4	E7	ARHGAP35	Protein E7	Rho GTPase-activating protein 35
+HPV16	P03126	P27635	E6	RPL10	Protein E6	Large ribosomal subunit protein uL16
+HPV16	P03126	Q15022	E6	SUZ12	Protein E6	Polycomb protein SUZ12
+HPV16	P03129	P67775	E7	PPP2CA	Protein E7	Serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform
+HPV18	P06463	P16615	E6	ATP2A2	Protein E6	Sarcoplasmic/endoplasmic reticulum calcium ATPase 2
+HPV18	P06463	Q9Y678	E6	COPG1	Protein E6	Coatomer subunit gamma-1
+HPV18	P06463	P27816	E6	Map4	Protein E6	Microtubule-associated protein 4
+HPV18	P06788	P42677	E7	RPS27	Protein E7	Small ribosomal subunit protein eS27
+HPV18	P06792	Q8IV08	E5	PLD3	Probable protein E5	5'-3' exonuclease PLD3
+HPV18	P06792	P04844	E5	RPN2	Probable protein E5	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 2
+HPV18	P06792	Q15758	E5	SLC1A5	Probable protein E5	"""Neutral amino acid transporter B(0)"""
+HPV18	P06792	Q03135	E5	CAV1	Probable protein E5	Caveolin-1
+HPV18	P06792	P53621	E5	COPA	Probable protein E5	Coatomer subunit alpha
+HPV16	P06927	O15439	E5	ABCC4	Probable protein E5	ATP-binding cassette sub-family C member 4
+HPV16	P06927	P04114	E5	APOB	Probable protein E5	Apolipoprotein B-100
+HPV16	P06927	Q9NZM1	E5	Myof	Probable protein E5	Myoferlin
+HPV16	P06927	Q92508	E5	PIEZO1	Probable protein E5	Piezo-type mechanosensitive ion channel component 1
+HPV16	P06927	P46778	E5	RPL21	Probable protein E5	Large ribosomal subunit protein eL21
+HPV16	P06927	P04844	E5	RPN2	Probable protein E5	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 2
+HPV16	P06927	Q01650	E5	SLC7A5	Probable protein E5	Large neutral amino acids transporter small subunit 1
+HPV16	P06927	P27105	E5	STOM	Probable protein E5	Stomatin
+HPV16	P03129	O95782	E7	AP2A1	Protein E7	AP-2 complex subunit alpha-1
+HPV16	P03129	Q96CW1	E7	AP2M1	Protein E7	AP-2 complex subunit mu
+HPV16	P03129	Q00535	E7	CDK5	Protein E7	Cyclin-dependent kinase 5
+HPV16	P03129	P16144	E7	ITGB4	Protein E7	Integrin beta-4
+HPV18	P06788	P29590	E7	PML	Protein E7	Protein PML
+HPV18	P06788	P06400	E7	Rb1	Protein E7	Retinoblastoma-associated protein
+HPV16	P03126	P18848	E6	Atf4	Protein E6	Cyclic AMP-dependent transcription factor ATF-4
+HPV16	P03126	Q14671	E6	PUM1	Protein E6	Pumilio homolog 1
+HPV18	P06463	Q13485	E6	SMAD4	Protein E6	Mothers against decapentaplegic homolog 4
+HPV16	P03126	P01106	E6	MYC	Protein E6	Myc proto-oncogene protein
+HPV16	P03129	Q13547	E7	HDAC1	Protein E7	Histone deacetylase 1
+HPV16	P03129	P06400	E7	Rb1	Protein E7	Retinoblastoma-associated protein
+HPV18	P06463	P42677	E6	RPS27	Protein E6	Small ribosomal subunit protein eS27
+HPV18	P06463	Q9NZM1	E6	Myof	Protein E6	Myoferlin
+HPV18	P06463	Q9Y230	E6	RUVBL2	Protein E6	RuvB-like 2
+HPV18	P06788	P53621	E7	COPA	Protein E7	Coatomer subunit alpha
+HPV18	P06788	P46778	E7	RPL21	Protein E7	Large ribosomal subunit protein eL21
+HPV18	P06792	O15031	E5	PLXNB2	Probable protein E5	Plexin-B2
+HPV18	P06792	P33527	E5	ABCC1	Probable protein E5	Multidrug resistance-associated protein 1
+HPV18	P06792	P27824	E5	CANX	Probable protein E5	Calnexin
+HPV18	P06792	P16070	E5	CD44	Probable protein E5	CD44 antigen
+HPV16	P06927	Q03135	E5	CAV1	Probable protein E5	Caveolin-1
+HPV16	P06927	Q9H7F0	E5	ATP13A3	Probable protein E5	Polyamine-transporting ATPase 13A3
+HPV16	P06927	P53621	E5	COPA	Probable protein E5	Coatomer subunit alpha
+HPV16	P06927	Q8IV08	E5	PLD3	Probable protein E5	5'-3' exonuclease PLD3
+HPV16	P06927	Q15758	E5	SLC1A5	Probable protein E5	"""Neutral amino acid transporter B(0)"""
+HPV16	P03129	Q9UQ35	E7	SRRM2	Protein E7	Serine/arginine repetitive matrix protein 2
+HPV16	P03126	Q9NQC7	E6	CYLD	Protein E6	Ubiquitin carboxyl-terminal hydrolase CYLD
+HPV16	P03129	P29590	E7	PML	Protein E7	Protein PML
+HPV16	P03126	P38936	E6	CDKN1A	Protein E6	Cyclin-dependent kinase inhibitor 1
+HPV16	P03126	Q14160	E6	Scrib	Protein E6	Protein scribble homolog
+HPV18	P06463	P29597	E6	TYK2	Protein E6	Non-receptor tyrosine-protein kinase TYK2
+HPV16	P03129	P20248	E7	CCNA2	Protein E7	Cyclin-A2
+HPV16	P03129	P06493	E7	CDK1	Protein E7	Cyclin-dependent kinase 1
+HPV18	P06463	P62333	E6	PSMC6	Protein E6	26S proteasome regulatory subunit 10B
+HPV18	P06463	O00487	E6	PSMD14	Protein E6	26S proteasome non-ATPase regulatory subunit 14
+HPV18	P06463	P51665	E6	PSMD7	Protein E6	26S proteasome non-ATPase regulatory subunit 7
+HPV18	P06463	P48556	E6	PSMD8	Protein E6	26S proteasome non-ATPase regulatory subunit 8
+HPV18	P06463	P46939	E6	UTRN	Protein E6	Utrophin
+HPV18	P06463	Q9UNM6	E6	PSMD13	Protein E6	26S proteasome non-ATPase regulatory subunit 13
+HPV18	P06463	Q15008	E6	PSMD6	Protein E6	26S proteasome non-ATPase regulatory subunit 6
+HPV18	P06463	P10644	E6	PRKAR1A	Protein E6	cAMP-dependent protein kinase type I-alpha regulatory subunit
+HPV18	P06463	Q96QK1	E6	VPS35	Protein E6	Vacuolar protein sorting-associated protein 35
+HPV18	P06792	P30101	E5	PDIA3	Probable protein E5	Protein disulfide-isomerase A3
+HPV18	P06792	P98194	E5	ATP2C1	Probable protein E5	Calcium-transporting ATPase type 2C member 1
+HPV16	P06927	P16070	E5	CD44	Probable protein E5	CD44 antigen
+HPV16	P06927	P33527	E5	ABCC1	Probable protein E5	Multidrug resistance-associated protein 1
+HPV16	P06927	P98194	E5	ATP2C1	Probable protein E5	Calcium-transporting ATPase type 2C member 1
+HPV16	P06927	P27824	E5	CANX	Probable protein E5	Calnexin
+HPV16	P06927	P40429	E5	Rpl13a	Probable protein E5	Large ribosomal subunit protein uL13
+HPV18	P06788	P39023	E7	RPL3	Protein E7	Large ribosomal subunit protein uL3
+HPV18	P06788	P12004	E7	PCNA	Protein E7	Proliferating cell nuclear antigen
+HPV16	P03126	O43166	E6	SIPA1L1	Protein E6	Signal-induced proliferation-associated 1-like protein 1
+HPV16	P03126	P52292	E6	KPNA2	Protein E6	Importin subunit alpha-1
+HPV16	P03126	Q13485	E6	SMAD4	Protein E6	Mothers against decapentaplegic homolog 4
+HPV18	P06463	O14773	E6	TPP1	Protein E6	Tripeptidyl-peptidase 1
+HPV18	P06463	P07339	E6	CTSD	Protein E6	Cathepsin D
+HPV18	P06463	P38398	E6	BRCA1	Protein E6	Breast cancer type 1 susceptibility protein
+HPV16	P03129	P38398	E7	BRCA1	Protein E7	Breast cancer type 1 susceptibility protein
+HPV18	P06463	O95714	E6	HERC2	Protein E6	E3 ubiquitin-protein ligase HERC2
+HPV18	P06463	P30153	E6	PPP2R1A	Protein E6	Serine/threonine-protein phosphatase 2A 65 kDa regulatory subunit A alpha isoform
+HPV18	P06463	P28070	E6	PSMB4	Protein E6	Proteasome subunit beta type-4
+HPV18	P06463	P62191	E6	PSMC1	Protein E6	26S proteasome regulatory subunit 4
+HPV18	P06463	P35998	E6	PSMC2	Protein E6	26S proteasome regulatory subunit 7
+HPV18	P06463	P17980	E6	PSMC3	Protein E6	26S proteasome regulatory subunit 6A
+HPV18	P06463	P43686	E6	PSMC4	Protein E6	26S proteasome regulatory subunit 6B
+HPV18	P06463	P62195	E6	PSMC5	Protein E6	26S proteasome regulatory subunit 8
+HPV18	P06463	O43242	E6	PSMD3	Protein E6	26S proteasome non-ATPase regulatory subunit 3
+HPV18	P06463	O00231	E6	PSMD11	Protein E6	26S proteasome non-ATPase regulatory subunit 11
+HPV18	P06463	P30101	E6	PDIA3	Protein E6	Protein disulfide-isomerase A3
+HPV18	P06788	Q15369	E7	ELOC	Protein E7	Elongin-C
+HPV16	P06927	P30101	E5	PDIA3	Probable protein E5	Protein disulfide-isomerase A3
+HPV16	P03129	P12004	E7	PCNA	Protein E7	Proliferating cell nuclear antigen
+HPV16	P03129	P35998	E7	PSMC2	Protein E7	26S proteasome regulatory subunit 7
+HPV16	P03129	Q15370	E7	ELOB	Protein E7	Elongin-B
+HPV16	P03129	P39023	E7	RPL3	Protein E7	Large ribosomal subunit protein uL3
+HPV16	P03129	O60814	E7	H2BC12	Protein E7	Histone H2B type 1-K
+HPV18	P06788	P20618	E7	PSMB1	Protein E7	Proteasome subunit beta type-1
+HPV18	P06463	P20618	E6	PSMB1	Protein E6	Proteasome subunit beta type-1
+HPV18	P06463	P28074	E6	PSMB5	Protein E6	Proteasome subunit beta type-5
+HPV18	P06790	Q09472	E2	EP300	Regulatory protein E2	Histone acetyltransferase p300
+HPV16	P03129	P30153	E7	PPP2R1A	Protein E7	Serine/threonine-protein phosphatase 2A 65 kDa regulatory subunit A alpha isoform
+HPV16	P03126	P38398	E6	BRCA1	Protein E6	Breast cancer type 1 susceptibility protein
+HPV18	P06463	P28066	E6	PSMA5	Protein E6	Proteasome subunit alpha type-5
+HPV18	P06463	P60900	E6	PSMA6	Protein E6	Proteasome subunit alpha type-6
+HPV18	P06463	Q99460	E6	PSMD1	Protein E6	26S proteasome non-ATPase regulatory subunit 1
+HPV18	P06463	P25789	E6	PSMA4	Protein E6	Proteasome subunit alpha type-4
+HPV18	P06463	P07858	E6	CTSB	Protein E6	Cathepsin B
+HPV18	P06792	P08195	E5	SLC3A2	Probable protein E5	Amino acid transporter heavy chain SLC3A2
+HPV18	P06792	P05556	E5	ITGB1	Probable protein E5	Integrin beta-1
+HPV16	P06927	P05556	E5	ITGB1	Probable protein E5	Integrin beta-1
+HPV16	P06927	P08195	E5	SLC3A2	Probable protein E5	Amino acid transporter heavy chain SLC3A2
+HPV16	P03129	Q15369	E7	ELOC	Protein E7	Elongin-C
+HPV16	P03129	P20618	E7	PSMB1	Protein E7	Proteasome subunit beta type-1
+HPV18	P06788	P68104	E7	EEF1A1	Protein E7	Elongation factor 1-alpha 1
+HPV16	P03126	P28074	E6	PSMB5	Protein E6	Proteasome subunit beta type-5
+HPV16	P03129	Q09472	E7	EP300	Protein E7	Histone acetyltransferase p300
+HPV16	P03129	P68104	E7	EEF1A1	Protein E7	Elongation factor 1-alpha 1
+HPV16	P03126	P20618	E6	PSMB1	Protein E6	Proteasome subunit beta type-1
+HPV18	P06463	P23458	E6	JAK1	Protein E6	Tyrosine-protein kinase JAK1
+HPV18	P06788	Q5T4S7	E7	UBR4	Protein E7	E3 ubiquitin-protein ligase UBR4
+HPV16	P03129	P06733	E7	ENO1	Protein E7	Alpha-enolase
+HPV16	P03129	Q5T4S7	E7	UBR4	Protein E7	E3 ubiquitin-protein ligase UBR4
+HPV16	P03129	P23458	E7	JAK1	Protein E7	Tyrosine-protein kinase JAK1
+HPV18	P06792	P05023	E5	ATP1A1	Probable protein E5	Sodium/potassium-transporting ATPase subunit alpha-1
+HPV16	P06927	P05023	E5	ATP1A1	Probable protein E5	Sodium/potassium-transporting ATPase subunit alpha-1
+HPV16	P03129	P14618	E7	PKM	Protein E7	Pyruvate kinase PKM
+HPV18	P06788	P14618	E7	PKM	Protein E7	Pyruvate kinase PKM
+HPV18	P06792	P18031	E5	PTPN1	Probable protein E5	Tyrosine-protein phosphatase non-receptor type 1
+HPV16	P06927	P18031	E5	PTPN1	Probable protein E5	Tyrosine-protein phosphatase non-receptor type 1
+HPV16	P06927	P11717	E5	IGF2R	Probable protein E5	Cation-independent mannose-6-phosphate receptor
+HPV16	P03129	P24941	E7	Cdk2	Protein E7	Cyclin-dependent kinase 2
+HPV18	P06463	P04637	E6	TP53	Protein E6	Cellular tumor antigen p53
+HPV18	P06788	P60709	E7	ACTB	Protein E7	Actin, cytoplasmic 1
+HPV16	P03120	P04637	E2	TP53	Regulatory protein E2	Cellular tumor antigen p53
+HPV16	P03126	P04637	E6	TP53	Protein E6	Cellular tumor antigen p53
+HPV16	P03129	P60709	E7	ACTB	Protein E7	Actin, cytoplasmic 1
+HPV16	P03120	O60885	E2	Brd4	Regulatory protein E2	Bromodomain-containing protein 4
+HPV18	P06463	Q14204	E6	DYNC1H1	Protein E6	Cytoplasmic dynein 1 heavy chain 1
+HTL1C	P0C745	Q8N1K5	HBZ	THEMIS	HTLV-1 basic zipper factor	Protein THEMIS
+HTL1C	P14079	Q6PF05	tax	TTC23L	Protein Tax-1	Tetratricopeptide repeat protein 23-like
+HTL1C	P14079	Q9H4K1	tax	RIBC2	Protein Tax-1	RIB43A-like with coiled-coils protein 2
+HTL1C	P14079	Q8N883	tax	ZNF614	Protein Tax-1	Zinc finger protein 614
+HTL1C	P14079	Q9BY27	tax	DGCR6L	Protein Tax-1	Protein DGCR6L
+HTL1C	P14079	Q969F0	tax	FATE1	Protein Tax-1	Fetal and adult testis-expressed transcript protein
+HTL1C	P14079	Q969H6	tax	POP5	Protein Tax-1	Ribonuclease P/MRP protein subunit POP5
+HTL1C	P14079	Q6ZVK8	tax	NUDT18	Protein Tax-1	8-oxo-dGDP phosphatase NUDT18
+HTL1C	P14079	Q92546	tax	RGP1	Protein Tax-1	RAB6A-GEF complex partner protein 2
+HTL1C	P14079	Q5T8I9	tax	HENMT1	Protein Tax-1	Small RNA 2'-O-methyltransferase
+HTL1C	P14079	P19013	tax	KRT4	Protein Tax-1	Keratin, type II cytoskeletal 4
+HTL1C	P14079	P19012	tax	KRT15	Protein Tax-1	Keratin, type I cytoskeletal 15
+HTL1C	P14079	P78560	tax	CRADD	Protein Tax-1	Death domain-containing protein CRADD
+HTL1C	P14079	O14595	tax	CTDSP2	Protein Tax-1	Carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase 2
+HTL1C	P14079	O15287	tax	FANCG	Protein Tax-1	Fanconi anemia group G protein
+HTL1C	P14079	Q53HC0	tax	CCDC92	Protein Tax-1	Coiled-coil domain-containing protein 92
+HTL1A	P03409	Q01085	tax	TIAL1	Protein Tax-1	Nucleolysin TIAR
+HTL1C	P14079	P43268	tax	Etv4	Protein Tax-1	ETS translocation variant 4
+HTL1C	P14079	Q33E94	tax	RFX4	Protein Tax-1	Transcription factor RFX4
+HTL1C	P14079	Q9GZT8	tax	NIF3L1	Protein Tax-1	NIF3-like protein 1
+HTL1C	P14079	P82932	tax	MRPS6	Protein Tax-1	Small ribosomal subunit protein bS6m
+HTL1C	P14079	Q96MT8	tax	CEP63	Protein Tax-1	Centrosomal protein of 63 kDa
+HTL1A	P03409	Q13283	tax	G3BP1	Protein Tax-1	Ras GTPase-activating protein-binding protein 1
+HTL1A	P03409	O14920	tax	IKBKB	Protein Tax-1	Inhibitor of nuclear factor kappa-B kinase subunit beta
+HTL1C	P14079	Q8IZQ1	tax	WDFY3	Protein Tax-1	WD repeat and FYVE domain-containing protein 3
+HTL1C	P14079	Q9NP87	tax	POLM	Protein Tax-1	DNA-directed DNA/RNA polymerase mu
+HTL1C	P14079	P29474	tax	NOS3	Protein Tax-1	Nitric oxide synthase 3
+HTL1A	P03409	Q9UBN7	tax	Hdac6	Protein Tax-1	Protein deacetylase HDAC6
+HTL1C	P14079	P05787	tax	Krt8	Protein Tax-1	Keratin, type II cytoskeletal 8
+HHV8	F5HBQ9	P82909	ORF70	KGD4	Thymidylate synthase	Alpha-ketoglutarate dehydrogenase component 4
+HHV8	E5LBT9	O15131	orf17	KPNA5	Capsid scaffolding protein	Importin subunit alpha-6
+HHV8	Q76RH3	Q5QP82	ORF38	DCAF10	Cytoplasmic envelopment protein 3	DDB1- and CUL4-associated factor 10
+HHV8	Q76RH3	Q9BTE7	ORF38	DCUN1D5	Cytoplasmic envelopment protein 3	DCN1-like protein 5
+HHV8	E5LBT9	Q9UIL1	orf17	SCOC	Capsid scaffolding protein	Short coiled-coil protein
+HHV8	Q76S40	Q66LE6	ORF2	PPP2R2D	dihydrofolate reductase	Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B delta isoform
+HHV8	Q76S40	Q96C92	ORF2	ENTR1	dihydrofolate reductase	Endosome-associated-trafficking regulator 1
+HHV8	Q76S40	Q9H5V9	ORF2	STEEP1	dihydrofolate reductase	STING ER exit protein
+HHV8	Q76RH3	Q96MW5	ORF38	COG8	Cytoplasmic envelopment protein 3	Conserved oligomeric Golgi complex subunit 8
+HHV8	Q76RF7	Q96PD5	ORF60	PGLYRP2	ribonucleoside-diphosphate reductase	N-acetylmuramoyl-L-alanine amidase
+HHV8	F5HBQ9	O00330	ORF70	PDHX	Thymidylate synthase	Pyruvate dehydrogenase protein X component, mitochondrial
+HHV8	F5HBQ9	P36957	ORF70	DLST	Thymidylate synthase	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex, mitochondrial
+HHV8	F5HBQ9	Q4G0N4	ORF70	NADK2	Thymidylate synthase	NAD kinase 2, mitochondrial
+HHV8	F5HBQ9	Q9Y2Z0	ORF70	SUGT1	Thymidylate synthase	Protein SGT1 homolog
+HHV8	Q76S40	O60678	ORF2	PRMT3	dihydrofolate reductase	Protein arginine N-methyltransferase 3
+HHV8	Q76RF7	Q9H4P4	ORF60	RNF41	ribonucleoside-diphosphate reductase	E3 ubiquitin-protein ligase NRDP1
+HHV8	F5HBQ9	P08559	ORF70	PDHA1	Thymidylate synthase	Pyruvate dehydrogenase E1 component subunit alpha, somatic form, mitochondrial
+HHV8	E5LBT9	O60684	orf17	KPNA6	Capsid scaffolding protein	Importin subunit alpha-7
+HHV8	E5LBT9	Q9NZC7	orf17	WWOX	Capsid scaffolding protein	WW domain-containing oxidoreductase
+HHV8	F5HBQ9	O94826	ORF70	TOMM70	Thymidylate synthase	Mitochondrial import receptor subunit TOM70
+HHV8	F5HBQ9	P10515	ORF70	DLAT	Thymidylate synthase	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex, mitochondrial
+HHV8	E5LBT9	P52294	orf17	KPNA1	Capsid scaffolding protein	Importin subunit alpha-5
+HHV8	Q76S40	P63151	ORF2	PPP2R2A	dihydrofolate reductase	Serine/threonine-protein phosphatase 2A 55 kDa regulatory subunit B alpha isoform
+HHV8	Q76RH3	Q15172	ORF38	PPP2R5A	Cytoplasmic envelopment protein 3	Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit alpha isoform
+HHV8	F5HBQ9	Q02218	ORF70	OGDH	Thymidylate synthase	2-oxoglutarate dehydrogenase complex component E1
+HHV8	Q76S40	Q13162	ORF2	PRDX4	dihydrofolate reductase	Peroxiredoxin-4
+HHV8	Q76S40	P22234	ORF2	PAICS	dihydrofolate reductase	Bifunctional phosphoribosylaminoimidazole carboxylase/phosphoribosylaminoimidazole succinocarboxamide synthetase
+HHV8	Q76RH3	Q7L1Q6	ORF38	BZW1	Cytoplasmic envelopment protein 3	eIF5-mimic protein 2
+HHV8	F5HBQ9	P04818	ORF70	TYMS	Thymidylate synthase	Thymidylate synthase
+HHV8	Q76S40	Q07666	ORF2	KHDRBS1	dihydrofolate reductase	KH domain-containing, RNA-binding, signal transduction-associated protein 1
+HHV8	Q76RH3	P50897	ORF38	PPT1	Cytoplasmic envelopment protein 3	Palmitoyl-protein thioesterase 1

@@ -14,7 +14,7 @@ import re
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 INPUT_FILE = "../data/full_intact_data.tsv"
-OUTPUT_FILE = "../data/virus_host_interactions_data.tsv"
+OUTPUT_FILE = "../data/ppi_data.tsv"
 HUMAN_TAXID = "9606"
 counter_na = 0
 counter_dup = 0

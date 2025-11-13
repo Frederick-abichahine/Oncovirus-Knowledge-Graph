@@ -12,7 +12,7 @@ import time
 ########################################
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-INPUT_FILE = "../data/protein_short.tsv"
+INPUT_FILE = "../data/host_protein_data.tsv" # Also do for viral proteins
 OUTPUT_FILE = "../data/protein_annotation_data.tsv"
 df = pd.read_csv(INPUT_FILE, sep="\t")
 id_column = df.columns[1]
@@ -71,7 +71,12 @@ print(f"Total records before cleaning: {len(results)}")
 results = [r for r in results if r["Function"] and r["Localization"]]
 print(f"Total records after cleaning: {len(results)}")
 
-# Saving results
+# Adding ID column
+for idx, record in enumerate(results, 1):
+    record["ID"] = idx
 out_df = pd.DataFrame(results)
+out_df = out_df[["ID"] + [col for col in out_df.columns if col != "ID"]]
+
+# Saving results
 out_df.to_csv(OUTPUT_FILE, sep="\t", index=False)
 print(f"Saved UniProt information to {OUTPUT_FILE}")

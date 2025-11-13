@@ -1,0 +1,7 @@
+ID	Type	Source 	Trait	VirseName
+1	dsDNA-RT	https://viralzone.expasy.org/101	Enveloped, spherical. Diameter from about 42nm.	Hepatitis B virus
+2	RNA	https://viralzone.expasy.org/43	Enveloped, spherical, about 50 nm in diameter. The surface proteins are arranged in an icosahedral-like symmetry.	Hepatitis C virus
+3	dsDNA	https://viralzone.expasy.org/5	Non-enveloped. Small, icosahedral, about 60 nm in size. A single molecule of circular dsDNA is contained within the T=7 icosahedral capsid, which is composed of 72 pentamers.	Human Papillomavirus
+4	dsDNA	https://viralzone.expasy.org/185	Enveloped, spherical to pleomorphic, 150-200 nm in diameter. Capsid consists of 162 capsomers and is surrounded by an amorphous tegument. Glycoproteins complexes are embedded in the lipid envelope.	Epstein–Barr virus 
+5	ssRNA-RT	https://viralzone.expasy.org/91	Enveloped. Spherical to pleomorphic, about 80-100 nm in diameter. Mature capsid is quasi-icosahedral.	Human T-cell lymphotropic virus type 1
+6	dsDNA	https://viralzone.expasy.org/18	Enveloped, spherical to pleomorphic, 150-200 nm in diameter. Capsid consists of 162 capsomers and is surrounded by an amorphous tegument. Glycoproteins complexes are embeded in the lipid envelope.	Human gammaherpesvirus 8

@@ -1,0 +1,32 @@
+ID	VirusCode	ViralProteinID	VirusGeneName	VirusProteinName
+1	EBVB9	P12978	EBNA2	Epstein-Barr nuclear antigen 2
+2	EBVB9	P03203	EBNA4	Epstein-Barr nuclear antigen 4
+3	EBVB9	P12977	EBNA3	Epstein-Barr nuclear antigen 3
+4	EBVB9	P03204	EBNA6	Epstein-Barr nuclear antigen 6
+5	EBVB9	P03230	LMP1	Latent membrane protein 1
+6	EBVB9	Q8AZK7	EBNA-LP	Epstein-Barr nuclear antigen leader protein
+7	EBVB9	P03177	TK	Thymidine kinase
+8	EBVB9	P13285	LMP2	Latent membrane protein 2
+9	EBVB9	P03211	EBNA1	Epstein-Barr nuclear antigen 1
+10	EBVB9	P03231	gH	Envelope glycoprotein H
+11	HBV	Q784Z8	C	Capsid protein
+12	HBV	Q778I9	C	Capsid protein
+13	HBV	Q9QMH9	X	Protein X
+14	HBV	Q4AE16	X	Protein X
+15	HPV18	P06463	E6	Protein E6
+16	HPV16	P03126	E6	Protein E6
+17	HPV18	P06792	E5	Probable protein E5
+18	HPV16	P03120	E2	Regulatory protein E2
+19	HPV18	P06789	E1	Replication protein E1
+20	HPV16	P06927	E5	Probable protein E5
+21	HPV16	P03129	E7	Protein E7
+22	HPV18	P06788	E7	Protein E7
+23	HPV18	P06790	E2	Regulatory protein E2
+24	HTL1C	P0C745	HBZ	HTLV-1 basic zipper factor
+25	HTL1C	P14079	tax	Protein Tax-1
+26	HTL1A	P03409	tax	Protein Tax-1
+27	HHV8	F5HBQ9	ORF70	Thymidylate synthase
+28	HHV8	E5LBT9	orf17	Capsid scaffolding protein
+29	HHV8	Q76RH3	ORF38	Cytoplasmic envelopment protein 3
+30	HHV8	Q76S40	ORF2	dihydrofolate reductase
+31	HHV8	Q76RF7	ORF60	ribonucleoside-diphosphate reductase

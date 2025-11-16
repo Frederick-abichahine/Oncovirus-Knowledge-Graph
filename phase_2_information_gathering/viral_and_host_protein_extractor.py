@@ -53,7 +53,7 @@ with open(INPUT_FILE, "r") as infile:
 
 with open(OUTPUT_FILE_1, "w", newline="") as outfile1:
     writer = csv.writer(outfile1, delimiter="\t")
-    writer.writerow(["VirusCode", "ViralProteinID", "VirusGeneName", "VirusProteinName"])
+    writer.writerow(["VirusCode", "ViralProteinID", "ViralGeneName", "ViralProteinName"])
     for vp_id, details in viral_proteins.items():
         writer.writerow([details["VirusCode"], vp_id, details["GeneName"], details["ProteinName"]])
 

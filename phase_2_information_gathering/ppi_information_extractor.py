@@ -72,9 +72,9 @@ with open(INPUT_FILE, "r", encoding="utf-8") as infile, open(OUTPUT_FILE, "w", e
         "VirusCode",
         "ViralProteinID",
         "HostProteinID",
-        "VirusGeneName",
+        "ViralGeneName",
         "HostGeneName",
-        "VirusProteinName",
+        "ViralProteinName",
         "HostProteinName"
     ])
 
@@ -126,7 +126,7 @@ with open(INPUT_FILE, "r", encoding="utf-8") as infile, open(OUTPUT_FILE, "w", e
         if not is_valid_record(record):
             continue
 
-        # Skipping duplicate records (based on VirusCode, VirusProteinID and HostProteinID)
+        # Skipping duplicate records (based on VirusCode, ViralProteinID and HostProteinID)
         key = (virus_code, virus_id, host_id)
         if key in seen:
             counter_dup += 1

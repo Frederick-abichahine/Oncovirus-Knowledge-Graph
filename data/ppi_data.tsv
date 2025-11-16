@@ -1,4 +1,4 @@
-ID	VirusCode	ViralProteinID	HostProteinID	VirusGeneName	HostGeneName	VirusProteinName	HostProteinName
+ID	VirusCode	ViralProteinID	HostProteinID	ViralGeneName	HostGeneName	ViralProteinName	HostProteinName
 1	EBVB9	P12978	Q06330	EBNA2	RBPJ	Epstein-Barr nuclear antigen 2	Recombining binding protein suppressor of hairless
 2	EBVB9	P03203	Q06330	EBNA4	RBPJ	Epstein-Barr nuclear antigen 4	Recombining binding protein suppressor of hairless
 3	EBVB9	P12977	Q06330	EBNA3	RBPJ	Epstein-Barr nuclear antigen 3	Recombining binding protein suppressor of hairless

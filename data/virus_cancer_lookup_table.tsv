@@ -1,0 +1,13 @@
+ID	VirusCode	CancerType
+1	HBV	Hepatocellular carcinoma
+2	HCV	Hepatocellular carcinoma
+3	HPV18	Squamous cell carcinoma
+4	HPV16	Squamous cell carcinoma
+5	EBVB9	Burkitt lymphoma
+6	EBVB9	Hodgkin lymphoma
+7	EBVB9	Nasopharyngeal carcinoma
+8	EBVB9	Gastric carcinoma
+9	HTL1C	Adult T-cell leukemia/lymphoma
+10	HTL1A	Adult T-cell leukemia/lymphoma
+11	HHV8	Kaposi's sarcoma
+12	HHV8	Primary effusion lymphoma

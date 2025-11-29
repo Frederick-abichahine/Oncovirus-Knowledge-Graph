@@ -1,4 +1,4 @@
-ID	Type	Source 	Trait	VirusName
+phenotypeID	virusType	phenotypeSource 	trait	virusName
 1	dsDNA-RT	https://viralzone.expasy.org/101	Enveloped, spherical. Diameter from about 42nm.	Hepatitis B virus
 2	RNA	https://viralzone.expasy.org/43	Enveloped, spherical, about 50 nm in diameter. The surface proteins are arranged in an icosahedral-like symmetry.	Hepatitis C virus
 3	dsDNA	https://viralzone.expasy.org/5	Non-enveloped. Small, icosahedral, about 60 nm in size. A single molecule of circular dsDNA is contained within the T=7 icosahedral capsid, which is composed of 72 pentamers.	Human papillomavirus

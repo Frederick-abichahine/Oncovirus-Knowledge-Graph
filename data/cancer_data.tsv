@@ -1,4 +1,4 @@
-ID	Type	PrimarySite
+cancerID	cancerType	primarySite
 1	Squamous cell carcinoma	Cervix, anus, vulva, vagina, penis, oropharynx
 2	Hepatocellular carcinoma	Liver
 3	Burkitt lymphoma	B-cells (lymphoid tissue)

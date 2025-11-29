@@ -17,7 +17,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 INPUT_FILE = "../data/host_protein_data.tsv" # Also do for viral proteins
 OUTPUT_FILE = "../data/protein_annotation_data.tsv"
 df = pd.read_csv(INPUT_FILE, sep="\t")
-id_column = df.columns[1]
+id_column = df.columns[0] # 0 for host, 1 for viral
 uniprot_ids = df[id_column].dropna().astype(str).tolist()
 results = []
 
@@ -37,22 +37,22 @@ def get_uniprot_info(uniprot_id):
     data = response.json()
 
     info = {
-        "ProteinID": data.get("primaryAccession"),
-        "Function": None,
-        "Localization": None,
+        "uniprotID": data.get("primaryAccession"),
+        "function": None,
+        "localization": None,
     }
 
     # Extracting function and localization information
     for comment in data.get("comments", []):
-        if comment.get("commentType") == "FUNCTION" and not info["Function"]:
+        if comment.get("commentType") == "FUNCTION" and not info["function"]:
             texts = comment.get("texts", [])
             if texts:
-                info["Function"] = texts[0].get("value")
+                info["function"] = texts[0].get("value")
 
-        if comment.get("commentType") == "SUBCELLULAR LOCATION" and not info["Localization"]:
+        if comment.get("commentType") == "SUBCELLULAR LOCATION" and not info["localization"]:
             locs = comment.get("subcellularLocations", [])
             if locs:
-                info["Localization"] = locs[0].get("location", {}).get("value")
+                info["localization"] = locs[0].get("location", {}).get("value")
 
     return info
 
@@ -70,14 +70,9 @@ for i, uid in enumerate(uniprot_ids, 1):
 
 # Cleaning the results by removing records with missing Function or Localization
 print(f"Total records before cleaning: {len(results)}")
-results = [r for r in results if r["Function"] and r["Localization"]]
+results = [r for r in results if r["function"] and r["localization"]]
 print(f"Total records after cleaning: {len(results)}")
-
-# Adding ID column
-for idx, record in enumerate(results, 1):
-    record["ID"] = idx
 out_df = pd.DataFrame(results)
-out_df = out_df[["ID"] + [col for col in out_df.columns if col != "ID"]]
 
 # Saving results
 out_df.to_csv(OUTPUT_FILE, sep="\t", index=False)

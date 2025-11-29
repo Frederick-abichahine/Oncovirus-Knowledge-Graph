@@ -53,20 +53,20 @@ def get_pathway_details(pathway_id):
         return None
 
     data = {
-        "PathwayID": pathway_id,
-        "Name": None,
-        "Category": None,
-        "Description": None,
-        "Source": f"https://www.kegg.jp/pathway/{pathway_id.split(':')[1]}"
+        "pathwayKeggID": pathway_id,
+        "pathwayName": None,
+        "pathwayCategory": None,
+        "pathwayDescription": None,
+        "pathwaySource": f"https://www.kegg.jp/pathway/{pathway_id.split(':')[1]}"
     }
 
     for line in r.text.split("\n"):
         if line.startswith("NAME"):
-            data["Name"] = line.replace("NAME", "").strip()
+            data["pathwayName"] = line.replace("NAME", "").strip()
         elif line.startswith("CLASS"):
-            data["Category"] = line.replace("CLASS", "").strip()
+            data["pathwayCategory"] = line.replace("CLASS", "").strip()
         elif line.startswith("DESCRIPTION"):
-            data["Description"] = line.replace("DESCRIPTION", "").strip()
+            data["pathwayDescription"] = line.replace("DESCRIPTION", "").strip()
     return data
 
 def get_kegg_info_for_uniprot(uniprot_id):
@@ -99,21 +99,21 @@ for i, uid in enumerate(uniprot_ids, 1):
     if pathways:
         for p in pathways:
             records.append({
-                "HostProteinID": clean_uid,
-                "PathwayID": p["PathwayID"],
-                "PathwayName": p["Name"],
-                "Category": p["Category"],
-                "Description": p["Description"],
-                "Source": p["Source"]
+                "hostUniprotID": clean_uid,
+                "pathwayKeggID": p["pathwayKeggID"],
+                "pathwayName": p["pathwayName"],
+                "pathwayCategory": p["pathwayCategory"],
+                "pathwayDescription": p["pathwayDescription"],
+                "pathwaySource": p["pathwaySource"]
             })
     else:
         records.append({
-            "HostProteinID": clean_uid,
-            "PathwayID": None,
-            "PathwayName": None,
-            "Category": None,
-            "Description": None,
-            "Source": None
+            "hostUniprotID": clean_uid,
+            "pathwayKeggID": None,
+            "pathwayName": None,
+            "pathwayCategory": None,
+            "pathwayDescription": None,
+            "pathwaySource": None
         })  
     time.sleep(0.5)  # To avoid overloading KEGG
     
@@ -123,6 +123,5 @@ for i, uid in enumerate(uniprot_ids, 1):
 
 out_df = pd.DataFrame(records)
 out_df = out_df.dropna()
-out_df.insert(0, "ID", range(1, len(out_df) + 1))
 out_df.to_csv(OUTPUT_FILE, sep="\t", index=False)
 print(f"Saved KEGG pathway information to {OUTPUT_FILE}")

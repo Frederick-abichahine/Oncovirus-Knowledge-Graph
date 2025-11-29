@@ -1,9 +1,9 @@
-ID	VirusCode	OrganismName	Species	Host
-1	HBV	Hepatitis B virus	Orthohepadnavirus hominoidei	Homo sapiens
-2	HCV	Hepatitis C virus	Hepacivirus hominis	Homo sapiens
-3	HPV18	Human papillomavirus	Gammapapillomavirus 26	Homo sapiens
-4	HPV16	Human papillomavirus	Gammapapillomavirus 26	Homo sapiens
-5	EBVB9	Epstein-Barr virus 	Human gammaherpesvirus 4	Homo sapiens
-6	HTL1C	Human T-cell lymphotropic virus type 1	Deltaretrovirus priTlym1	Homo sapiens
-7	HTL1A	Human T-cell lymphotropic virus type 1	Deltaretrovirus priTlym1	Homo sapiens
-8	HHV8	Human gammaherpesvirus 8	Human gammaherpesvirus 8	Homo sapiens
+virusCode	organismName	species	host
+HBV	Hepatitis B virus	Orthohepadnavirus hominoidei	Homo sapiens
+HCV	Hepatitis C virus	Hepacivirus hominis	Homo sapiens
+HPV18	Human papillomavirus	Gammapapillomavirus 26	Homo sapiens
+HPV16	Human papillomavirus	Gammapapillomavirus 26	Homo sapiens
+EBVB9	Epstein-Barr virus 	Human gammaherpesvirus 4	Homo sapiens
+HTL1C	Human T-cell lymphotropic virus type 1	Deltaretrovirus priTlym1	Homo sapiens
+HTL1A	Human T-cell lymphotropic virus type 1	Deltaretrovirus priTlym1	Homo sapiens
+HHV8	Human gammaherpesvirus 8	Human gammaherpesvirus 8	Homo sapiens

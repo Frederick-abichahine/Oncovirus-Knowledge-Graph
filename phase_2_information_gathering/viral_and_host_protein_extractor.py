@@ -26,25 +26,26 @@ with open(INPUT_FILE, "r") as infile:
     reader = csv.reader(infile, delimiter="\t")
     next(reader)
     for row in reader:
-        virus_code = row[0]
-        viral_protein_id = row[1]
-        host_protein_id = row[2]
-        virus_gene_name = row[3]
-        host_gene_name = row[4]
-        virus_protein_name = row[5]
-        host_protein_name = row[6]
+        id = row[0]
+        virus_code = row[1]
+        viral_protein_id = row[2]
+        host_protein_id = row[3]
+        virus_gene_name = row[4]
+        host_gene_name = row[5]
+        virus_protein_name = row[6]
+        host_protein_name = row[7]
 
         if viral_protein_id not in viral_proteins:
             viral_proteins[viral_protein_id] = {
-                "VirusCode": virus_code,
-                "GeneName": virus_gene_name,
-                "ProteinName": virus_protein_name
+                "virusCode": virus_code,
+                "viralGeneName": virus_gene_name,
+                "viralProteinName": virus_protein_name
             }
 
         if host_protein_id not in host_proteins:
             host_proteins[host_protein_id] = {
-                "GeneName": host_gene_name,
-                "ProteinName": host_protein_name
+                "hostGeneName": host_gene_name,
+                "hostProteinName": host_protein_name
             }
             
 #################################################
@@ -53,12 +54,12 @@ with open(INPUT_FILE, "r") as infile:
 
 with open(OUTPUT_FILE_1, "w", newline="") as outfile1:
     writer = csv.writer(outfile1, delimiter="\t")
-    writer.writerow(["VirusCode", "ViralProteinID", "ViralGeneName", "ViralProteinName"])
+    writer.writerow(["virusCode", "viralUniprotID", "viralGeneName", "viralProteinName"])
     for vp_id, details in viral_proteins.items():
-        writer.writerow([details["VirusCode"], vp_id, details["GeneName"], details["ProteinName"]])
+        writer.writerow([details["virusCode"], vp_id, details["viralGeneName"], details["viralProteinName"]])
 
 with open(OUTPUT_FILE_2, "w", newline="") as outfile2:
     writer = csv.writer(outfile2, delimiter="\t")
-    writer.writerow(["HostProteinID", "HostGeneName", "HostProteinName"])
+    writer.writerow(["hostUniprotID", "hostGeneName", "hostProteinName"])
     for hp_id, details in host_proteins.items():
-        writer.writerow([hp_id, details["GeneName"], details["ProteinName"]])
+        writer.writerow([hp_id, details["hostGeneName"], details["hostProteinName"]])

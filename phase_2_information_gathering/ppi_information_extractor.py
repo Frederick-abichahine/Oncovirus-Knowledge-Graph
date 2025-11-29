@@ -69,13 +69,13 @@ with open(INPUT_FILE, "r", encoding="utf-8") as infile, open(OUTPUT_FILE, "w", e
 
     # Creating file header
     writer.writerow([
-        "VirusCode",
-        "ViralProteinID",
-        "HostProteinID",
-        "ViralGeneName",
-        "HostGeneName",
-        "ViralProteinName",
-        "HostProteinName"
+        "virusCode",
+        "viralUniprotID",
+        "hostUniprotID",
+        "viralGeneName",
+        "hostGeneName",
+        "viralProteinName",
+        "hostProteinName"
     ])
 
     seen = set()

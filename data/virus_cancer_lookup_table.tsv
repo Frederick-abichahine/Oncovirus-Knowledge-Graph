@@ -1,4 +1,4 @@
-ID	VirusCode	CancerType
+lookupID	virusCode	cancerType
 1	HBV	Hepatocellular carcinoma
 2	HCV	Hepatocellular carcinoma
 3	HPV18	Squamous cell carcinoma

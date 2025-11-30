@@ -44,8 +44,6 @@
     <!-- https://w3id.org/oncovirus-kg#causes -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#causes">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Virus"/>
-        <rdfs:range rdf:resource="https://w3id.org/oncovirus-kg#Cancer"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Give rise to; cause to happen or occur, not always intentionally</rdfs:comment>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UKC-100755</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">causes</rdfs:label>
@@ -57,8 +55,6 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#encodes">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Virus"/>
-        <rdfs:range rdf:resource="https://w3id.org/oncovirus-kg#ViralProtein"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represents that a genetic element (such as a gene, transcript, or genomic region) of an organism specifies the sequence or structure of a functional product, typically a protein or RNA molecule. The relationship links the genetic source (subject) to the resulting biological product (object).</rdfs:comment>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-17</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">encodes</rdfs:label>
@@ -69,9 +65,6 @@
     <!-- https://w3id.org/oncovirus-kg#hasAnnotation -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#hasAnnotation">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#HostProtein"/>
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#ViralProtein"/>
-        <rdfs:range rdf:resource="https://w3id.org/oncovirus-kg#ProteinAnnotation"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Links an entity to a descriptive annotation or metadata.</rdfs:comment>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-20</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasAnnotation</rdfs:label>
@@ -82,8 +75,6 @@
     <!-- https://w3id.org/oncovirus-kg#hasPhenotype -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#hasPhenotype">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Virus"/>
-        <rdfs:range rdf:resource="https://w3id.org/oncovirus-kg#Phenotype"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Links an entity to an observed trait, characteristic, or phenotype.</rdfs:comment>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-21</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasPhenotype</rdfs:label>
@@ -95,8 +86,6 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#interactsWith">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#ViralProtein"/>
-        <rdfs:range rdf:resource="https://w3id.org/oncovirus-kg#HostProtein"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denotes that two entities engage in a direct or measurable interaction, influencing each other’s state, function, or behavior. This relationship is typically symmetric, reflecting mutual participation in the interaction.</rdfs:comment>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-19</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interactsWith</rdfs:label>
@@ -107,8 +96,6 @@
     <!-- https://w3id.org/oncovirus-kg#involvedIn -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#involvedIn">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#HostProtein"/>
-        <rdfs:range rdf:resource="https://w3id.org/oncovirus-kg#Pathway"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicates that an entity participates in, contributes to, or plays a role within a process, event, pathway, or higher-level activity. The relationship is generally directional, linking the participating entity (subject) to the broader process or context (object).</rdfs:comment>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-18</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involvedIn</rdfs:label>
@@ -119,8 +106,6 @@
     <!-- https://w3id.org/oncovirus-kg#targets -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#targets">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Vaccine"/>
-        <rdfs:range rdf:resource="https://w3id.org/oncovirus-kg#Virus"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intend (something) to move towards a certain goal.</rdfs:comment>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UKC-98182</rdfs:isDefinedBy>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">targets</rdfs:label>

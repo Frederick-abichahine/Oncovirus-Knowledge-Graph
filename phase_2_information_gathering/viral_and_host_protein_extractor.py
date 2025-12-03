@@ -15,7 +15,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 INPUT_FILE = "../data/ppi_data.tsv"
 OUTPUT_FILE_1 = "../data/viral_protein_data.tsv"
 OUTPUT_FILE_2 = "../data/host_protein_data.tsv"
-viral_proteins = {}
+viral_interactions = []
 host_proteins = {}
 
 ###############################
@@ -34,13 +34,16 @@ with open(INPUT_FILE, "r") as infile:
         host_gene_name = row[5]
         virus_protein_name = row[6]
         host_protein_name = row[7]
+        interaction_id = f"{viral_protein_id}/{host_protein_id}"
 
-        if viral_protein_id not in viral_proteins:
-            viral_proteins[viral_protein_id] = {
-                "virusCode": virus_code,
-                "viralGeneName": virus_gene_name,
-                "viralProteinName": virus_protein_name
-            }
+        viral_interactions.append({
+            "interactionID": interaction_id,
+            "virusCode": virus_code,
+            "viralUniprotID": viral_protein_id,
+            "hostUniprotID": host_protein_id,
+            "viralGeneName": virus_gene_name,
+            "viralProteinName": virus_protein_name
+        })
 
         if host_protein_id not in host_proteins:
             host_proteins[host_protein_id] = {
@@ -54,9 +57,23 @@ with open(INPUT_FILE, "r") as infile:
 
 with open(OUTPUT_FILE_1, "w", newline="") as outfile1:
     writer = csv.writer(outfile1, delimiter="\t")
-    writer.writerow(["virusCode", "viralUniprotID", "viralGeneName", "viralProteinName"])
-    for vp_id, details in viral_proteins.items():
-        writer.writerow([details["virusCode"], vp_id, details["viralGeneName"], details["viralProteinName"]])
+    writer.writerow([
+        "interactionID",
+        "virusCode",
+        "viralUniprotID",
+        "hostUniprotID",
+        "viralGeneName",
+        "viralProteinName"
+    ])
+    for record in viral_interactions:
+        writer.writerow([
+            record["interactionID"],
+            record["virusCode"],
+            record["viralUniprotID"],
+            record["hostUniprotID"],
+            record["viralGeneName"],
+            record["viralProteinName"]
+        ])
 
 with open(OUTPUT_FILE_2, "w", newline="") as outfile2:
     writer = csv.writer(outfile2, delimiter="\t")

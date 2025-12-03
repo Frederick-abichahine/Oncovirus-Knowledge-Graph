@@ -6,8 +6,10 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:webprotege="http://webprotege.stanford.edu/">
-    <owl:Ontology rdf:about="https://w3id.org/oncovirus-kg"/>
+     xmlns:etype="http://knowdive.disi.unitn.it/etype#">
+    <owl:Ontology rdf:about="https://w3id.org/oncovirus-kg">
+        <owl:versionIRI rdf:resource="http://knowdive.disi.unitn.it/etype#"/>
+    </owl:Ontology>
     
 
 
@@ -22,11 +24,56 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/RmcJVez4zUo3FTofO4oCKw -->
+    <!-- http://knowdive.disi.unitn.it/etype#comment -->
 
-    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/RmcJVez4zUo3FTofO4oCKw">
-        <rdfs:label>conceptD</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://knowdive.disi.unitn.it/etype#comment"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#isDefinedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://knowdive.disi.unitn.it/etype#isDefinedBy"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#label -->
+
+    <owl:AnnotationProperty rdf:about="http://knowdive.disi.unitn.it/etype#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://knowdive.disi.unitn.it/etype#PlainLiteral"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#anyURI -->
+
+    <rdfs:Datatype rdf:about="http://knowdive.disi.unitn.it/etype#anyURI"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#integer -->
+
+    <rdfs:Datatype rdf:about="http://knowdive.disi.unitn.it/etype#integer"/>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#string -->
+
+    <rdfs:Datatype rdf:about="http://knowdive.disi.unitn.it/etype#string"/>
     
 
 
@@ -41,74 +88,74 @@
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#causes -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_causes -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#causes">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Give rise to; cause to happen or occur, not always intentionally</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UKC-100755</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">causes</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_causes">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Give rise to; cause to happen or occur, not always intentionally</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">UKC-100755</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">causes</etype:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#encodes -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_encodes -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#encodes">
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_encodes">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represents that a genetic element (such as a gene, transcript, or genomic region) of an organism specifies the sequence or structure of a functional product, typically a protein or RNA molecule. The relationship links the genetic source (subject) to the resulting biological product (object).</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-17</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">encodes</rdfs:label>
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Represents that a genetic element (such as a gene, transcript, or genomic region) of an organism specifies the sequence or structure of a functional product, typically a protein or RNA molecule. The relationship links the genetic source (subject) to the resulting biological product (object).</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-17</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">encodes</etype:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#hasAnnotation -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_hasAnnotation -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#hasAnnotation">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Links an entity to a descriptive annotation or metadata.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-20</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasAnnotation</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_hasAnnotation">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Links an entity to a descriptive annotation or metadata.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-20</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">hasAnnotation</etype:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#hasPhenotype -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_hasPhenotype -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#hasPhenotype">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Links an entity to an observed trait, characteristic, or phenotype.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-21</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasPhenotype</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_hasPhenotype">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Links an entity to an observed trait, characteristic, or phenotype.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-21</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">hasPhenotype</etype:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#interactsWith -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_interactsWith -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#interactsWith">
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_interactsWith">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denotes that two entities engage in a direct or measurable interaction, influencing each other’s state, function, or behavior. This relationship is typically symmetric, reflecting mutual participation in the interaction.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-19</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interactsWith</rdfs:label>
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Denotes that two entities engage in a direct or measurable interaction, influencing each other’s state, function, or behavior. This relationship is typically symmetric, reflecting mutual participation in the interaction.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-19</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">interactsWith</etype:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#involvedIn -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_involvedIn -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#involvedIn">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicates that an entity participates in, contributes to, or plays a role within a process, event, pathway, or higher-level activity. The relationship is generally directional, linking the participating entity (subject) to the broader process or context (object).</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-18</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">involvedIn</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_involvedIn">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Indicates that an entity participates in, contributes to, or plays a role within a process, event, pathway, or higher-level activity. The relationship is generally directional, linking the participating entity (subject) to the broader process or context (object).</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-18</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">involvedIn</etype:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#targets -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_targets -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/oncovirus-kg#targets">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intend (something) to move towards a certain goal.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UKC-98182</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">targets</rdfs:label>
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_targets">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Intend (something) to move towards a certain goal.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">UKC-98182</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">targets</etype:label>
     </owl:ObjectProperty>
     
 
@@ -124,341 +171,294 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/R7qxZANCjajiQ3pjEstO9q0 -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_cancerID -->
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7qxZANCjajiQ3pjEstO9q0">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Identifier of a pathway from the KEGG pathway database.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://edamontology.org/data_2343"/>
-        <rdfs:label>pathwayKeggID</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_cancerID">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Unique identifier for the cancer record.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-02</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">cancerID</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/R8ASqI7TyzGj1ySm9YxepFg -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_cancerType -->
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8ASqI7TyzGj1ySm9YxepFg">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique Uniprot Reference to the host protein.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-12</rdfs:isDefinedBy>
-        <rdfs:label>hostUniprotID</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_cancerType">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">A type (represented as a string) of cancer.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://edamontology.org/data_2592"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#PlainLiteral">cancerType</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/R8bPytAlDLGpWXYgZ0S1W3z -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_function -->
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8bPytAlDLGpWXYgZ0S1W3z">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type (represented as a string) of cancer.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://edamontology.org/data_2592"/>
-        <rdfs:label>cancerType</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_function">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Serve a purpose, role, or function.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">UKC-105757</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">function</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/R8cbhrGGAmVUiNhKPGvOIXf -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_host -->
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8cbhrGGAmVUiNhKPGvOIXf">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An identifier of a polypeptide in the UniProt database.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://edamontology.org/data_2291"/>
-        <rdfs:label>uniprotID</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_host">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">An animal or plant that nourishes and supports a parasite; it does not benefit and is often harmed by the association.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">UKC-6810</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">host</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/R91hxUhnmf9eykE2vNC0iTi -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_hostProteinName -->
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R91hxUhnmf9eykE2vNC0iTi">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The broad functional class or grouping of a biological pathway.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-9</rdfs:isDefinedBy>
-        <rdfs:label>pathwayCategory</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_hostProteinName">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Official or common name of a host protein.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-16</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">hostProteinName</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/R95avDRXjCRQmhtfTcPut6N -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_hostUniprotID -->
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R95avDRXjCRQmhtfTcPut6N">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brief explanation of what the vaccine does and what it targets or prevents.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-05</rdfs:isDefinedBy>
-        <rdfs:label>vaccineDescription</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_hostUniprotID">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Unique Uniprot Reference to the host protein.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-12</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#PlainLiteral">hostUniprotID</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RBdeB3faqYgc5M5kUKo1mKC -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_localization -->
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBdeB3faqYgc5M5kUKo1mKC">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The origin, database, or reference from which vaccine information is obtained.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-06</rdfs:isDefinedBy>
-        <rdfs:label>vaccineSource</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_localization">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">A determination of the place where something is.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">UKC-695</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">localization</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RVX8PXlv0Bb8jaRtprWjZb -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_organismName -->
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RVX8PXlv0Bb8jaRtprWjZb">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Describes the category or classification of a virus.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/277234002"/>
-        <rdfs:label>virusType</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_organismName">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">The name of an organism (or group of organisms).</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://edamontology.org/data_2909"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">organismName</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/RZFBE3JmJ7VksWNmYfhdYb -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_pathwayCategory -->
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RZFBE3JmJ7VksWNmYfhdYb">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique Uniprot Reference to the viral protein.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-11</rdfs:isDefinedBy>
-        <rdfs:label>viralUniprotID</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_pathwayCategory">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">The broad functional class or grouping of a biological pathway.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-9</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#PlainLiteral">pathwayCategory</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://webprotege.stanford.edu/Rr66SjY9htiofDCiuF8EwJ -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_pathwayDescription -->
 
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rr66SjY9htiofDCiuF8EwJ">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The source or reference documenting the described phenotype.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-08</rdfs:isDefinedBy>
-        <rdfs:label>phenotypeSource</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_pathwayDescription">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">A brief explanation of what a pathway does or represents.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C164893"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">pathwayDescription</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#cancerID -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_pathwayKeggID -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#cancerID">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Cancer"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique identifier for the cancer record.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-02</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancerID</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_pathwayKeggID">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Identifier of a pathway from the KEGG pathway database.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://edamontology.org/data_2343"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#PlainLiteral">pathwayKeggID</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#function -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_pathwayName -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#function">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#ProteinAnnotation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serve a purpose, role, or function.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UKC-105757</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">function</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_pathwayName">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Name of the biological pathway.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C164895"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">pathwayName</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#host -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_pathwaySource -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#host">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Virus"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An animal or plant that nourishes and supports a parasite; it does not benefit and is often harmed by the association.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UKC-6810</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- https://w3id.org/oncovirus-kg#hostGeneName -->
-
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#hostGeneName">
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_pathwaySource">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#HostProtein"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standard name assigned to a host gene.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-14</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostGeneName</rdfs:label>
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">The origin, database, or reference providing the pathway information.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-10</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">pathwaySource</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#hostProteinName -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_phenotypeID -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#hostProteinName">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#HostProtein"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official or common name of a host protein.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-16</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hostProteinName</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_phenotypeID">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Unique identifier for the virus phenotype record.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-07</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">phenotypeID</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#localization -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_phenotypeSource -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#localization">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#ProteinAnnotation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A determination of the place where something is.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UKC-695</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">localization</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_phenotypeSource">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">The source or reference documenting the described phenotype.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-08</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#PlainLiteral">phenotypeSource</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#organismName -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_primarySite -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#organismName">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Virus"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The name of an organism (or group of organisms).</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://edamontology.org/data_2909"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organismName</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_primarySite">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Primary Site / Anatomical site or primary location associated with the cancer type.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://sbmi.uth.tmc.edu/ontology/ochv#C0449695"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">primarySite</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#pathwayDescription -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_species -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#pathwayDescription">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Pathway"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A brief explanation of what a pathway does or represents.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C164893"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathwayDescription</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_species">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">The name of a species (typically a taxonomic group) of organism.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://edamontology.org/data_1045"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">species</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#pathwayName -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_trait -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#pathwayName">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Pathway"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of the biological pathway.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C164895"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathwayName</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_trait">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Any genetically determined characteristic.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C85496"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">trait</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#pathwaySource -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_uniprotID -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#pathwaySource">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Pathway"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The origin, database, or reference providing the pathway information.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-10</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathwaySource</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_uniprotID">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">An identifier of a polypeptide in the UniProt database.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://edamontology.org/data_2291"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#PlainLiteral">uniprotID</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#phenotypeID -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_vaccineDescription -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#phenotypeID">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Phenotype"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique identifier for the virus phenotype record.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-07</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotypeID</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_vaccineDescription">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">A brief explanation of what the vaccine does and what it targets or prevents.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-05</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#PlainLiteral">vaccineDescription</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#primarySite -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_vaccineID -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#primarySite">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Cancer"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primary Site / Anatomical site or primary location associated with the cancer type.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://sbmi.uth.tmc.edu/ontology/ochv#C0449695"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primarySite</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_vaccineID">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Unique identifier for the vaccine record.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-03</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">vaccineID</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#species -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_vaccineName -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#species">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Virus"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The name of a species (typically a taxonomic group) of organism.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://edamontology.org/data_1045"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_vaccineName">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">The official or common name of a vaccine.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-04</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">vaccineName</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#trait -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_vaccineSource -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#trait">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Phenotype"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any genetically determined characteristic.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C85496"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trait</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_vaccineSource">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">The origin, database, or reference from which vaccine information is obtained.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-06</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#PlainLiteral">vaccineSource</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#vaccineID -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_viralGeneName -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#vaccineID">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Vaccine"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique identifier for the vaccine record.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-03</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vaccineID</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_viralGeneName">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Standard name assigned to a viral gene.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-13</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">viralGeneName</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#vaccineName -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_viralProteinName -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#vaccineName">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Vaccine"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The official or common name of a vaccine.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-04</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vaccineName</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_viralProteinName">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Official or common name of a viral protein.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-15</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">viralProteinName</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#viralGeneName -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_viralUniprotID -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#viralGeneName">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#ViralProtein"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standard name assigned to a viral gene.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-13</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viralGeneName</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_viralUniprotID">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Unique Uniprot Reference to the viral protein.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-11</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#PlainLiteral">viralUniprotID</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#viralProteinName -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_virusCode -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#viralProteinName">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#ViralProtein"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official or common name of a viral protein.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-15</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viralProteinName</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_virusCode">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Unique identifier assigned to a virus.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-01</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">virusCode</etype:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#virusCode -->
+    <!-- http://knowdive.disi.unitn.it/etype#has_virusType -->
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/oncovirus-kg#virusCode">
-        <rdfs:domain rdf:resource="https://w3id.org/oncovirus-kg#Virus"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique identifier assigned to a virus.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-01</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virusCode</rdfs:label>
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_virusType">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Describes the category or classification of a virus.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/277234002"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#PlainLiteral">virusType</etype:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#hostGeneName -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#hostGeneName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Standard name assigned to a host gene.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-14</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">hostGeneName</etype:label>
     </owl:DatatypeProperty>
     
 
@@ -474,82 +474,82 @@
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#Cancer -->
+    <!-- http://knowdive.disi.unitn.it/etype#Cancer -->
 
-    <owl:Class rdf:about="https://w3id.org/oncovirus-kg#Cancer">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any malignant growth or tumor caused by abnormal and uncontrolled cell division; it may spread to other parts of the body through the lymphatic system or the blood stream.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer</rdfs:label>
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Cancer">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Any malignant growth or tumor caused by abnormal and uncontrolled cell division; it may spread to other parts of the body through the lymphatic system or the blood stream.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Cancer</etype:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#HostProtein -->
+    <!-- http://knowdive.disi.unitn.it/etype#HostProtein -->
 
-    <owl:Class rdf:about="https://w3id.org/oncovirus-kg#HostProtein">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is produced by a host.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_0001068"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HostProtein</rdfs:label>
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#HostProtein">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">A protein that is produced by a host.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_0001068"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">HostProtein</etype:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#Pathway -->
+    <!-- http://knowdive.disi.unitn.it/etype#Pathway -->
 
-    <owl:Class rdf:about="https://w3id.org/oncovirus-kg#Pathway">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A set or series of interactions, often forming a network, which biologists have found useful to group together for organizational, historic, biophysical or other reasons. Usage: Pathways can be used for demarcating any subnetwork of a BioPAX model. It is also possible to define a pathway without specifying the interactions within the pathway. In this case, the pathway instance could consist simply of a name and could be treated as a &apos;black box&apos;. Pathways can overlap, i.e. a single interaction might belong to multiple pathways. Pathways can also contain sub-pathways. Synonyms: network, module, cascade, Examples: glycolysis, valine biosynthesis, EGFR signaling.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/PW_0000001"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway</rdfs:label>
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Pathway">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">A set or series of interactions, often forming a network, which biologists have found useful to group together for organizational, historic, biophysical or other reasons. Usage: Pathways can be used for demarcating any subnetwork of a BioPAX model. It is also possible to define a pathway without specifying the interactions within the pathway. In this case, the pathway instance could consist simply of a name and could be treated as a &apos;black box&apos;. Pathways can overlap, i.e. a single interaction might belong to multiple pathways. Pathways can also contain sub-pathways. Synonyms: network, module, cascade, Examples: glycolysis, valine biosynthesis, EGFR signaling.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/PW_0000001"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Pathway</etype:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#Phenotype -->
+    <!-- http://knowdive.disi.unitn.it/etype#Phenotype -->
 
-    <owl:Class rdf:about="https://w3id.org/oncovirus-kg#Phenotype">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">What an organism looks like as a consequence of the interaction of its genotype and the environment.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UKC-26778</rdfs:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phenotype</rdfs:label>
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Phenotype">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">What an organism looks like as a consequence of the interaction of its genotype and the environment.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">UKC-26778</etype:isDefinedBy>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Phenotype</etype:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#ProteinAnnotation -->
+    <!-- http://knowdive.disi.unitn.it/etype#ProteinAnnotation -->
 
-    <owl:Class rdf:about="https://w3id.org/oncovirus-kg#ProteinAnnotation">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Additional information and metadata on proteins.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/COMO_0000067"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProteinAnnotation</rdfs:label>
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#ProteinAnnotation">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Additional information and metadata on proteins.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/COMO_0000067"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">ProteinAnnotation</etype:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#Vaccine -->
+    <!-- http://knowdive.disi.unitn.it/etype#Vaccine -->
 
-    <owl:Class rdf:about="https://w3id.org/oncovirus-kg#Vaccine">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunogen consisting of a suspension of weakened or dead pathogenic cells injected in order to stimulate the production of antibodies.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaccine</rdfs:label>
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Vaccine">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Immunogen consisting of a suspension of weakened or dead pathogenic cells injected in order to stimulate the production of antibodies.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/VO_0000001"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Vaccine</etype:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#ViralProtein -->
+    <!-- http://knowdive.disi.unitn.it/etype#ViralProtein -->
 
-    <owl:Class rdf:about="https://w3id.org/oncovirus-kg#ViralProtein">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proteins encoded by viral genes.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17254"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ViralProtein</rdfs:label>
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#ViralProtein">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Proteins encoded by viral genes.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17254"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">ViralProtein</etype:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/oncovirus-kg#Virus -->
+    <!-- http://knowdive.disi.unitn.it/etype#Virus -->
 
-    <owl:Class rdf:about="https://w3id.org/oncovirus-kg#Virus">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultramicroscopic infectious agent that replicates itself only within cells of living hosts; many are pathogenic; a piece of nucleic acid (DNA or RNA) wrapped in a thin coat of protein.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://purl.bioontology.org/ontology/STY/T005"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Virus</rdfs:label>
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Virus">
+        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Ultramicroscopic infectious agent that replicates itself only within cells of living hosts; many are pathogenic; a piece of nucleic acid (DNA or RNA) wrapped in a thin coat of protein.</etype:comment>
+        <etype:isDefinedBy rdf:resource="http://purl.bioontology.org/ontology/STY/T005"/>
+        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Virus</etype:label>
     </owl:Class>
 </rdf:RDF>
 

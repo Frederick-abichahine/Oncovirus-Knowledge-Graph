@@ -1,0 +1,27 @@
+<http://localhost:8080/source/HBV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/1> <http://knowdive.disi.unitn.it/etype#has_vaccineName> "Recombinant vaccines (Engerix-B, Recombivax HB)" .
+<http://localhost:8080/source/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Vaccine> .
+<http://localhost:8080/source/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/1> <http://knowdive.disi.unitn.it/etype#has_vaccineDescription> "Protect against all major Hepatitis B strains and prevent liver cancer"@en .
+<http://localhost:8080/source/HBV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/1> <http://knowdive.disi.unitn.it/etype#has_vaccineSource> "https://www.cdc.gov/hepatitis-b/vaccination/index.html" .
+<http://localhost:8080/source/1> <http://knowdive.disi.unitn.it/etype#has_targets> <http://localhost:8080/source/HBV> .
+
+<http://localhost:8080/source/2> <http://knowdive.disi.unitn.it/etype#has_targets> <http://localhost:8080/source/HPV18> .
+<http://localhost:8080/source/2> <http://knowdive.disi.unitn.it/etype#has_vaccineName> "Gardasil-9 (9vHPV)" .
+<http://localhost:8080/source/2> <http://knowdive.disi.unitn.it/etype#has_vaccineSource> "https://www.cdc.gov/hpv/vaccines/index.html" .
+<http://localhost:8080/source/HPV18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/2> <http://knowdive.disi.unitn.it/etype#has_vaccineDescription> "Protect against HPV types 16 and 18 that cause most HPV cancers."@en .
+<http://localhost:8080/source/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Vaccine> .
+<http://localhost:8080/source/HPV18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/3> <http://knowdive.disi.unitn.it/etype#has_vaccineSource> "https://www.cdc.gov/hpv/vaccines/index.html" .
+<http://localhost:8080/source/HPV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/3> <http://knowdive.disi.unitn.it/etype#has_vaccineName> "Gardasil-9 (9vHPV)" .
+<http://localhost:8080/source/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/3> <http://knowdive.disi.unitn.it/etype#has_vaccineDescription> "Protect against HPV types 16 and 18 that cause most HPV cancers."@en .
+<http://localhost:8080/source/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Vaccine> .
+<http://localhost:8080/source/HPV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/3> <http://knowdive.disi.unitn.it/etype#has_targets> <http://localhost:8080/source/HPV16> .
+

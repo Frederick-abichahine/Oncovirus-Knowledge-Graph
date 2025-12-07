@@ -1,0 +1,563 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix karma: <http://isi.edu/integration/karma/ontologies/model/current#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix webprotege: <http://webprotege.stanford.edu/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1jbtb3d7ex1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "proteinAnnotation.csv" ;
+	km-dev:modelPublicationTime "1765142541550"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"localization\"}],[{\"columnName\":\"function \"}],[{\"columnName\":\"uniprotID\"}],[{\"columnName\":\"proteinAnnotationID\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"localization\"}],[{\"columnName\":\"function \"}],[{\"columnName\":\"uniprotID\"}],[{\"columnName\":\"proteinAnnotationID\"}]]" ;
+	km-dev:hasModelLabel "proteinAnnotation.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"ID\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#ProteinAnnotation\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#ProteinAnnotation1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#ProteinAnnotation\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#ProteinAnnotation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"etype:ProteinAnnotation1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ID\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"ID\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"uniprotID\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#HostProtein\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#HostProtein1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#HostProtein\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#HostProtein1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"etype:HostProtein1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"uniprotID\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"uniprotID\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"localization\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#ProteinAnnotation\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#ProteinAnnotation1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_localization\",
+                    \"DomainLabel\": \"etype:ProteinAnnotation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"localization\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"localization\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"function \"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#ProteinAnnotation\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#ProteinAnnotation1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_function\",
+                    \"DomainLabel\": \"etype:ProteinAnnotation1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"function \\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"function \\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#ProteinAnnotation1\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_hasAnnotation\",
+                    \"isProvenance\": false,
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#ViralProtein1\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#ViralProtein1\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_encodes\",
+                    \"isProvenance\": false,
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Virus1\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#HostProtein1\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_interactsWith\",
+                    \"isProvenance\": false,
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#ViralProtein1\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_8a0420bb-98a3-4d2b-bc39-9400fedb045d a rr:TriplesMap .
+
+_:node1jbtb3d7ex1 km-dev:hasTriplesMap km-dev:TriplesMap_8a0420bb-98a3-4d2b-bc39-9400fedb045d .
+
+km-dev:TriplesMap_8a0420bb-98a3-4d2b-bc39-9400fedb045d km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex2 rr:tableName "proteinAnnotation.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasLogicalTable _:node1jbtb3d7ex2 .
+
+km-dev:TriplesMap_8a0420bb-98a3-4d2b-bc39-9400fedb045d rr:logicalTable _:node1jbtb3d7ex2 ;
+	rr:subjectMap _:node1jbtb3d7ex3 .
+
+_:node1jbtb3d7ex1 km-dev:hasSubjectMap _:node1jbtb3d7ex3 .
+
+_:node1jbtb3d7ex3 km-dev:isPartOfMapping _:node1jbtb3d7ex1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#ViralProtein1" ;
+	rr:class etype:ViralProtein ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:ViralProtein1" .
+
+km-dev:PredicateObjectMap_b0c4badb-c3e3-4aaa-8cf2-bfc7f5ac44fc rr:predicate etype:has_interactsWith .
+
+km-dev:RefObjectMap_acb7d9f1-3202-4d0b-8626-2b4c0a3ec144 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_ecc4f40f-1df5-4f6b-9d00-475be5c99967 ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasObjectMap km-dev:RefObjectMap_acb7d9f1-3202-4d0b-8626-2b4c0a3ec144 .
+
+km-dev:PredicateObjectMap_b0c4badb-c3e3-4aaa-8cf2-bfc7f5ac44fc rr:objectMap km-dev:RefObjectMap_acb7d9f1-3202-4d0b-8626-2b4c0a3ec144 .
+
+km-dev:TriplesMap_8a0420bb-98a3-4d2b-bc39-9400fedb045d rr:predicateObjectMap km-dev:PredicateObjectMap_b0c4badb-c3e3-4aaa-8cf2-bfc7f5ac44fc .
+
+km-dev:PredicateObjectMap_b0c4badb-c3e3-4aaa-8cf2-bfc7f5ac44fc a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b0c4badb-c3e3-4aaa-8cf2-bfc7f5ac44fc .
+
+km-dev:PredicateObjectMap_b4c8393f-a2fd-4a08-aa49-27722546635c rr:predicate etype:has_hasAnnotation .
+
+km-dev:RefObjectMap_0d62dd44-9722-477f-be39-05e63dade1b9 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_75d75776-500d-41cf-9aff-f8b67bcacfdf ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasObjectMap km-dev:RefObjectMap_0d62dd44-9722-477f-be39-05e63dade1b9 .
+
+km-dev:PredicateObjectMap_b4c8393f-a2fd-4a08-aa49-27722546635c rr:objectMap km-dev:RefObjectMap_0d62dd44-9722-477f-be39-05e63dade1b9 .
+
+km-dev:TriplesMap_8a0420bb-98a3-4d2b-bc39-9400fedb045d rr:predicateObjectMap km-dev:PredicateObjectMap_b4c8393f-a2fd-4a08-aa49-27722546635c .
+
+km-dev:PredicateObjectMap_b4c8393f-a2fd-4a08-aa49-27722546635c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b4c8393f-a2fd-4a08-aa49-27722546635c .
+
+km-dev:TriplesMap_ecc4f40f-1df5-4f6b-9d00-475be5c99967 a rr:TriplesMap .
+
+_:node1jbtb3d7ex1 km-dev:hasTriplesMap km-dev:TriplesMap_ecc4f40f-1df5-4f6b-9d00-475be5c99967 .
+
+km-dev:TriplesMap_ecc4f40f-1df5-4f6b-9d00-475be5c99967 km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex4 rr:tableName "proteinAnnotation.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasLogicalTable _:node1jbtb3d7ex4 .
+
+km-dev:TriplesMap_ecc4f40f-1df5-4f6b-9d00-475be5c99967 rr:logicalTable _:node1jbtb3d7ex4 ;
+	rr:subjectMap _:node1jbtb3d7ex5 .
+
+_:node1jbtb3d7ex1 km-dev:hasSubjectMap _:node1jbtb3d7ex5 .
+
+_:node1jbtb3d7ex5 km-dev:isPartOfMapping _:node1jbtb3d7ex1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#HostProtein1" ;
+	rr:class etype:HostProtein ;
+	rr:template "{uniprotID}" .
+
+km-dev:TriplesMap_75d75776-500d-41cf-9aff-f8b67bcacfdf a rr:TriplesMap .
+
+_:node1jbtb3d7ex1 km-dev:hasTriplesMap km-dev:TriplesMap_75d75776-500d-41cf-9aff-f8b67bcacfdf .
+
+km-dev:TriplesMap_75d75776-500d-41cf-9aff-f8b67bcacfdf km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex6 rr:tableName "proteinAnnotation.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasLogicalTable _:node1jbtb3d7ex6 .
+
+km-dev:TriplesMap_75d75776-500d-41cf-9aff-f8b67bcacfdf rr:logicalTable _:node1jbtb3d7ex6 ;
+	rr:subjectMap _:node1jbtb3d7ex7 .
+
+_:node1jbtb3d7ex1 km-dev:hasSubjectMap _:node1jbtb3d7ex7 .
+
+_:node1jbtb3d7ex7 km-dev:isPartOfMapping _:node1jbtb3d7ex1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#ProteinAnnotation1" ;
+	rr:class etype:ProteinAnnotation ;
+	rr:template "{proteinAnnotationID}" .
+
+km-dev:PredicateObjectMap_df459c68-a9b6-4f3a-b054-030317695863 rr:predicate etype:has_localization .
+
+_:node1jbtb3d7ex8 rr:column "localization" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasObjectMap _:node1jbtb3d7ex8 .
+
+km-dev:PredicateObjectMap_df459c68-a9b6-4f3a-b054-030317695863 rr:objectMap _:node1jbtb3d7ex8 .
+
+km-dev:TriplesMap_75d75776-500d-41cf-9aff-f8b67bcacfdf rr:predicateObjectMap km-dev:PredicateObjectMap_df459c68-a9b6-4f3a-b054-030317695863 .
+
+km-dev:PredicateObjectMap_df459c68-a9b6-4f3a-b054-030317695863 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_df459c68-a9b6-4f3a-b054-030317695863 .
+
+km-dev:PredicateObjectMap_deb8d980-97c8-4ca9-a8d2-010ef9ea869a rr:predicate etype:has_function .
+
+_:node1jbtb3d7ex9 rr:column "function " ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasObjectMap _:node1jbtb3d7ex9 .
+
+km-dev:PredicateObjectMap_deb8d980-97c8-4ca9-a8d2-010ef9ea869a rr:objectMap _:node1jbtb3d7ex9 .
+
+km-dev:TriplesMap_75d75776-500d-41cf-9aff-f8b67bcacfdf rr:predicateObjectMap km-dev:PredicateObjectMap_deb8d980-97c8-4ca9-a8d2-010ef9ea869a .
+
+km-dev:PredicateObjectMap_deb8d980-97c8-4ca9-a8d2-010ef9ea869a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_deb8d980-97c8-4ca9-a8d2-010ef9ea869a .
+
+km-dev:TriplesMap_a5ac2221-f284-4549-b2c9-0efacf4fa608 a rr:TriplesMap .
+
+_:node1jbtb3d7ex1 km-dev:hasTriplesMap km-dev:TriplesMap_a5ac2221-f284-4549-b2c9-0efacf4fa608 .
+
+km-dev:TriplesMap_a5ac2221-f284-4549-b2c9-0efacf4fa608 km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex10 rr:tableName "proteinAnnotation.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasLogicalTable _:node1jbtb3d7ex10 .
+
+km-dev:TriplesMap_a5ac2221-f284-4549-b2c9-0efacf4fa608 rr:logicalTable _:node1jbtb3d7ex10 ;
+	rr:subjectMap _:node1jbtb3d7ex11 .
+
+_:node1jbtb3d7ex1 km-dev:hasSubjectMap _:node1jbtb3d7ex11 .
+
+_:node1jbtb3d7ex11 km-dev:isPartOfMapping _:node1jbtb3d7ex1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Virus1" ;
+	rr:class etype:Virus ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Virus1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_b878eef6-6549-4205-955e-fb67872e157c rr:predicate etype:has_encodes .
+
+km-dev:RefObjectMap_18533ad3-b5cb-448f-a14a-0433f9419148 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8a0420bb-98a3-4d2b-bc39-9400fedb045d ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasObjectMap km-dev:RefObjectMap_18533ad3-b5cb-448f-a14a-0433f9419148 .
+
+km-dev:PredicateObjectMap_b878eef6-6549-4205-955e-fb67872e157c rr:objectMap km-dev:RefObjectMap_18533ad3-b5cb-448f-a14a-0433f9419148 .
+
+km-dev:TriplesMap_a5ac2221-f284-4549-b2c9-0efacf4fa608 rr:predicateObjectMap km-dev:PredicateObjectMap_b878eef6-6549-4205-955e-fb67872e157c .
+
+km-dev:PredicateObjectMap_b878eef6-6549-4205-955e-fb67872e157c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jbtb3d7ex1 .
+
+_:node1jbtb3d7ex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b878eef6-6549-4205-955e-fb67872e157c .

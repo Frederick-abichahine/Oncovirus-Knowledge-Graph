@@ -1,0 +1,50 @@
+<http://localhost:8080/source/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/1> <http://knowdive.disi.unitn.it/etype#has_primarySite> "Cervix, anus, vulva, vagina, penis, oropharynx"@en .
+<http://localhost:8080/source/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/1> <http://knowdive.disi.unitn.it/etype#has_cancerType> "Squamous cell carcinoma"@en .
+
+<http://localhost:8080/source/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2> <http://knowdive.disi.unitn.it/etype#has_primarySite> "Liver"@en .
+<http://localhost:8080/source/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/2> <http://knowdive.disi.unitn.it/etype#has_cancerType> "Hepatocellular carcinoma"@en .
+
+<http://localhost:8080/source/3> <http://knowdive.disi.unitn.it/etype#has_cancerType> "Burkitt lymphoma"@en .
+<http://localhost:8080/source/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/3> <http://knowdive.disi.unitn.it/etype#has_primarySite> "B-cells (lymphoid tissue)"@en .
+<http://localhost:8080/source/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+
+<http://localhost:8080/source/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/4> <http://knowdive.disi.unitn.it/etype#has_primarySite> "Lymph nodes"@en .
+<http://localhost:8080/source/4> <http://knowdive.disi.unitn.it/etype#has_cancerType> "Hodgkin lymphoma"@en .
+
+<http://localhost:8080/source/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/5> <http://knowdive.disi.unitn.it/etype#has_primarySite> "Nasopharynx"@en .
+<http://localhost:8080/source/5> <http://knowdive.disi.unitn.it/etype#has_cancerType> "Nasopharyngeal carcinoma"@en .
+
+<http://localhost:8080/source/6> <http://knowdive.disi.unitn.it/etype#has_primarySite> "Stomach"@en .
+<http://localhost:8080/source/6> <http://knowdive.disi.unitn.it/etype#has_cancerType> "Gastric carcinoma"@en .
+<http://localhost:8080/source/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+
+<http://localhost:8080/source/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/7> <http://knowdive.disi.unitn.it/etype#has_cancerType> "Adult T-cell leukemia/lymphoma"@en .
+<http://localhost:8080/source/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/7> <http://knowdive.disi.unitn.it/etype#has_primarySite> "T-cells"@en .
+
+<http://localhost:8080/source/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/8> <http://knowdive.disi.unitn.it/etype#has_cancerType> "Kaposi's sarcoma"@en .
+<http://localhost:8080/source/8> <http://knowdive.disi.unitn.it/etype#has_primarySite> "Endothelial cells / skin"@en .
+
+<http://localhost:8080/source/9> <http://knowdive.disi.unitn.it/etype#has_cancerType> "Primary effusion lymphoma"@en .
+<http://localhost:8080/source/9> <http://knowdive.disi.unitn.it/etype#has_primarySite> "B-cells"@en .
+<http://localhost:8080/source/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+
+<http://localhost:8080/source/10> <http://knowdive.disi.unitn.it/etype#has_primarySite> "Skin"@en .
+<http://localhost:8080/source/10> <http://knowdive.disi.unitn.it/etype#has_cancerType> "Merkel cell carcinoma"@en .
+<http://localhost:8080/source/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+

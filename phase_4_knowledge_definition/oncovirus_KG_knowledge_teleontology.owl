@@ -6,8 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:etype="http://knowdive.disi.unitn.it/etype#"
-     xmlns:webprotege="http://webprotege.stanford.edu/">
+     xmlns:etype="http://knowdive.disi.unitn.it/etype#">
     <owl:Ontology rdf:about="https://w3id.org/oncovirus-kg">
         <owl:versionIRI rdf:resource="http://knowdive.disi.unitn.it/etype#"/>
     </owl:Ontology>
@@ -108,7 +107,7 @@
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#Virus"/>
         <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#ViralProtein"/>
         <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Represents that a genetic element (such as a gene, transcript, or genomic region) of an organism specifies the sequence or structure of a functional product, typically a protein or RNA molecule. The relationship links the genetic source (subject) to the resulting biological product (object).</etype:comment>
-        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-17</etype:isDefinedBy>
+        <etype:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-22</etype:isDefinedBy>
         <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">encodes</etype:label>
     </owl:ObjectProperty>
     
@@ -118,7 +117,6 @@
 
     <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_hasAnnotation">
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#HostProtein"/>
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#ViralProtein"/>
         <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#ProteinAnnotation"/>
         <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Links an entity to a descriptive annotation or metadata.</etype:comment>
         <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-20</etype:isDefinedBy>
@@ -404,18 +402,6 @@
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#has_uniprotID -->
-
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_uniprotID">
-        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#ProteinAnnotation"/>
-        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#string"/>
-        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">An identifier of a polypeptide in the UniProt database.</etype:comment>
-        <etype:isDefinedBy rdf:resource="http://edamontology.org/data_2291"/>
-        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#PlainLiteral">uniprotID</etype:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://knowdive.disi.unitn.it/etype#has_vaccineDescription -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_vaccineDescription">
@@ -524,15 +510,27 @@
     
 
 
-    <!-- http://knowdive.disi.unitn.it/etype#hostGeneName -->
+    <!-- http://webprotege.stanford.edu/R5Khf8KqLZCsrgfd7q6Rzw -->
 
-    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#hostGeneName">
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R5Khf8KqLZCsrgfd7q6Rzw">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#ProteinAnnotation"/>
+        <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#integer"/>
+        <etype:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique identifier for the protein annotation record.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-17</etype:isDefinedBy>
+        <rdfs:label>has_proteinAnnotationID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8hqEPKl3JX3BK2Kc41rBWg -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8hqEPKl3JX3BK2Kc41rBWg">
         <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#HostProtein"/>
         <rdfs:range rdf:resource="http://knowdive.disi.unitn.it/etype#string"/>
-        <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Standard name assigned to a host gene.</etype:comment>
-        <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">OKG25-14</etype:isDefinedBy>
-        <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">hostGeneName</etype:label>
+        <etype:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standard name assigned to a host gene.</etype:comment>
+        <etype:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-14</etype:isDefinedBy>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_hostGeneName</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -552,8 +550,8 @@
 
     <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#Cancer">
         <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Any malignant growth or tumor caused by abnormal and uncontrolled cell division; it may spread to other parts of the body through the lymphatic system or the blood stream.</etype:comment>
-        <etype:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
         <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Cancer</etype:label>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
     </owl:Class>
     
 
@@ -629,5 +627,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
 

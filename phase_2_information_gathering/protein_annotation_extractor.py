@@ -14,10 +14,10 @@ import time
 ########################################
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-INPUT_FILE = "../data/host_protein_data.tsv" # Also do for viral proteins
+INPUT_FILE = "../data/host_protein_data.tsv"
 OUTPUT_FILE = "../data/protein_annotation_data.tsv"
 df = pd.read_csv(INPUT_FILE, sep="\t")
-id_column = df.columns[0] # 0 for host, 1 for viral
+id_column = df.columns[0]
 uniprot_ids = df[id_column].dropna().astype(str).tolist()
 results = []
 
@@ -37,7 +37,7 @@ def get_uniprot_info(uniprot_id):
     data = response.json()
 
     info = {
-        "uniprotID": data.get("primaryAccession"),
+        "hostUniprotID": data.get("primaryAccession"),
         "function": None,
         "localization": None,
     }
@@ -73,6 +73,9 @@ print(f"Total records before cleaning: {len(results)}")
 results = [r for r in results if r["function"] and r["localization"]]
 print(f"Total records after cleaning: {len(results)}")
 out_df = pd.DataFrame(results)
+
+# Adding a numerical ID column to the start
+out_df.insert(0, "proteinAnnotationID", range(1, len(out_df) + 1))
 
 # Saving results
 out_df.to_csv(OUTPUT_FILE, sep="\t", index=False)

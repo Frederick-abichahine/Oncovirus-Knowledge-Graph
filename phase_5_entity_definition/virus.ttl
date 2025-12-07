@@ -1,0 +1,108 @@
+<http://localhost:8080/source/HBV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/HBV> <http://knowdive.disi.unitn.it/etype#has_host> "Homo sapiens"@en .
+<http://localhost:8080/source/HBV> <http://knowdive.disi.unitn.it/etype#has_species> "Orthohepadnavirus hominoidei"@en .
+<http://localhost:8080/source/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/HBV> <http://knowdive.disi.unitn.it/etype#has_causes> <http://localhost:8080/source/2> .
+<http://localhost:8080/source/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/HBV> <http://knowdive.disi.unitn.it/etype#has_organismName> "Hepatitis B virus"@en .
+<http://localhost:8080/source/HBV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/HCV> <http://knowdive.disi.unitn.it/etype#has_organismName> "Hepatitis C virus"@en .
+<http://localhost:8080/source/HCV> <http://knowdive.disi.unitn.it/etype#has_causes> <http://localhost:8080/source/2> .
+<http://localhost:8080/source/HCV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/HCV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/HCV> <http://knowdive.disi.unitn.it/etype#has_host> "Homo sapiens"@en .
+<http://localhost:8080/source/HCV> <http://knowdive.disi.unitn.it/etype#has_species> "Hepacivirus hominis"@en .
+
+<http://localhost:8080/source/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/HPV18> <http://knowdive.disi.unitn.it/etype#has_causes> <http://localhost:8080/source/1> .
+<http://localhost:8080/source/HPV18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/HPV18> <http://knowdive.disi.unitn.it/etype#has_host> "Homo sapiens"@en .
+<http://localhost:8080/source/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/HPV18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/HPV18> <http://knowdive.disi.unitn.it/etype#has_species> "Gammapapillomavirus 26"@en .
+<http://localhost:8080/source/HPV18> <http://knowdive.disi.unitn.it/etype#has_organismName> "Human papillomavirus"@en .
+
+<http://localhost:8080/source/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/HPV16> <http://knowdive.disi.unitn.it/etype#has_organismName> "Human papillomavirus"@en .
+<http://localhost:8080/source/HPV16> <http://knowdive.disi.unitn.it/etype#has_species> "Gammapapillomavirus 26"@en .
+<http://localhost:8080/source/HPV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/HPV16> <http://knowdive.disi.unitn.it/etype#has_causes> <http://localhost:8080/source/1> .
+<http://localhost:8080/source/HPV16> <http://knowdive.disi.unitn.it/etype#has_host> "Homo sapiens"@en .
+<http://localhost:8080/source/HPV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/EBVB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_host> "Homo sapiens"@en .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_organismName> "Epstein-Barr virus "@en .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_species> "Human gammaherpesvirus 4"@en .
+<http://localhost:8080/source/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_causes> <http://localhost:8080/source/3> .
+<http://localhost:8080/source/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/EBVB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+
+<http://localhost:8080/source/EBVB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_host> "Homo sapiens"@en .
+<http://localhost:8080/source/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_organismName> "Epstein-Barr virus "@en .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_species> "Human gammaherpesvirus 4"@en .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_causes> <http://localhost:8080/source/4> .
+<http://localhost:8080/source/EBVB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+
+<http://localhost:8080/source/EBVB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_host> "Homo sapiens"@en .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_organismName> "Epstein-Barr virus "@en .
+<http://localhost:8080/source/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_species> "Human gammaherpesvirus 4"@en .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_causes> <http://localhost:8080/source/5> .
+<http://localhost:8080/source/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/EBVB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+
+<http://localhost:8080/source/EBVB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_host> "Homo sapiens"@en .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_organismName> "Epstein-Barr virus "@en .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_species> "Human gammaherpesvirus 4"@en .
+<http://localhost:8080/source/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_causes> <http://localhost:8080/source/6> .
+<http://localhost:8080/source/EBVB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+
+<http://localhost:8080/source/HTL1C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/HTL1C> <http://knowdive.disi.unitn.it/etype#has_organismName> "Human T-cell lymphotropic virus type 1"@en .
+<http://localhost:8080/source/HTL1C> <http://knowdive.disi.unitn.it/etype#has_causes> <http://localhost:8080/source/7> .
+<http://localhost:8080/source/HTL1C> <http://knowdive.disi.unitn.it/etype#has_species> "Deltaretrovirus priTlym1"@en .
+<http://localhost:8080/source/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/HTL1C> <http://knowdive.disi.unitn.it/etype#has_host> "Homo sapiens"@en .
+<http://localhost:8080/source/HTL1C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/HTL1A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/HTL1A> <http://knowdive.disi.unitn.it/etype#has_species> "Deltaretrovirus priTlym1"@en .
+<http://localhost:8080/source/HTL1A> <http://knowdive.disi.unitn.it/etype#has_host> "Homo sapiens"@en .
+<http://localhost:8080/source/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/HTL1A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/HTL1A> <http://knowdive.disi.unitn.it/etype#has_causes> <http://localhost:8080/source/7> .
+<http://localhost:8080/source/HTL1A> <http://knowdive.disi.unitn.it/etype#has_organismName> "Human T-cell lymphotropic virus type 1"@en .
+
+<http://localhost:8080/source/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+<http://localhost:8080/source/HHV8> <http://knowdive.disi.unitn.it/etype#has_organismName> "Human gammaherpesvirus 8"@en .
+<http://localhost:8080/source/HHV8> <http://knowdive.disi.unitn.it/etype#has_host> "Homo sapiens"@en .
+<http://localhost:8080/source/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/HHV8> <http://knowdive.disi.unitn.it/etype#has_species> "Human gammaherpesvirus 8"@en .
+<http://localhost:8080/source/HHV8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/HHV8> <http://knowdive.disi.unitn.it/etype#has_causes> <http://localhost:8080/source/8> .
+<http://localhost:8080/source/HHV8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+
+<http://localhost:8080/source/HHV8> <http://knowdive.disi.unitn.it/etype#has_organismName> "Human gammaherpesvirus 8"@en .
+<http://localhost:8080/source/HHV8> <http://knowdive.disi.unitn.it/etype#has_host> "Homo sapiens"@en .
+<http://localhost:8080/source/HHV8> <http://knowdive.disi.unitn.it/etype#has_species> "Human gammaherpesvirus 8"@en .
+<http://localhost:8080/source/HHV8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/HHV8> <http://knowdive.disi.unitn.it/etype#has_causes> <http://localhost:8080/source/9> .
+<http://localhost:8080/source/HHV8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cancer> .
+

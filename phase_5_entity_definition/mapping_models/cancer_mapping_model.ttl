@@ -1,0 +1,274 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix karma: <http://isi.edu/integration/karma/ontologies/model/current#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix webprotege: <http://webprotege.stanford.edu/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1jbta7m36x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "cancer.csv" ;
+	km-dev:modelPublicationTime "1765141633126"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"primarySite\"}],[{\"columnName\":\"cancerType\"}],[{\"columnName\":\"cancerID\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"primarySite\"}],[{\"columnName\":\"cancerType\"}],[{\"columnName\":\"cancerID\"}]]" ;
+	km-dev:hasModelLabel "cancer.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"cancerID\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Cancer\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Cancer1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Cancer\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Cancer1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"etype:Cancer1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"cancerID\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"cancerID\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"cancerType\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Cancer\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Cancer1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_cancerType\",
+                    \"DomainLabel\": \"etype:Cancer1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"cancerType\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"cancerType\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"primarySite\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Cancer\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Cancer1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_primarySite\",
+                    \"DomainLabel\": \"etype:Cancer1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"primarySite\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"primarySite\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_2eecb0e4-52eb-42a6-a200-016a1305f83b a rr:TriplesMap .
+
+_:node1jbta7m36x1 km-dev:hasTriplesMap km-dev:TriplesMap_2eecb0e4-52eb-42a6-a200-016a1305f83b .
+
+km-dev:TriplesMap_2eecb0e4-52eb-42a6-a200-016a1305f83b km-dev:isPartOfMapping _:node1jbta7m36x1 .
+
+_:node1jbta7m36x2 rr:tableName "cancer.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1jbta7m36x1 .
+
+_:node1jbta7m36x1 km-dev:hasLogicalTable _:node1jbta7m36x2 .
+
+km-dev:TriplesMap_2eecb0e4-52eb-42a6-a200-016a1305f83b rr:logicalTable _:node1jbta7m36x2 ;
+	rr:subjectMap _:node1jbta7m36x3 .
+
+_:node1jbta7m36x1 km-dev:hasSubjectMap _:node1jbta7m36x3 .
+
+_:node1jbta7m36x3 km-dev:isPartOfMapping _:node1jbta7m36x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Cancer1" ;
+	rr:class etype:Cancer ;
+	rr:template "{cancerID}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_0fd74b6c-00d2-40ec-be2e-53a4033392ed rr:predicate etype:has_primarySite .
+
+_:node1jbta7m36x4 rr:column "primarySite" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1jbta7m36x1 .
+
+_:node1jbta7m36x1 km-dev:hasObjectMap _:node1jbta7m36x4 .
+
+km-dev:PredicateObjectMap_0fd74b6c-00d2-40ec-be2e-53a4033392ed rr:objectMap _:node1jbta7m36x4 .
+
+km-dev:TriplesMap_2eecb0e4-52eb-42a6-a200-016a1305f83b rr:predicateObjectMap km-dev:PredicateObjectMap_0fd74b6c-00d2-40ec-be2e-53a4033392ed .
+
+km-dev:PredicateObjectMap_0fd74b6c-00d2-40ec-be2e-53a4033392ed a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jbta7m36x1 .
+
+_:node1jbta7m36x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0fd74b6c-00d2-40ec-be2e-53a4033392ed .
+
+km-dev:PredicateObjectMap_4c4bceef-62db-40f8-ab78-6962256748aa rr:predicate etype:has_cancerType .
+
+_:node1jbta7m36x5 rr:column "cancerType" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1jbta7m36x1 .
+
+_:node1jbta7m36x1 km-dev:hasObjectMap _:node1jbta7m36x5 .
+
+km-dev:PredicateObjectMap_4c4bceef-62db-40f8-ab78-6962256748aa rr:objectMap _:node1jbta7m36x5 .
+
+km-dev:TriplesMap_2eecb0e4-52eb-42a6-a200-016a1305f83b rr:predicateObjectMap km-dev:PredicateObjectMap_4c4bceef-62db-40f8-ab78-6962256748aa .
+
+km-dev:PredicateObjectMap_4c4bceef-62db-40f8-ab78-6962256748aa a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jbta7m36x1 .
+
+_:node1jbta7m36x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4c4bceef-62db-40f8-ab78-6962256748aa .

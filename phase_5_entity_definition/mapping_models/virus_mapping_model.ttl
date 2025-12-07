@@ -1,0 +1,499 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix karma: <http://isi.edu/integration/karma/ontologies/model/current#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix webprotege: <http://webprotege.stanford.edu/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1jbtajrmvx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "virus.csv" ;
+	km-dev:modelPublicationTime "1765142032095"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"virusCode\"}],[{\"columnName\":\"organismName\"}],[{\"columnName\":\"causesCancer\"}],[{\"columnName\":\"species\"}],[{\"columnName\":\"host\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"virusCode\"}],[{\"columnName\":\"organismName\"}],[{\"columnName\":\"causesCancer\"}],[{\"columnName\":\"species\"}],[{\"columnName\":\"host\"}]]" ;
+	km-dev:hasModelLabel "virus.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"virusCode\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Virus\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Virus1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Virus\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Virus1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"etype:Virus1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"virusCode\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"virusCode\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"organismName\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Virus\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Virus1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_organismName\",
+                    \"DomainLabel\": \"etype:Virus1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"organismName\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"organismName\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"species\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Virus\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Virus1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_species\",
+                    \"DomainLabel\": \"etype:Virus1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"species\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"species\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"host\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Virus\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Virus1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_host\",
+                    \"DomainLabel\": \"etype:Virus1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"host\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"host\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"causesCancer\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Cancer\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://knowdive.disi.unitn.it/etype#Cancer1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Cancer\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Cancer1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"etype:Cancer1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"causesCancer\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"causesCancer\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Cancer1\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_causes\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Cancer\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Virus1\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Virus\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_1bb56ec8-5d3c-4697-9347-d9bf27c6a085 a rr:TriplesMap .
+
+_:node1jbtajrmvx1 km-dev:hasTriplesMap km-dev:TriplesMap_1bb56ec8-5d3c-4697-9347-d9bf27c6a085 .
+
+km-dev:TriplesMap_1bb56ec8-5d3c-4697-9347-d9bf27c6a085 km-dev:isPartOfMapping _:node1jbtajrmvx1 .
+
+_:node1jbtajrmvx2 rr:tableName "virus.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1jbtajrmvx1 .
+
+_:node1jbtajrmvx1 km-dev:hasLogicalTable _:node1jbtajrmvx2 .
+
+km-dev:TriplesMap_1bb56ec8-5d3c-4697-9347-d9bf27c6a085 rr:logicalTable _:node1jbtajrmvx2 ;
+	rr:subjectMap _:node1jbtajrmvx3 .
+
+_:node1jbtajrmvx1 km-dev:hasSubjectMap _:node1jbtajrmvx3 .
+
+_:node1jbtajrmvx3 km-dev:isPartOfMapping _:node1jbtajrmvx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Virus1" ;
+	rr:class etype:Virus ;
+	rr:template "{virusCode}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_82146c26-6477-4f67-9d61-ea9d7d0a80fb rr:predicate etype:has_causes .
+
+km-dev:RefObjectMap_f2c41289-54af-40a3-aa81-9ca1c2b8242b a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_f19c9b3f-4070-447a-a71d-39f1b7638a17 ;
+	km-dev:isPartOfMapping _:node1jbtajrmvx1 .
+
+_:node1jbtajrmvx1 km-dev:hasObjectMap km-dev:RefObjectMap_f2c41289-54af-40a3-aa81-9ca1c2b8242b .
+
+km-dev:PredicateObjectMap_82146c26-6477-4f67-9d61-ea9d7d0a80fb rr:objectMap km-dev:RefObjectMap_f2c41289-54af-40a3-aa81-9ca1c2b8242b .
+
+km-dev:TriplesMap_1bb56ec8-5d3c-4697-9347-d9bf27c6a085 rr:predicateObjectMap km-dev:PredicateObjectMap_82146c26-6477-4f67-9d61-ea9d7d0a80fb .
+
+km-dev:PredicateObjectMap_82146c26-6477-4f67-9d61-ea9d7d0a80fb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jbtajrmvx1 .
+
+_:node1jbtajrmvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_82146c26-6477-4f67-9d61-ea9d7d0a80fb .
+
+km-dev:PredicateObjectMap_b1bd8ce6-cf53-462c-b401-32f3664df397 rr:predicate etype:has_organismName .
+
+_:node1jbtajrmvx4 rr:column "organismName" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1jbtajrmvx1 .
+
+_:node1jbtajrmvx1 km-dev:hasObjectMap _:node1jbtajrmvx4 .
+
+km-dev:PredicateObjectMap_b1bd8ce6-cf53-462c-b401-32f3664df397 rr:objectMap _:node1jbtajrmvx4 .
+
+km-dev:TriplesMap_1bb56ec8-5d3c-4697-9347-d9bf27c6a085 rr:predicateObjectMap km-dev:PredicateObjectMap_b1bd8ce6-cf53-462c-b401-32f3664df397 .
+
+km-dev:PredicateObjectMap_b1bd8ce6-cf53-462c-b401-32f3664df397 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jbtajrmvx1 .
+
+_:node1jbtajrmvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b1bd8ce6-cf53-462c-b401-32f3664df397 .
+
+km-dev:PredicateObjectMap_bdfc29fc-f09d-4600-b7c1-36abd354ef3f rr:predicate etype:has_species .
+
+_:node1jbtajrmvx5 rr:column "species" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1jbtajrmvx1 .
+
+_:node1jbtajrmvx1 km-dev:hasObjectMap _:node1jbtajrmvx5 .
+
+km-dev:PredicateObjectMap_bdfc29fc-f09d-4600-b7c1-36abd354ef3f rr:objectMap _:node1jbtajrmvx5 .
+
+km-dev:TriplesMap_1bb56ec8-5d3c-4697-9347-d9bf27c6a085 rr:predicateObjectMap km-dev:PredicateObjectMap_bdfc29fc-f09d-4600-b7c1-36abd354ef3f .
+
+km-dev:PredicateObjectMap_bdfc29fc-f09d-4600-b7c1-36abd354ef3f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jbtajrmvx1 .
+
+_:node1jbtajrmvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_bdfc29fc-f09d-4600-b7c1-36abd354ef3f .
+
+km-dev:PredicateObjectMap_134cb46c-d221-43ff-938c-f212bdcbea85 rr:predicate etype:has_host .
+
+_:node1jbtajrmvx6 rr:column "host" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1jbtajrmvx1 .
+
+_:node1jbtajrmvx1 km-dev:hasObjectMap _:node1jbtajrmvx6 .
+
+km-dev:PredicateObjectMap_134cb46c-d221-43ff-938c-f212bdcbea85 rr:objectMap _:node1jbtajrmvx6 .
+
+km-dev:TriplesMap_1bb56ec8-5d3c-4697-9347-d9bf27c6a085 rr:predicateObjectMap km-dev:PredicateObjectMap_134cb46c-d221-43ff-938c-f212bdcbea85 .
+
+km-dev:PredicateObjectMap_134cb46c-d221-43ff-938c-f212bdcbea85 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jbtajrmvx1 .
+
+_:node1jbtajrmvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_134cb46c-d221-43ff-938c-f212bdcbea85 .
+
+km-dev:TriplesMap_f19c9b3f-4070-447a-a71d-39f1b7638a17 a rr:TriplesMap .
+
+_:node1jbtajrmvx1 km-dev:hasTriplesMap km-dev:TriplesMap_f19c9b3f-4070-447a-a71d-39f1b7638a17 .
+
+km-dev:TriplesMap_f19c9b3f-4070-447a-a71d-39f1b7638a17 km-dev:isPartOfMapping _:node1jbtajrmvx1 .
+
+_:node1jbtajrmvx7 rr:tableName "virus.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1jbtajrmvx1 .
+
+_:node1jbtajrmvx1 km-dev:hasLogicalTable _:node1jbtajrmvx7 .
+
+km-dev:TriplesMap_f19c9b3f-4070-447a-a71d-39f1b7638a17 rr:logicalTable _:node1jbtajrmvx7 ;
+	rr:subjectMap _:node1jbtajrmvx8 .
+
+_:node1jbtajrmvx1 km-dev:hasSubjectMap _:node1jbtajrmvx8 .
+
+_:node1jbtajrmvx8 km-dev:isPartOfMapping _:node1jbtajrmvx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Cancer1" ;
+	rr:class etype:Cancer ;
+	rr:template "{causesCancer}" .

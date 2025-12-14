@@ -103,7 +103,7 @@
     <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_encodes">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Represents that a genetic element (such as a gene, transcript, or genomic region) of an organism specifies the sequence or structure of a functional product, typically a protein or RNA molecule. The relationship links the genetic source (subject) to the resulting biological product (object).</etype:comment>
-        <etype:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-22</etype:isDefinedBy>
+        <etype:isDefinedBy>OKG25-22</etype:isDefinedBy>
         <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">encodes</etype:label>
     </owl:ObjectProperty>
     
@@ -171,6 +171,17 @@
     
 
 
+    <!-- http://knowdive.disi.unitn.it/etype#R5Khf8KqLZCsrgfd7q6Rzw -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#R5Khf8KqLZCsrgfd7q6Rzw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <etype:comment>Unique identifier for the protein annotation record.</etype:comment>
+        <etype:isDefinedBy>OKG25-17</etype:isDefinedBy>
+        <rdfs:label>has_proteinAnnotationID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://knowdive.disi.unitn.it/etype#has_cancerID -->
 
     <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_cancerID">
@@ -207,6 +218,16 @@
         <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">An animal or plant that nourishes and supports a parasite; it does not benefit and is often harmed by the association.</etype:comment>
         <etype:isDefinedBy rdf:datatype="http://knowdive.disi.unitn.it/etype#string">UKC-6810</etype:isDefinedBy>
         <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#string">host</etype:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#has_hostGeneName -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#has_hostGeneName">
+        <etype:comment>Standard name assigned to a host gene.</etype:comment>
+        <etype:isDefinedBy>OKG25-14</etype:isDefinedBy>
+        <etype:label>hostGeneName</etype:label>
     </owl:DatatypeProperty>
     
 
@@ -438,27 +459,6 @@
         <etype:comment rdf:datatype="http://knowdive.disi.unitn.it/etype#string">Describes the category or classification of a virus.</etype:comment>
         <etype:isDefinedBy rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/277234002"/>
         <etype:label rdf:datatype="http://knowdive.disi.unitn.it/etype#PlainLiteral">virusType</etype:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R5Khf8KqLZCsrgfd7q6Rzw -->
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R5Khf8KqLZCsrgfd7q6Rzw">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <etype:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique identifier for the protein annotation record.</etype:comment>
-        <etype:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-17</etype:isDefinedBy>
-        <rdfs:label>has_proteinAnnotationID</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8hqEPKl3JX3BK2Kc41rBWg -->
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8hqEPKl3JX3BK2Kc41rBWg">
-        <etype:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standard name assigned to a host gene.</etype:comment>
-        <etype:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OKG25-14</etype:isDefinedBy>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_hostGeneName</rdfs:label>
     </owl:DatatypeProperty>
     
 

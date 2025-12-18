@@ -16,5 +16,17 @@
     "language": "sparql",
     "value": "PREFIX etype: <http://knowdive.disi.unitn.it/etype#>\r\nPREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nSELECT DISTINCT ?virusName ?virusCode ?cancerType\r\nWHERE {\r\n    ## Getting the cancer that each virus causes\r\n    ?virus rdf:type etype:Virus ;\r\n           etype:has_causes ?cancer ;\r\n           etype:has_organismName ?virusName .\r\n    \r\n    ## Extracting virusCode from its URI\r\n    BIND(REPLACE(STR(?virus), \".*/\", \"\") AS ?virusCode)\r\n\r\n    ## Getting cancer type information\r\n    ?cancer rdf:type etype:Cancer ;\r\n            etype:has_cancerType ?cancerType .\r\n\r\n    ## Filtering for specific cancer types\r\n    FILTER(LCASE(STR(?cancerType)) = LCASE(\"Squamous cell carcinoma\") || LCASE(STR(?cancerType)) = LCASE(\"Burkitt lymphoma\"))\r\n}",
     "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ2 - Which host proteins interact with specific viral proteins, and what is their biological function?\r\n\r\nQuery took: 0.1 seconds  \r\nResults obtained: 34",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "PREFIX etype: <http://knowdive.disi.unitn.it/etype#>\r\nPREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nSELECT DISTINCT ?viralUniprotID ?hostUniprotID ?function\r\nWHERE {\r\n    ## Getting viral proteins and the host proteins they interact with\r\n    ?viralProtein rdf:type etype:ViralProtein ;\r\n                  etype:has_interactsWith ?hostProtein .\r\n    \r\n    ## Extracting UniProt IDs from URIs of viral and host proteins\r\n    BIND(REPLACE(STR(?viralProtein), \".*/\", \"\") AS ?viralUniprotID)\r\n    BIND(REPLACE(STR(?hostProtein), \".*/\", \"\") AS ?hostUniprotID)\r\n    \r\n    ## Getting annotation of the host proteins\r\n    ?hostProtein rdf:type etype:HostProtein ;\r\n         \t\t etype:has_hasAnnotation ?annotation .\r\n    \r\n    ## Getting the functions from the annotation\r\n    ?annotation rdf:type etype:ProteinAnnotation ;\r\n                etype:has_function ?function .\r\n\r\n    ## Ensuring that the variables are IRIs\r\n    FILTER(isIRI(?viralProtein))\r\n    FILTER(isIRI(?hostProtein))\r\n    ## Filtering for a specific viral protein UniProt ID\r\n    FILTER(?viralUniprotID = \"P03177\")\r\n}",
+    "metadata": {}
   }
 ]

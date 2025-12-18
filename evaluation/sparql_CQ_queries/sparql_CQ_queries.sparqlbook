@@ -4,5 +4,17 @@
     "language": "markdown",
     "value": "# SPARQL \r\n## Queries to Answer Competency Questions (CQs)",
     "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ1 - Which viruses are known to cause specific types of cancer?\r\n\r\nQuery took: 0.1 seconds  \r\nResults obtained: 3",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "PREFIX etype: <http://knowdive.disi.unitn.it/etype#>\r\nPREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nSELECT DISTINCT ?virusName ?virusCode ?cancerType\r\nWHERE {\r\n    ## Getting the cancer that each virus causes\r\n    ?virus rdf:type etype:Virus ;\r\n           etype:has_causes ?cancer ;\r\n           etype:has_organismName ?virusName .\r\n    \r\n    ## Extracting virusCode from its URI\r\n    BIND(REPLACE(STR(?virus), \".*/\", \"\") AS ?virusCode)\r\n\r\n    ## Getting cancer type information\r\n    ?cancer rdf:type etype:Cancer ;\r\n            etype:has_cancerType ?cancerType .\r\n\r\n    ## Filtering for specific cancer types\r\n    FILTER(LCASE(STR(?cancerType)) = LCASE(\"Squamous cell carcinoma\") || LCASE(STR(?cancerType)) = LCASE(\"Burkitt lymphoma\"))\r\n}",
+    "metadata": {}
   }
 ]

@@ -3,17 +3,16 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix karma: <http://isi.edu/integration/karma/ontologies/model/current#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix webprotege: <http://webprotege.stanford.edu/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1jbtagvqlx1 a km-dev:R2RMLMapping ;
+_:node1jcrotpdix1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "phenotype.csv" ;
-	km-dev:modelPublicationTime "1765141938005"^^xsd:long ;
+	km-dev:modelPublicationTime "1766163670451"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"trait\"}],[{\"columnName\":\"phenotypeSource \"}],[{\"columnName\":\"virusCode\"}],[{\"columnName\":\"virusType\"}],[{\"columnName\":\"phenotypeID\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"trait\"}],[{\"columnName\":\"phenotypeSource \"}],[{\"columnName\":\"virusCode\"}],[{\"columnName\":\"virusType\"}],[{\"columnName\":\"phenotypeID\"}]]" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"virusType\"}],[{\"columnName\":\"phenotypeID\"}],[{\"columnName\":\"trait\"}],[{\"columnName\":\"phenotypeSource \"}],[{\"columnName\":\"virusCode\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"virusType\"}],[{\"columnName\":\"phenotypeID\"}],[{\"columnName\":\"trait\"}],[{\"columnName\":\"phenotypeSource \"}],[{\"columnName\":\"virusCode\"}]]" ;
 	km-dev:hasModelLabel "phenotype.csv" ;
 	km-dev:hasBaseURI "http://localhost:8080/source/" ;
 	km-dev:hasWorksheetHistory """[
@@ -87,6 +86,65 @@ _:node1jbtagvqlx1 a km-dev:R2RMLMapping ;
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
                 \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"phenotypeID\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"virusType\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Phenotype\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Phenotype1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_virusType\",
+                    \"DomainLabel\": \"etype:Phenotype1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"virusType\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"virusType\\\"}]}]\"
             }
         ],
         \"tags\": [\"SemanticType\"]
@@ -231,65 +289,6 @@ _:node1jbtagvqlx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"hNodeId\",
                 \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"virusType\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Phenotype\",
-                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Phenotype1\",
-                    \"isPrimary\": true,
-                    \"isProvenance\": false,
-                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_virusType\",
-                    \"DomainLabel\": \"etype:Phenotype1\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": true
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"type\": \"other\",
-                \"value\": \"xsd:string\"
-            },
-            {
-                \"name\": \"language\",
-                \"type\": \"other\",
-                \"value\": \"en\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"virusType\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"virusType\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"SemanticType\"]
-    },
-    {
-        \"commandName\": \"SetSemanticTypeCommand\",
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
                 \"value\": [{\"columnName\": \"phenotypeSource \"}]
             },
             {
@@ -356,8 +355,9 @@ _:node1jbtagvqlx1 a km-dev:R2RMLMapping ;
                 \"value\": {
                     \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Phenotype1\",
                     \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_hasPhenotype\",
-                    \"isProvenance\": false,
-                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Virus1\"
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Phenotype\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Virus1\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Virus\"
                 }
             },
             {
@@ -375,121 +375,121 @@ _:node1jbtagvqlx1 a km-dev:R2RMLMapping ;
     }
 ]""" .
 
-km-dev:TriplesMap_836ec07c-821b-4bc0-9f0c-68545905ad6c a rr:TriplesMap .
+km-dev:TriplesMap_f49df3b6-712a-472f-92b3-7d1798863d12 a rr:TriplesMap .
 
-_:node1jbtagvqlx1 km-dev:hasTriplesMap km-dev:TriplesMap_836ec07c-821b-4bc0-9f0c-68545905ad6c .
+_:node1jcrotpdix1 km-dev:hasTriplesMap km-dev:TriplesMap_f49df3b6-712a-472f-92b3-7d1798863d12 .
 
-km-dev:TriplesMap_836ec07c-821b-4bc0-9f0c-68545905ad6c km-dev:isPartOfMapping _:node1jbtagvqlx1 .
+km-dev:TriplesMap_f49df3b6-712a-472f-92b3-7d1798863d12 km-dev:isPartOfMapping _:node1jcrotpdix1 .
 
-_:node1jbtagvqlx2 rr:tableName "phenotype.csv" ;
+_:node1jcrotpdix2 rr:tableName "phenotype.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1jbtagvqlx1 .
+	km-dev:isPartOfMapping _:node1jcrotpdix1 .
 
-_:node1jbtagvqlx1 km-dev:hasLogicalTable _:node1jbtagvqlx2 .
+_:node1jcrotpdix1 km-dev:hasLogicalTable _:node1jcrotpdix2 .
 
-km-dev:TriplesMap_836ec07c-821b-4bc0-9f0c-68545905ad6c rr:logicalTable _:node1jbtagvqlx2 ;
-	rr:subjectMap _:node1jbtagvqlx3 .
+km-dev:TriplesMap_f49df3b6-712a-472f-92b3-7d1798863d12 rr:logicalTable _:node1jcrotpdix2 ;
+	rr:subjectMap _:node1jcrotpdix3 .
 
-_:node1jbtagvqlx1 km-dev:hasSubjectMap _:node1jbtagvqlx3 .
+_:node1jcrotpdix1 km-dev:hasSubjectMap _:node1jcrotpdix3 .
 
-_:node1jbtagvqlx3 km-dev:isPartOfMapping _:node1jbtagvqlx1 ;
+_:node1jcrotpdix3 km-dev:isPartOfMapping _:node1jcrotpdix1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Virus1" ;
 	rr:class etype:Virus ;
 	rr:template "{virusCode}" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_77f6d0fd-88b8-4a86-a501-a027f9986e27 rr:predicate etype:has_hasPhenotype .
+km-dev:PredicateObjectMap_3f58e99c-801b-4d9e-9070-5cddcba460da rr:predicate etype:has_hasPhenotype .
 
-km-dev:RefObjectMap_a2f2d4c1-a55a-4756-aef4-89bfe8971f69 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_b298a190-52e8-4c9b-a540-a9bda15cabd8 ;
-	km-dev:isPartOfMapping _:node1jbtagvqlx1 .
+km-dev:RefObjectMap_d790ce78-901c-401c-b2cf-5963111a3f7a a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_ef7425a3-6b8c-4bfa-9e0c-d9590d23f502 ;
+	km-dev:isPartOfMapping _:node1jcrotpdix1 .
 
-_:node1jbtagvqlx1 km-dev:hasObjectMap km-dev:RefObjectMap_a2f2d4c1-a55a-4756-aef4-89bfe8971f69 .
+_:node1jcrotpdix1 km-dev:hasObjectMap km-dev:RefObjectMap_d790ce78-901c-401c-b2cf-5963111a3f7a .
 
-km-dev:PredicateObjectMap_77f6d0fd-88b8-4a86-a501-a027f9986e27 rr:objectMap km-dev:RefObjectMap_a2f2d4c1-a55a-4756-aef4-89bfe8971f69 .
+km-dev:PredicateObjectMap_3f58e99c-801b-4d9e-9070-5cddcba460da rr:objectMap km-dev:RefObjectMap_d790ce78-901c-401c-b2cf-5963111a3f7a .
 
-km-dev:TriplesMap_836ec07c-821b-4bc0-9f0c-68545905ad6c rr:predicateObjectMap km-dev:PredicateObjectMap_77f6d0fd-88b8-4a86-a501-a027f9986e27 .
+km-dev:TriplesMap_f49df3b6-712a-472f-92b3-7d1798863d12 rr:predicateObjectMap km-dev:PredicateObjectMap_3f58e99c-801b-4d9e-9070-5cddcba460da .
 
-km-dev:PredicateObjectMap_77f6d0fd-88b8-4a86-a501-a027f9986e27 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1jbtagvqlx1 .
+km-dev:PredicateObjectMap_3f58e99c-801b-4d9e-9070-5cddcba460da a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jcrotpdix1 .
 
-_:node1jbtagvqlx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_77f6d0fd-88b8-4a86-a501-a027f9986e27 .
+_:node1jcrotpdix1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3f58e99c-801b-4d9e-9070-5cddcba460da .
 
-km-dev:TriplesMap_b298a190-52e8-4c9b-a540-a9bda15cabd8 a rr:TriplesMap .
+km-dev:TriplesMap_ef7425a3-6b8c-4bfa-9e0c-d9590d23f502 a rr:TriplesMap .
 
-_:node1jbtagvqlx1 km-dev:hasTriplesMap km-dev:TriplesMap_b298a190-52e8-4c9b-a540-a9bda15cabd8 .
+_:node1jcrotpdix1 km-dev:hasTriplesMap km-dev:TriplesMap_ef7425a3-6b8c-4bfa-9e0c-d9590d23f502 .
 
-km-dev:TriplesMap_b298a190-52e8-4c9b-a540-a9bda15cabd8 km-dev:isPartOfMapping _:node1jbtagvqlx1 .
+km-dev:TriplesMap_ef7425a3-6b8c-4bfa-9e0c-d9590d23f502 km-dev:isPartOfMapping _:node1jcrotpdix1 .
 
-_:node1jbtagvqlx4 rr:tableName "phenotype.csv" ;
+_:node1jcrotpdix4 rr:tableName "phenotype.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1jbtagvqlx1 .
+	km-dev:isPartOfMapping _:node1jcrotpdix1 .
 
-_:node1jbtagvqlx1 km-dev:hasLogicalTable _:node1jbtagvqlx4 .
+_:node1jcrotpdix1 km-dev:hasLogicalTable _:node1jcrotpdix4 .
 
-km-dev:TriplesMap_b298a190-52e8-4c9b-a540-a9bda15cabd8 rr:logicalTable _:node1jbtagvqlx4 ;
-	rr:subjectMap _:node1jbtagvqlx5 .
+km-dev:TriplesMap_ef7425a3-6b8c-4bfa-9e0c-d9590d23f502 rr:logicalTable _:node1jcrotpdix4 ;
+	rr:subjectMap _:node1jcrotpdix5 .
 
-_:node1jbtagvqlx1 km-dev:hasSubjectMap _:node1jbtagvqlx5 .
+_:node1jcrotpdix1 km-dev:hasSubjectMap _:node1jcrotpdix5 .
 
-_:node1jbtagvqlx5 km-dev:isPartOfMapping _:node1jbtagvqlx1 ;
+_:node1jcrotpdix5 km-dev:isPartOfMapping _:node1jcrotpdix1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Phenotype1" ;
 	rr:class etype:Phenotype ;
 	rr:template "{phenotypeID}" .
 
-km-dev:PredicateObjectMap_b8cd3616-4668-460d-a58f-8625ffc03d2e rr:predicate etype:has_trait .
+km-dev:PredicateObjectMap_c1987f22-99cd-48ad-b1d4-e2668c229209 rr:predicate etype:has_trait .
 
-_:node1jbtagvqlx6 rr:column "trait" ;
+_:node1jcrotpdix6 rr:column "trait" ;
 	a rr:ObjectMap ;
 	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
 	rr:language "en" ;
-	km-dev:isPartOfMapping _:node1jbtagvqlx1 .
+	km-dev:isPartOfMapping _:node1jcrotpdix1 .
 
-_:node1jbtagvqlx1 km-dev:hasObjectMap _:node1jbtagvqlx6 .
+_:node1jcrotpdix1 km-dev:hasObjectMap _:node1jcrotpdix6 .
 
-km-dev:PredicateObjectMap_b8cd3616-4668-460d-a58f-8625ffc03d2e rr:objectMap _:node1jbtagvqlx6 .
+km-dev:PredicateObjectMap_c1987f22-99cd-48ad-b1d4-e2668c229209 rr:objectMap _:node1jcrotpdix6 .
 
-km-dev:TriplesMap_b298a190-52e8-4c9b-a540-a9bda15cabd8 rr:predicateObjectMap km-dev:PredicateObjectMap_b8cd3616-4668-460d-a58f-8625ffc03d2e .
+km-dev:TriplesMap_ef7425a3-6b8c-4bfa-9e0c-d9590d23f502 rr:predicateObjectMap km-dev:PredicateObjectMap_c1987f22-99cd-48ad-b1d4-e2668c229209 .
 
-km-dev:PredicateObjectMap_b8cd3616-4668-460d-a58f-8625ffc03d2e a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1jbtagvqlx1 .
+km-dev:PredicateObjectMap_c1987f22-99cd-48ad-b1d4-e2668c229209 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jcrotpdix1 .
 
-_:node1jbtagvqlx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b8cd3616-4668-460d-a58f-8625ffc03d2e .
+_:node1jcrotpdix1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c1987f22-99cd-48ad-b1d4-e2668c229209 .
 
-km-dev:PredicateObjectMap_aea28447-3b70-4680-baf5-2ee607a7028b rr:predicate etype:has_phenotypeSource .
+km-dev:PredicateObjectMap_43575035-2725-45f3-a373-32d2969ba906 rr:predicate etype:has_phenotypeSource .
 
-_:node1jbtagvqlx7 rr:column "phenotypeSource " ;
+_:node1jcrotpdix7 rr:column "phenotypeSource " ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1jbtagvqlx1 .
+	km-dev:isPartOfMapping _:node1jcrotpdix1 .
 
-_:node1jbtagvqlx1 km-dev:hasObjectMap _:node1jbtagvqlx7 .
+_:node1jcrotpdix1 km-dev:hasObjectMap _:node1jcrotpdix7 .
 
-km-dev:PredicateObjectMap_aea28447-3b70-4680-baf5-2ee607a7028b rr:objectMap _:node1jbtagvqlx7 .
+km-dev:PredicateObjectMap_43575035-2725-45f3-a373-32d2969ba906 rr:objectMap _:node1jcrotpdix7 .
 
-km-dev:TriplesMap_b298a190-52e8-4c9b-a540-a9bda15cabd8 rr:predicateObjectMap km-dev:PredicateObjectMap_aea28447-3b70-4680-baf5-2ee607a7028b .
+km-dev:TriplesMap_ef7425a3-6b8c-4bfa-9e0c-d9590d23f502 rr:predicateObjectMap km-dev:PredicateObjectMap_43575035-2725-45f3-a373-32d2969ba906 .
 
-km-dev:PredicateObjectMap_aea28447-3b70-4680-baf5-2ee607a7028b a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1jbtagvqlx1 .
+km-dev:PredicateObjectMap_43575035-2725-45f3-a373-32d2969ba906 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jcrotpdix1 .
 
-_:node1jbtagvqlx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_aea28447-3b70-4680-baf5-2ee607a7028b .
+_:node1jcrotpdix1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_43575035-2725-45f3-a373-32d2969ba906 .
 
-km-dev:PredicateObjectMap_2172f3d6-9d61-4483-8bab-fd1e1d88a1ce rr:predicate etype:has_virusType .
+km-dev:PredicateObjectMap_d74be81a-8c1b-40ff-8120-90b82a00d865 rr:predicate etype:has_virusType .
 
-_:node1jbtagvqlx8 rr:column "virusType" ;
+_:node1jcrotpdix8 rr:column "virusType" ;
 	a rr:ObjectMap ;
 	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
 	rr:language "en" ;
-	km-dev:isPartOfMapping _:node1jbtagvqlx1 .
+	km-dev:isPartOfMapping _:node1jcrotpdix1 .
 
-_:node1jbtagvqlx1 km-dev:hasObjectMap _:node1jbtagvqlx8 .
+_:node1jcrotpdix1 km-dev:hasObjectMap _:node1jcrotpdix8 .
 
-km-dev:PredicateObjectMap_2172f3d6-9d61-4483-8bab-fd1e1d88a1ce rr:objectMap _:node1jbtagvqlx8 .
+km-dev:PredicateObjectMap_d74be81a-8c1b-40ff-8120-90b82a00d865 rr:objectMap _:node1jcrotpdix8 .
 
-km-dev:TriplesMap_b298a190-52e8-4c9b-a540-a9bda15cabd8 rr:predicateObjectMap km-dev:PredicateObjectMap_2172f3d6-9d61-4483-8bab-fd1e1d88a1ce .
+km-dev:TriplesMap_ef7425a3-6b8c-4bfa-9e0c-d9590d23f502 rr:predicateObjectMap km-dev:PredicateObjectMap_d74be81a-8c1b-40ff-8120-90b82a00d865 .
 
-km-dev:PredicateObjectMap_2172f3d6-9d61-4483-8bab-fd1e1d88a1ce a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1jbtagvqlx1 .
+km-dev:PredicateObjectMap_d74be81a-8c1b-40ff-8120-90b82a00d865 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1jcrotpdix1 .
 
-_:node1jbtagvqlx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2172f3d6-9d61-4483-8bab-fd1e1d88a1ce .
+_:node1jcrotpdix1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d74be81a-8c1b-40ff-8120-90b82a00d865 .

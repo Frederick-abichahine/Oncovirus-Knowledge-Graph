@@ -5,5 +5,5 @@ phenotypeID	virusType	phenotypeSource 	trait	virusCode
 4	dsDNA	https://viralzone.expasy.org/5	Non-enveloped. Small, icosahedral, about 60 nm in size. A single molecule of circular dsDNA is contained within the T=7 icosahedral capsid, which is composed of 72 pentamers.	HPV18
 5	dsDNA	https://viralzone.expasy.org/185	Enveloped, spherical to pleomorphic, 150-200 nm in diameter. Capsid consists of 162 capsomers and is surrounded by an amorphous tegument. Glycoproteins complexes are embedded in the lipid envelope.	EBVB9
 6	ssRNA-RT	https://viralzone.expasy.org/91	Enveloped. Spherical to pleomorphic, about 80-100 nm in diameter. Mature capsid is quasi-icosahedral.	HTL1C
-6	ssRNA-RT	https://viralzone.expasy.org/91	Enveloped. Spherical to pleomorphic, about 80-100 nm in diameter. Mature capsid is quasi-icosahedral.	HTL1A
-7	dsDNA	https://viralzone.expasy.org/18	Enveloped, spherical to pleomorphic, 150-200 nm in diameter. Capsid consists of 162 capsomers and is surrounded by an amorphous tegument. Glycoproteins complexes are embeded in the lipid envelope.	HHV8
+7	ssRNA-RT	https://viralzone.expasy.org/91	Enveloped. Spherical to pleomorphic, about 80-100 nm in diameter. Mature capsid is quasi-icosahedral.	HTL1A
+8	dsDNA	https://viralzone.expasy.org/18	Enveloped, spherical to pleomorphic, 150-200 nm in diameter. Capsid consists of 162 capsomers and is surrounded by an amorphous tegument. Glycoproteins complexes are embeded in the lipid envelope.	HHV8

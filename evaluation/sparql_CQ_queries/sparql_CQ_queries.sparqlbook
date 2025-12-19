@@ -52,5 +52,17 @@
     "language": "sparql",
     "value": "PREFIX etype: <http://knowdive.disi.unitn.it/etype#>\r\nPREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nSELECT DISTINCT ?virusCode ?virusName ?vaccineName ?vaccineDescription\r\nWHERE {\r\n    ## Getting vaccines, their information and the viruses they target\r\n    ?vaccine rdf:type etype:Vaccine ;\r\n             etype:has_vaccineName ?vaccineName ;\r\n    \t\t etype:has_vaccineDescription ?vaccineDescription ;\r\n    \t\t etype:has_targets ?virus .\r\n    \r\n    ## Getting virus information\r\n    ?virus rdf:type etype:Virus ;\r\n           etype:has_organismName ?virusName ;\r\n\r\n    ## Extracting virusCode from its URI\r\n    BIND(REPLACE(STR(?virus), \".*/\", \"\") AS ?virusCode)\r\n\r\n    ## Filtering for specific viruses\r\n    FILTER(?virusCode = \"HPV18\" || ?virusCode = \"HBV\")\r\n}",
     "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ5 - What phenotypic traits are associated with a specific virus?\r\n\r\nQuery took: 0.1 seconds  \r\nResults obtained: 1\r\n",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "PREFIX etype: <http://knowdive.disi.unitn.it/etype#>\r\nPREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nSELECT DISTINCT ?virusCode ?virusName ?virusType ?trait\r\nWHERE {\r\n    ## Getting viruses and their associated phenotypic traits\r\n    ?virus rdf:type etype:Virus ;\r\n           etype:has_organismName ?virusName ;\r\n           etype:has_hasPhenotype ?phenotype .\r\n\r\n    ## Getting phenotype information\r\n    ?phenotype rdf:type etype:Phenotype ;\r\n               etype:has_virusType ?virusType ;\r\n               etype:has_trait ?trait .\r\n    \r\n   \t## Extracting virusCode from its URI\r\n    BIND(REPLACE(STR(?virus), \".*/\", \"\") AS ?virusCode)\r\n    \r\n    ## Filtering for a specific virus\r\n    FILTER(?virusCode = \"EBVB9\")\r\n}",
+    "metadata": {}
   }
 ]

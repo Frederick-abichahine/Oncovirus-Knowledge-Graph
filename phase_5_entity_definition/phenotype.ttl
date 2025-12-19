@@ -16,57 +16,57 @@
 <http://localhost:8080/source/HCV> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/2> .
 <http://localhost:8080/source/2> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/43" .
 
-<http://localhost:8080/source/2> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/4" .
-<http://localhost:8080/source/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Phenotype> .
-<http://localhost:8080/source/2> <http://knowdive.disi.unitn.it/etype#has_virusType> "dsDNA"@en .
-<http://localhost:8080/source/HPV18> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/2> .
-<http://localhost:8080/source/HPV18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
-<http://localhost:8080/source/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
-<http://localhost:8080/source/HPV18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
-<http://localhost:8080/source/2> <http://knowdive.disi.unitn.it/etype#has_trait> "Non-enveloped. Small, icosahedral, about 60 nm in size. A single molecule of circular dsDNA is contained within the T=7 icosahedral capsid, which is composed of 72 pentamers."@en .
-
 <http://localhost:8080/source/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Phenotype> .
 <http://localhost:8080/source/3> <http://knowdive.disi.unitn.it/etype#has_trait> "Non-enveloped. Small, icosahedral, about 60 nm in size. A single molecule of circular dsDNA is contained within the T=7 icosahedral capsid, which is composed of 72 pentamers."@en .
-<http://localhost:8080/source/HPV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/HPV18> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/3> .
+<http://localhost:8080/source/HPV18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
 <http://localhost:8080/source/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
-<http://localhost:8080/source/3> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/5" .
-<http://localhost:8080/source/HPV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/HPV18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/3> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/4" .
 <http://localhost:8080/source/3> <http://knowdive.disi.unitn.it/etype#has_virusType> "dsDNA"@en .
-<http://localhost:8080/source/HPV16> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/3> .
 
-<http://localhost:8080/source/EBVB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
 <http://localhost:8080/source/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
 <http://localhost:8080/source/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Phenotype> .
-<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/4> .
-<http://localhost:8080/source/4> <http://knowdive.disi.unitn.it/etype#has_trait> "Enveloped, spherical to pleomorphic, 150-200 nm in diameter. Capsid consists of 162 capsomers and is surrounded by an amorphous tegument. Glycoproteins complexes are embedded in the lipid envelope."@en .
-<http://localhost:8080/source/4> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/185" .
+<http://localhost:8080/source/HPV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/4> <http://knowdive.disi.unitn.it/etype#has_trait> "Non-enveloped. Small, icosahedral, about 60 nm in size. A single molecule of circular dsDNA is contained within the T=7 icosahedral capsid, which is composed of 72 pentamers."@en .
+<http://localhost:8080/source/4> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/5" .
+<http://localhost:8080/source/HPV16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
 <http://localhost:8080/source/4> <http://knowdive.disi.unitn.it/etype#has_virusType> "dsDNA"@en .
+<http://localhost:8080/source/HPV16> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/4> .
+
+<http://localhost:8080/source/EBVB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/5> <http://knowdive.disi.unitn.it/etype#has_trait> "Enveloped, spherical to pleomorphic, 150-200 nm in diameter. Capsid consists of 162 capsomers and is surrounded by an amorphous tegument. Glycoproteins complexes are embedded in the lipid envelope."@en .
+<http://localhost:8080/source/5> <http://knowdive.disi.unitn.it/etype#has_virusType> "dsDNA"@en .
+<http://localhost:8080/source/5> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/185" .
+<http://localhost:8080/source/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/EBVB9> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/5> .
+<http://localhost:8080/source/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Phenotype> .
 <http://localhost:8080/source/EBVB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
 
 <http://localhost:8080/source/HTL1A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
-<http://localhost:8080/source/HTL1A> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/4> .
-<http://localhost:8080/source/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
-<http://localhost:8080/source/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Phenotype> .
-<http://localhost:8080/source/4> <http://knowdive.disi.unitn.it/etype#has_trait> "Enveloped. Spherical to pleomorphic, about 80-100 nm in diameter. Mature capsid is quasi-icosahedral."@en .
+<http://localhost:8080/source/6> <http://knowdive.disi.unitn.it/etype#has_trait> "Enveloped. Spherical to pleomorphic, about 80-100 nm in diameter. Mature capsid is quasi-icosahedral."@en .
 <http://localhost:8080/source/HTL1A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
-<http://localhost:8080/source/4> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/90" .
-<http://localhost:8080/source/4> <http://knowdive.disi.unitn.it/etype#has_virusType> "ssRNA-RT"@en .
-
-<http://localhost:8080/source/HTL1C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
-<http://localhost:8080/source/HTL1C> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/5> .
-<http://localhost:8080/source/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
-<http://localhost:8080/source/5> <http://knowdive.disi.unitn.it/etype#has_trait> "Enveloped. Spherical to pleomorphic, about 80-100 nm in diameter. Mature capsid is quasi-icosahedral."@en .
-<http://localhost:8080/source/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Phenotype> .
-<http://localhost:8080/source/5> <http://knowdive.disi.unitn.it/etype#has_virusType> "ssRNA-RT"@en .
-<http://localhost:8080/source/5> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/91" .
-<http://localhost:8080/source/HTL1C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
-
-<http://localhost:8080/source/6> <http://knowdive.disi.unitn.it/etype#has_virusType> "dsDNA"@en .
-<http://localhost:8080/source/HHV8> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/6> .
-<http://localhost:8080/source/HHV8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
-<http://localhost:8080/source/6> <http://knowdive.disi.unitn.it/etype#has_trait> "Enveloped, spherical to pleomorphic, 150-200 nm in diameter. Capsid consists of 162 capsomers and is surrounded by an amorphous tegument. Glycoproteins complexes are embeded in the lipid envelope."@en .
-<http://localhost:8080/source/6> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/18" .
-<http://localhost:8080/source/HHV8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/6> <http://knowdive.disi.unitn.it/etype#has_virusType> "ssRNA-RT"@en .
 <http://localhost:8080/source/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Phenotype> .
 <http://localhost:8080/source/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/6> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/90" .
+<http://localhost:8080/source/HTL1A> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/6> .
+
+<http://localhost:8080/source/HTL1C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/HTL1C> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/7> .
+<http://localhost:8080/source/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Phenotype> .
+<http://localhost:8080/source/7> <http://knowdive.disi.unitn.it/etype#has_trait> "Enveloped. Spherical to pleomorphic, about 80-100 nm in diameter. Mature capsid is quasi-icosahedral."@en .
+<http://localhost:8080/source/7> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/91" .
+<http://localhost:8080/source/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/7> <http://knowdive.disi.unitn.it/etype#has_virusType> "ssRNA-RT"@en .
+<http://localhost:8080/source/HTL1C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/8> <http://knowdive.disi.unitn.it/etype#has_virusType> "dsDNA"@en .
+<http://localhost:8080/source/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Phenotype> .
+<http://localhost:8080/source/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/8> <http://knowdive.disi.unitn.it/etype#has_phenotypeSource> "https://viralzone.expasy.org/18" .
+<http://localhost:8080/source/HHV8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/8> <http://knowdive.disi.unitn.it/etype#has_trait> "Enveloped, spherical to pleomorphic, 150-200 nm in diameter. Capsid consists of 162 capsomers and is surrounded by an amorphous tegument. Glycoproteins complexes are embeded in the lipid envelope."@en .
+<http://localhost:8080/source/HHV8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Virus> .
+<http://localhost:8080/source/HHV8> <http://knowdive.disi.unitn.it/etype#has_hasPhenotype> <http://localhost:8080/source/8> .
 

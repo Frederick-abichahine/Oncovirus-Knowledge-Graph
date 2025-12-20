@@ -1,0 +1,29 @@
+?pathwayKeggID	?hostUniprotID	?hostProteinName	?viralUniprotID	?viralProteinName
+"path_hsa01100"	"Q15629"	"Translocating chain-associated membrane protein 1"	"P03177"	"Thymidine kinase"@en
+"path_hsa01100"	"Q15629"	"Translocating chain-associated membrane protein 1"	"P06792"	"Probable protein E5"@en
+"path_hsa01100"	"Q15629"	"Translocating chain-associated membrane protein 1"	"P06927"	"Probable protein E5"@en
+"path_hsa01100"	"P56524"	"Histone deacetylase 4"	"P12978"	"Epstein-Barr nuclear antigen 2"@en
+"path_hsa01100"	"P56524"	"Histone deacetylase 4"	"Q8AZK7"	"Epstein-Barr nuclear antigen leader protein"@en
+"path_hsa01100"	"P00367"	"Glutamate dehydrogenase 1, mitochondrial"	"Q8AZK7"	"Epstein-Barr nuclear antigen leader protein"@en
+"path_hsa01100"	"Q07955"	"Serine/arginine-rich splicing factor 1"	"Q8AZK7"	"Epstein-Barr nuclear antigen leader protein"@en
+"path_hsa01100"	"P08579"	"U2 small nuclear ribonucleoprotein B''"	"Q8AZK7"	"Epstein-Barr nuclear antigen leader protein"@en
+"path_hsa01100"	"P52907"	"F-actin-capping protein subunit alpha-1"	"Q8AZK7"	"Epstein-Barr nuclear antigen leader protein"@en
+"path_hsa01100"	"Q15012"	"Lysosomal-associated transmembrane protein 4A"	"P13285"	"Latent membrane protein 2"@en
+"path_hsa01100"	"Q15012"	"Lysosomal-associated transmembrane protein 4A"	"P06792"	"Probable protein E5"@en
+"path_hsa01100"	"Q15012"	"Lysosomal-associated transmembrane protein 4A"	"P06927"	"Probable protein E5"@en
+"path_hsa01100"	"P27352"	"Cobalamin binding intrinsic factor"	"P03211"	"Epstein-Barr nuclear antigen 1"@en
+"path_hsa01100"	"P50402"	"Emerin"	"Q8AZK7"	"Epstein-Barr nuclear antigen leader protein"@en
+"path_hsa01100"	"P50402"	"Emerin"	"P03177"	"Thymidine kinase"@en
+"path_hsa01100"	"P50402"	"Emerin"	"P13285"	"Latent membrane protein 2"@en
+"path_hsa01100"	"P50402"	"Emerin"	"P06792"	"Probable protein E5"@en
+"path_hsa01100"	"P50402"	"Emerin"	"P06927"	"Probable protein E5"@en
+"path_hsa01100"	"Q9NYJ8"	"TGF-beta-activated kinase 1 and MAP3K7-binding protein 2"	"P03230"	"Latent membrane protein 1"@en
+"path_hsa01100"	"Q9Y676"	"Small ribosomal subunit protein mS40"	"P03204"	"Epstein-Barr nuclear antigen 6"@en
+"path_hsa01100"	"P08962"	"CD63 antigen"	"P03230"	"Latent membrane protein 1"@en
+"path_hsa01100"	"P30050"	"Large ribosomal subunit protein uL11"	"Q8AZK7"	"Epstein-Barr nuclear antigen leader protein"@en
+"path_hsa01100"	"P25685"	"DnaJ homolog subfamily B member 1"	"Q8AZK7"	"Epstein-Barr nuclear antigen leader protein"@en
+"path_hsa01100"	"P27635"	"Large ribosomal subunit protein uL16"	"Q8AZK7"	"Epstein-Barr nuclear antigen leader protein"@en
+"path_hsa01100"	"P27635"	"Large ribosomal subunit protein uL16"	"P03126"	"Protein E6"@en
+"path_hsa01100"	"Q9Y5V3"	"Melanoma-associated antigen D1"	"Q8AZK7"	"Epstein-Barr nuclear antigen leader protein"@en
+"path_hsa01100"	"O60494"	"Cubilin"	"P13285"	"Latent membrane protein 2"@en
+"path_hsa01100"	"P61289"	"Proteasome activator complex subunit 3"	"P13285"	"Latent membrane protein 2"@en

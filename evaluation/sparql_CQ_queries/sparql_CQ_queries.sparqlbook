@@ -26,7 +26,7 @@
   {
     "kind": 2,
     "language": "sparql",
-    "value": "PREFIX etype: <http://knowdive.disi.unitn.it/etype#>\r\nPREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nSELECT DISTINCT ?viralUniprotID ?hostUniprotID ?function\r\nWHERE {\r\n    ## Getting viral proteins and the host proteins they interact with\r\n    ?viralProtein rdf:type etype:ViralProtein ;\r\n                  etype:has_interactsWith ?hostProtein .\r\n    \r\n    ## Extracting UniProt IDs from URIs of viral and host proteins\r\n    BIND(REPLACE(STR(?viralProtein), \".*/\", \"\") AS ?viralUniprotID)\r\n    BIND(REPLACE(STR(?hostProtein), \".*/\", \"\") AS ?hostUniprotID)\r\n    \r\n    ## Getting annotation of the host proteins\r\n    ?hostProtein rdf:type etype:HostProtein ;\r\n         \t\t etype:has_hasAnnotation ?annotation .\r\n    \r\n    ## Getting the functions from the annotation\r\n    ?annotation rdf:type etype:ProteinAnnotation ;\r\n                etype:has_function ?function .\r\n\r\n    ## Ensuring that the variables are IRIs\r\n    FILTER(isIRI(?viralProtein))\r\n    FILTER(isIRI(?hostProtein))\r\n    ## Filtering for a specific viral protein UniProt ID\r\n    FILTER(?viralUniprotID = \"P03177\")\r\n}",
+    "value": "PREFIX etype: <http://knowdive.disi.unitn.it/etype#>\r\nPREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nSELECT DISTINCT ?viralUniprotID ?hostUniprotID ?function\r\nWHERE {\r\n    ## Getting viral proteins and the host proteins they interact with\r\n    ?viralProtein rdf:type etype:ViralProtein ;\r\n                  etype:has_interactsWith ?hostProtein .\r\n    \r\n    ## Extracting UniProt IDs from URIs of viral and host proteins\r\n    BIND(REPLACE(STR(?viralProtein), \".*/\", \"\") AS ?viralUniprotID)\r\n    BIND(REPLACE(STR(?hostProtein), \".*/\", \"\") AS ?hostUniprotID)\r\n    \r\n    ## Getting annotation of the host proteins\r\n    ?hostProtein rdf:type etype:HostProtein ;\r\n         \t\t etype:has_hasAnnotation ?annotation .\r\n    \r\n    ## Getting the functions from the annotation\r\n    ?annotation rdf:type etype:ProteinAnnotation ;\r\n                etype:has_function ?function .\r\n\r\n    ## Filtering for a specific viral protein UniProt ID\r\n    FILTER(?viralUniprotID = \"P03177\")\r\n}",
     "metadata": {}
   },
   {
@@ -38,7 +38,7 @@
   {
     "kind": 2,
     "language": "sparql",
-    "value": "PREFIX etype: <http://knowdive.disi.unitn.it/etype#>\r\nPREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nSELECT DISTINCT ?hostUniprotID ?hostProteinName ?pathwayKEGG\r\nWHERE {\r\n    ## Getting viral proteins and the host proteins they interact with\r\n    ?viralProtein rdf:type etype:ViralProtein ;\r\n                  etype:has_interactsWith ?hostProtein .\r\n\r\n    ## Getting pathways involving the host proteins\r\n    ?hostProtein rdf:type etype:HostProtein ;\r\n                 etype:has_hostProteinName ?hostProteinName ;\r\n                 etype:has_involvedIn ?pathway .\r\n\r\n    ## Extracting UniProt ID and KEGG pathway ID from URIs\r\n    BIND(REPLACE(STR(?hostProtein), \".*/\", \"\") AS ?hostUniprotID)\r\n    BIND(REPLACE(STR(?pathway), \".*/\", \"\") AS ?pathwayKEGG)\r\n    \r\n    ## Ensuring that the variables are IRIs\r\n    FILTER(isIRI(?viralProtein))\r\n    FILTER(isIRI(?hostProtein))\r\n    FILTER(isIRI(?pathway))\r\n}",
+    "value": "PREFIX etype: <http://knowdive.disi.unitn.it/etype#>\r\nPREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nSELECT DISTINCT ?hostUniprotID ?hostProteinName ?pathwayKEGG\r\nWHERE {\r\n    ## Getting viral proteins and the host proteins they interact with\r\n    ?viralProtein rdf:type etype:ViralProtein ;\r\n                  etype:has_interactsWith ?hostProtein .\r\n\r\n    ## Getting pathways involving the host proteins\r\n    ?hostProtein rdf:type etype:HostProtein ;\r\n                 etype:has_hostProteinName ?hostProteinName ;\r\n                 etype:has_involvedIn ?pathway .\r\n\r\n    ## Extracting UniProt ID and KEGG pathway ID from URIs\r\n    BIND(REPLACE(STR(?hostProtein), \".*/\", \"\") AS ?hostUniprotID)\r\n    BIND(REPLACE(STR(?pathway), \".*/\", \"\") AS ?pathwayKEGG)\r\n}",
     "metadata": {}
   },
   {
@@ -63,6 +63,18 @@
     "kind": 2,
     "language": "sparql",
     "value": "PREFIX etype: <http://knowdive.disi.unitn.it/etype#>\r\nPREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nSELECT DISTINCT ?virusCode ?virusName ?virusType ?trait\r\nWHERE {\r\n    ## Getting viruses and their associated phenotypic traits\r\n    ?virus rdf:type etype:Virus ;\r\n           etype:has_organismName ?virusName ;\r\n           etype:has_hasPhenotype ?phenotype .\r\n\r\n    ## Getting phenotype information\r\n    ?phenotype rdf:type etype:Phenotype ;\r\n               etype:has_virusType ?virusType ;\r\n               etype:has_trait ?trait .\r\n    \r\n   \t## Extracting virusCode from its URI\r\n    BIND(REPLACE(STR(?virus), \".*/\", \"\") AS ?virusCode)\r\n    \r\n    ## Filtering for a specific virus\r\n    FILTER(?virusCode = \"EBVB9\")\r\n}",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "### CQ6 - What viruses target a specific host protein, and what cancers are they associated with?\r\n\r\nQuery took: 0.1 seconds  \r\nResults obtained: 4\r\n",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "PREFIX etype: <http://knowdive.disi.unitn.it/etype#>\r\nPREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nSELECT DISTINCT ?hostUniprotID ?virusCode ?cancerType\r\nWHERE {\r\n    ## Getting viral proteins and the host proteins they interact with\r\n    ?viralProtein rdf:type etype:ViralProtein ;\r\n    \t          etype:has_interactsWith ?hostProtein .\r\n    \r\n    ## Getting the virus that encodes the viral protein and the cancer it causes\r\n    ?virus rdf:type etype:Virus ;\r\n           etype:has_organismName ?virusName ;\r\n    \t   etype:has_encodes ?viralProtein ;\r\n    \t   etype:has_causes ?cancer .\r\n    \r\n    ## Getting cancer type information\r\n    ?cancer rdf:type etype:Cancer ;\r\n            etype:has_cancerType ?cancerType .\r\n    \r\n    ## Extracting UniProt ID and virus code from URIs\r\n    BIND(REPLACE(STR(?hostProtein), \".*/\", \"\") AS ?hostUniprotID)\r\n    BIND(REPLACE(STR(?virus), \".*/\", \"\") AS ?virusCode)\r\n\r\n    ## Filtering for a specific host protein UniProt ID\r\n    FILTER(?hostUniprotID = \"Q06330\")\r\n}",
     "metadata": {}
   }
 ]
